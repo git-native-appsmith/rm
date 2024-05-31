@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RecipeComparisonUtil",
+    "pageId": "CreateRecipeBL_WS",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipeBL_WS_RecipeComparisonUtil",
+  "deleted": false,
+  "gitSyncId": "64acf15cc1f57807de253b78_64ae4378c1f57807de254bf9"
+}

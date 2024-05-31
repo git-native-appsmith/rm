@@ -1,0 +1,2 @@
+{"productFilterNumber": {{ProductFilterTable.selectedRow.PRODUCT_FILTER_NUMBER}} 
+}

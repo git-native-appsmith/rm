@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TableDataRow",
+    "pageId": "MassUpdateMR",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "MassUpdateMR_TableDataRow",
+  "deleted": false,
+  "gitSyncId": "640b799c3ad8bb46253c9a64_6410cf733ad8bb46253ca300"
+}

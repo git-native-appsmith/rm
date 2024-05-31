@@ -1,0 +1,7 @@
+{
+	"FROM_NUM":0,
+	"TO_NUM":0,
+	"GRADE":{{GradeSelect.selectedOptionValue==undefined? 'NA':GradeSelect.selectedOptionValue}},
+	"FUNCTION_TYPE":{{CreateEditCS.SearchProductCodeApiInput()}},
+	"OPRTYPE":2
+}

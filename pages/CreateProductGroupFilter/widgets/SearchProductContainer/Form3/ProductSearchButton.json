@@ -1,0 +1,48 @@
+{
+    "resetFormOnClick": false,
+    "boxShadow": "none",
+    "widgetName": "ProductSearchButton",
+    "onClick": "{{SearchProducts.run((res) => {if(res == 1){storeValue('ErrorMsg',\"Please correct the filter rule\",true);\n\tshowModal('msgModalInfo');}else{showAlert('Products load successfully','success');}}, () => showAlert('Products load failed.','error'))}}",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "isDisabled"}
+    ],
+    "displayName": "Button",
+    "iconSVG": "/formbuilderui/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 3,
+    "bottomRow": 7,
+    "parentRowSpace": 10,
+    "type": "BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": false,
+    "parentColumnSpace": 4.959770202636719,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 46,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"},
+        {"key": "isDisabled"}
+    ],
+    "text": "Search",
+    "isDisabled": "{{!FilterNameSelect.selectedOptionValue}}",
+    "key": "lpwypfnfaa",
+    "isDeprecated": false,
+    "rightColumn": 62,
+    "isDefaultClickDisabled": true,
+    "widgetId": "w34fe2yx63",
+    "isVisible": true,
+    "recaptchaType": "V3",
+    "version": 1,
+    "parentId": "lfe6619hc6",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "disabledWhenInvalid": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY",
+    "placement": "CENTER"
+}

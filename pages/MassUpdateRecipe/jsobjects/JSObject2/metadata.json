@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "MassUpdateRecipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "MassUpdateRecipe_JSObject2",
+  "deleted": false,
+  "gitSyncId": "644c20e3f9bdf422a6d0c0cb_644c2ed5f9bdf422a6d0c456"
+}

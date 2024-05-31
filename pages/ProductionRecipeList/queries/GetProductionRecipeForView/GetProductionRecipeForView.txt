@@ -1,0 +1,3 @@
+{
+	"recipeNumber":{{Number(appsmith.store.PRDefaultValue.Selected_RECIPE_NUMBER)}}
+}

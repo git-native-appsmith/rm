@@ -1,0 +1,43 @@
+{
+    "boxShadow": "none",
+    "widgetName": "TransferOutputMaterialChk",
+    "dynamicPropertyPathList": [
+        {"key": "isVisible"},
+        {"key": "defaultCheckedState"}
+    ],
+    "displayName": "Checkbox",
+    "iconSVG": "/static/media/icon.aaab032b.svg",
+    "topRow": 9,
+    "bottomRow": 13,
+    "parentRowSpace": 10,
+    "type": "CHECKBOX_WIDGET",
+    "alignWidget": "LEFT",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 14.0625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 38,
+    "dynamicBindingPathList": [
+        {"key": "defaultCheckedState"},
+        {"key": "isVisible"}
+    ],
+    "labelPosition": "Right",
+    "isDisabled": true,
+    "key": "ao2p3tjzuf",
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "rightColumn": 46,
+    "dynamicHeight": "FIXED",
+    "widgetId": "mmlffwrqap",
+    "accentColor": "#03B365",
+    "isVisible": "{{GetFilteredRecipeView.data.RECIPE_CLASS==\"RM\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"CO\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"PD\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"ST\"}}",
+    "label": "Transfer Raw Material",
+    "version": 1,
+    "parentId": "axbmr8gbsc",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "1.5rem",
+    "defaultCheckedState": "{{GetFilteredRecipeView.data.TRANSFER_OUTPUT_MAT}}",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

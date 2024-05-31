@@ -1,0 +1,7 @@
+{
+   "ModifNumbersForModalPopup": {"FROM_NUM": {{Number(RecipeUtil.updateFromNum())}},
+  "TO_NUM": {{Number(RecipeUtil.updateToNum())}},
+  "CREATED_USER": {{RecipeUtil.updateUser()}},
+  "STATUS": {{StatusSelect.selectedOptionValue.replace('Select','NA')}}
+}
+}

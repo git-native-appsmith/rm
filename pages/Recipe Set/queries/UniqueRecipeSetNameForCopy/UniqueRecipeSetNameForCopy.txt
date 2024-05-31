@@ -1,0 +1,4 @@
+{
+  "recipeSetNumber": 0,
+  "recipeSetName":{{Tabulator1.actionRowWithIndex.data.NAME}}
+}

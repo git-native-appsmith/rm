@@ -1,0 +1,5 @@
+{
+	"recipeNumber":{{GetFilteredRecipeView.data.RECIPE_NUMBER}},
+	"machineGroup":{{GetFilteredRecipeView.data.MACHINE_GROUP}},
+	"recipeClass":{{GetFilteredRecipeView.data.RECIPE_CLASS}}
+}

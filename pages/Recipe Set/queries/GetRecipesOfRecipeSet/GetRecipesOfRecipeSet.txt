@@ -1,0 +1,3 @@
+{
+	"recipeSetName":{{Tabulator1.actionRow.NAME}}
+}

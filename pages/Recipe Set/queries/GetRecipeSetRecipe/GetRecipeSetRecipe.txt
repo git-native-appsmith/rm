@@ -1,0 +1,11 @@
+{
+	"recipeSetName":{{Tabulator1.actionRow.NAME}},
+ "machineGroup":{{null}},
+ "recipeClass":{{null}},
+	"recipeTypeNumber":{{0}},
+	"productGroupNumber":0,
+	"productCode":{{null}},
+	"intermediate_Mat_Code":{{null}},
+	"property_Code":{{null}},
+	"recipenumber":0
+}

@@ -1,0 +1,36 @@
+{
+    "boxShadow": "none",
+    "widgetName": "IconButton5",
+    "onClick": "{{closeModal('AddNewRow')}}",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "displayName": "Icon Button",
+    "iconSVG": "/formbuilderui/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 1,
+    "bottomRow": 5,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "leftColumn": 57,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "iconSize": 24,
+    "isDisabled": false,
+    "key": "vcjmknqpta",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "iconName": "cross",
+    "widgetId": "ccnaaqfk8h",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "dg0r3947qg",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "TERTIARY"
+}

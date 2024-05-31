@@ -1,0 +1,10 @@
+
+{"recipe": {
+	"RECIPE_NUMBERS":{{appsmith.store.Recipe_Sel}},
+	"PROPERTY_CODE":{{JSObject1.onRowSelMat()}},
+	"OPRTYPE":17,
+	"TRGVALUE":{{txtTargetValue.text==""?0:txtTargetValue.text}},
+	"MCODE":{{txtCode.text}},
+	"ARP":{{ddlARP.selectedOptionValue}}
+}
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RecipeTypeUtil",
+    "pageId": "Recipe Type",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Recipe Type_RecipeTypeUtil",
+  "deleted": false,
+  "gitSyncId": "627fae09580cba21ae21672b_628001d2580cba21ae21679e"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TabulatorSetup",
+    "pageId": "CreateRecipeMS_SU",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipeMS_SU_TabulatorSetup",
+  "deleted": false,
+  "gitSyncId": "6465d87e27a3cc41425aa71a_6465f3ea27a3cc41425aaae3"
+}

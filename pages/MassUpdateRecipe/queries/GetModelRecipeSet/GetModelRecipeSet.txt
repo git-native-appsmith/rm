@@ -1,0 +1,9 @@
+{"recipe": {
+	"RECIPE_NUMBERS":{{appsmith.store.SV_RECIPE}},
+	"PROPERTY_CODE":{{tblRecipe.selectedRow.RECIPE_NUMBER}},
+	"OPRTYPE":{{Number(appsmith.store.Recipe_Set_opr)}},
+	"TRGVALUE":0,
+	"MCODE":"",
+	"ARP":""
+}
+}

@@ -1,0 +1,119 @@
+{
+    "boxShadow": "none",
+    "isVisibleDownload": false,
+    "iconSVG": "/static/media/icon.db8a9cbd.svg",
+    "topRow": 6,
+    "isSortable": true,
+    "type": "TABLE_WIDGET",
+    "animateLoading": true,
+    "dynamicBindingPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.MATERIAL_NAME_SHORT.computedValue"},
+        {"key": "primaryColumns.MATERIAL_CODE.computedValue"},
+        {"key": "accentColor"}
+    ],
+    "leftColumn": 1,
+    "delimiter": ",",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisibleFilters": false,
+    "isVisible": true,
+    "enableClientSideSearch": true,
+    "version": 3,
+    "totalRecordsCount": 0,
+    "isLoading": false,
+    "childStylesheet": {
+        "button": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "iconButton": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "menuButton": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "borderRadius": "0px",
+    "columnSizeMap": {
+        "task": 245,
+        "step": 62,
+        "status": 75,
+        "material_code": 326
+    },
+    "widgetName": "MaterialTable",
+    "defaultPageSize": 0,
+    "columnOrder": [
+        "MATERIAL_CODE",
+        "MATERIAL_NAME_SHORT"
+    ],
+    "dynamicPropertyPathList": [{"key": "onRowSelected"}],
+    "compactMode": "SHORT",
+    "displayName": "Table",
+    "bottomRow": 42,
+    "parentRowSpace": 10,
+    "defaultSelectedRow": "0",
+    "hideCard": false,
+    "parentColumnSpace": 12.59375,
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
+    "primaryColumns": {
+        "MATERIAL_NAME_SHORT": {
+            "isCellVisible": true,
+            "isDerived": false,
+            "computedValue": "{{MaterialTable.sanitizedTableData.map((currentRow) => ( currentRow.MATERIAL_NAME_SHORT))}}",
+            "textSize": "0.875rem",
+            "index": 1,
+            "isVisible": true,
+            "label": "MATERIAL NAME SHORT",
+            "textColor": "",
+            "columnType": "text",
+            "horizontalAlignment": "LEFT",
+            "width": 150,
+            "enableFilter": true,
+            "enableSort": true,
+            "id": "MATERIAL_NAME_SHORT",
+            "isDisabled": false,
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
+        "MATERIAL_CODE": {
+            "isCellVisible": true,
+            "isDerived": false,
+            "computedValue": "{{MaterialTable.sanitizedTableData.map((currentRow) => ( currentRow.MATERIAL_CODE))}}",
+            "textSize": "0.875rem",
+            "index": 0,
+            "isVisible": true,
+            "label": "MATERIAL CODE",
+            "textColor": "",
+            "columnType": "text",
+            "horizontalAlignment": "LEFT",
+            "width": 150,
+            "enableFilter": true,
+            "enableSort": true,
+            "id": "MATERIAL_CODE",
+            "isDisabled": false,
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        }
+    },
+    "onRowSelected": "{{RecipeStatusLogic.IntermediateMaterialRowSelection();TabulatorAction.EmptyTabulator();}}",
+    "key": "nwrlph8smr",
+    "derivedColumns": {},
+    "labelTextSize": "0.875rem",
+    "rightColumn": 64,
+    "textSize": "0.875rem",
+    "widgetId": "ue4wm80o5y",
+    "tableData": "{{GetIntermediateMaterial.data}}",
+    "label": "Data",
+    "searchKey": "",
+    "parentId": "c0qxa69r24",
+    "renderMode": "CANVAS",
+    "horizontalAlignment": "LEFT",
+    "isVisibleSearch": true,
+    "isVisiblePagination": true,
+    "verticalAlignment": "CENTER"
+}

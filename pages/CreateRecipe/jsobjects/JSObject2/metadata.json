@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "CreateRecipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipe_JSObject2",
+  "deleted": false,
+  "gitSyncId": "62b4bb8088ddbb1754d94c42_62b4bf64ed638d23dc0a2ee9"
+}

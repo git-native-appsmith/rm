@@ -1,0 +1,3 @@
+{
+	"scode_type":RRS_RecipeSet_Category
+}

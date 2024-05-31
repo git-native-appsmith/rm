@@ -1,0 +1,6 @@
+{
+	"FROM_NUM":{{GrammageFrom.text}},
+	"TO_NUM":{{GrammageTo.text==undefined?Number('9999'):GrammageTo.text}},
+	"GRADE":{{GradeSelect.selectedOptionValue==undefined?"":GradeSelect.selectedOptionValue}},
+	"FUNCTION_TYPE": ""
+}

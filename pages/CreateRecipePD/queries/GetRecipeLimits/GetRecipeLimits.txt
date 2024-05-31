@@ -1,0 +1,5 @@
+{
+	"recipeNumber":{{appsmith.store.recipeNumberView}},
+	"machineGroup":{{appsmith.store.recipeMachineGroup}},
+	"recipeClass":{{appsmith.store.RecipeClassDropDown}}
+}

@@ -1,0 +1,4 @@
+{
+  "recipeNumber": {{Number(IdenticalRecipeTable.selectedRow.RECIPE_NUMBER)}},
+  "status": {{IdenticalRecipeTable.selectedRow.STATUS}}
+}

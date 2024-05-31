@@ -1,0 +1,106 @@
+{
+  "unpublishedPage": {
+    "name": "Recipe",
+    "slug": "recipe",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1084,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1650,
+          "containerStyle": "none",
+          "snapRows": 63,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 680,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Recipe_GetAllMachineGroups",
+              "name": "GetAllMachineGroups",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
+              "id": "Recipe_GetRecipeClass",
+              "name": "GetRecipeClass",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            }
+          ],
+          [
+            {
+              "id": "Recipe_GetRecipeSetCategory",
+              "name": "GetRecipeSetCategory",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            }
+          ],
+          [
+            {
+              "id": "Recipe_GetStandardRecipeSet",
+              "name": "GetStandardRecipeSet",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Recipe_GetRecipeTyeOptionData",
+              "name": "GetRecipeTyeOptionData",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "BindDropDown.MachineGroupInputForRecipeType()",
+                "BindDropDown.RecipeClassInputForRecipeType()"
+              ],
+              "timeoutInMillisecond": 100000
+            },
+            {
+              "id": "Recipe_JSObject1.PageLoadRecipe",
+              "name": "JSObject1.PageLoadRecipe",
+              "collectionId": "Recipe_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  JSObject1.DataSetPageLoad();\n  storeValue(\"InterMaterial\", undefined, true);\n  storeValue(\"ProductCode\", undefined, true);\n  storeValue(\"SV_TBL\", [], true);\n  storeValue(\"gradeIndependent\", 0, true);\n  let defaultDropDownValue = {};\n  if (appsmith.store.defaultDropDownValue == undefined || appsmith.store.defaultDropDownValue == \"\") {\n    defaultDropDownValue.ResourceGroupDropDown = \"\";\n    defaultDropDownValue.RecipeClassDropDown = \"\";\n    defaultDropDownValue.RecipeTypeDropDown = \"\";\n  } else {\n    let temp = appsmith.store.defaultDropDownValue;\n    defaultDropDownValue.ResourceGroupDropDown = temp.ResourceGroupDropDown;\n    defaultDropDownValue.RecipeClassDropDown = temp.RecipeClassDropDown;\n    defaultDropDownValue.RecipeTypeDropDown = temp.RecipeTypeDropDown;\n  }\n  storeValue(\"defaultDropDownValue\", defaultDropDownValue, true);\n  if (RecipeSetNameInput.text != \"\" && appsmith.store.RecipeSetName != undefined) {\n    GetFilteredRecipe.run();\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Recipe",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6257de1ab9659a27c0eb61e3_6257e08ab9659a27c0eb6235"
+}

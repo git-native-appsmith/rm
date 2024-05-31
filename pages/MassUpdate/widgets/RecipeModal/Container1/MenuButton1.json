@@ -1,0 +1,81 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "widgetName": "MenuButton1",
+    "dynamicPropertyPathList": [
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItem3.onClick"}
+    ],
+    "displayName": "Menu Button",
+    "iconSVG": "/static/media/icon.0341d17d.svg",
+    "topRow": 13,
+    "bottomRow": 17,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 14.0625,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItem3.onClick"}
+    ],
+    "leftColumn": 43,
+    "dynamicBindingPathList": [],
+    "isDisabled": false,
+    "key": "glsnoovp3f",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 46,
+    "iconName": "more",
+    "menuVariant": "PRIMARY",
+    "widgetId": "xfl000w4az",
+    "menuItems": {
+        "menuItembl1xf9gwi1": {
+            "iconName": "eye-open",
+            "widgetId": "fvak6asz9u",
+            "id": "menuItembl1xf9gwi1",
+            "label": "Report",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItem1": {
+            "iconName": "trash",
+            "widgetId": "",
+            "index": 0,
+            "label": "Delete",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem3": {
+            "onClick": "{{JSObject3.OpenComparisionPopup()}}",
+            "iconName": "tick",
+            "widgetId": "",
+            "index": 2,
+            "label": "Check",
+            "id": "menuItem3",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "onClick": "{{GetRecipeLimits.run();\nshowModal('LimitModal')}}",
+            "iconName": "ring",
+            "widgetId": "",
+            "index": 1,
+            "label": "Limits",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": true,
+    "label": ".",
+    "version": 1,
+    "parentId": "1dov4y0pec",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "0.375rem",
+    "menuColor": "#FFFFFF",
+    "menuItemsSource": "STATIC",
+    "iconAlign": "left",
+    "placement": "CENTER"
+}

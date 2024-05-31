@@ -1,0 +1,4 @@
+{
+ "RECIPE_NUMBER":{{Number(appsmith.URL.queryParams.rno)}},
+ "RECIPE_SET_NUMBER":{{Number(appsmith.URL.queryParams.rsno)}}
+}

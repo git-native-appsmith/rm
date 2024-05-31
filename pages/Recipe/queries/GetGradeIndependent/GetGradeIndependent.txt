@@ -1,0 +1,3 @@
+{
+	"recipeTypeNumber":{{RecipeTypeSelect.selectedOptionValue}}
+}

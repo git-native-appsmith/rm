@@ -1,0 +1,12 @@
+{
+  "recipe": {
+    "RECIPE_NUMBER": {{Number(appsmith.store.recipeNumberView)}},
+    "RECIPE_SIZE":   {{Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry).toFixed(1)}},
+    "USER": {{appsmith.user.name}},
+		"RECIPE_TYPE_CLASS": {{appsmith.store.RecipeClassDropDown}},
+		"RECIPE_SIZE_IN_PER": {{Number(appsmith.store.calculatedField.sv_per).toFixed(2)}},
+		"REMARKS": {{RemarkInput1.text}},
+		"MODIF_NUMBER": {{Number(appsmith.store.modificNo)}}
+  },
+  "recipeItems": {{appsmith.store.SV_TBL}}
+}

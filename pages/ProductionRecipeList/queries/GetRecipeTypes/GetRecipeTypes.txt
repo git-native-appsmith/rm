@@ -1,0 +1,4 @@
+{
+	"machineGroup":{{ProductionRecipeUtil.MachineGroupInputForRecipeType()}},
+	"recipeClass":{{ProductionRecipeUtil.RecipeClassInputForRecipeType()}}
+}

@@ -1,0 +1,8 @@
+{
+ "recipe": { "RECIPE_SET_NAME": {{appsmith.store.RecipeSetName}},
+  "MACHINE_GROUP": {{appsmith.store.ResourceGroupDropDown}},
+  "RECIPE_TYPE_CLASS": {{appsmith.store.RecipeClassDropDown}},
+  "RECIPE_TYPE_NUMBER": {{appsmith.store.RecipeTypeDropDown}},
+  "PRODUCT_FILTER_NUMBER": {{appsmith.store.ProductGroupFilterDropDown}}
+}
+}

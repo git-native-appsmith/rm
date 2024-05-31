@@ -1,0 +1,72 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "widgetName": "MenuButton1",
+    "dynamicPropertyPathList": [
+        {"key": "menuItems.menuItem3.onClick"},
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItemdfuv6830of.isDisabled"},
+        {"key": "menuItems.menuItemdfuv6830of.onClick"}
+    ],
+    "displayName": "Menu Button",
+    "iconSVG": "/formbuilderui/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
+    "topRow": 15,
+    "bottomRow": 19,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 19.640625,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItemdfuv6830of.onClick"}
+    ],
+    "leftColumn": 61,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "menuItems.menuItemdfuv6830of.isDisabled"}
+    ],
+    "isDisabled": false,
+    "key": "enpcbgmqxr",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "iconName": "more",
+    "menuVariant": "PRIMARY",
+    "widgetId": "41homa20fl",
+    "menuItems": {
+        "menuItemdfuv6830of": {
+            "onClick": "{{navigateTo('CreateRecipePDProd', {\"rno\":GetProductionRecipeForView.data.BASE_RECIPE_NUMBER},'SAME_WINDOW');CreateEditCS.OnPageLoad();UpdateTargetRecipe.run()}}",
+            "iconName": "layout-circle",
+            "widgetId": "a127wn5c3n",
+            "index": 1,
+            "id": "menuItemdfuv6830of",
+            "label": "Target",
+            "isDisabled": "{{GetProductionRecipeForView.data.CLASSIFICATION == 'PR' ?false:true}}",
+            "isVisible": true
+        },
+        "menuItem1": {
+            "onClick": "{{showModal('HistoricRecipeModal');GetPRHistoricRecipe.run()}}",
+            "iconName": "history",
+            "widgetId": "",
+            "index": 0,
+            "label": "Historic Recipe",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": true,
+    "label": ".",
+    "version": 1,
+    "parentId": "c2m9adqxf1",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "originalTopRow": 15,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "menuColor": "#FFFFFF",
+    "menuItemsSource": "STATIC",
+    "originalBottomRow": 19,
+    "iconAlign": "left",
+    "placement": "CENTER"
+}

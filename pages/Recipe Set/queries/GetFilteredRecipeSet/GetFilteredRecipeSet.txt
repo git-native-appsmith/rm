@@ -1,0 +1,6 @@
+{
+  "category": {{(CategorySelect.selectedOptionLabel).replace("All","NA")}},
+  "name": {{RecipeSetUtil.RecipeSetIdForFilter()}},
+  "validDate": {{moment(RecipeSetUtil.ValidDateForSearch()).format('YYYY-MM-DD')}},
+  "status": {{HistoricCheckbox.isChecked}}
+}

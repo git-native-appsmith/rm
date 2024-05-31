@@ -1,0 +1,4 @@
+{
+ "machineGroup":{{JSObject1.MachineGroupInputForRecipeType()}},
+ "recipeClass":{{JSObject1.RecipeClassInputForRecipeType()}}
+}

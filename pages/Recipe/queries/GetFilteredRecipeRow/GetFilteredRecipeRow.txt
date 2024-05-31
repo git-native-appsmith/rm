@@ -1,0 +1,4 @@
+{
+	"recipeNumber":{{Number(appsmith.store.IframeSelRecipe)}},
+	"recipeSetNumber":{{Number(appsmith.store.RecipeSetNumber)}}
+}

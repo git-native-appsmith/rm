@@ -1,0 +1,3 @@
+{
+  "productFilterNumber": {{appsmith.URL.queryParams.filterAction == "Edit" ? appsmith.URL.queryParams.filterNumber : appsmith.store.ProductFilterNumberAfterCreate}}
+}

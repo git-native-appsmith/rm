@@ -1,0 +1,6 @@
+{
+	"RECIPE_NUMBER":{{Number(appsmith.store.IframeSelRecipe)}},
+	"RECIPE_SET_NUMBER":{{Number(appsmith.store.RecipeSetNumber)}},
+	"MACHINE_GROUP":{{RecipeTable.actionRow.MACHINE_GROUP}},
+	"RECIPE_CLASS":{{RecipeTable.actionRow.RECIPE_CLASS_CODE}}
+}

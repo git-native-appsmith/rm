@@ -1,0 +1,10 @@
+{
+  "recipe": {
+    "RECIPE_NUMBER": {{Number(appsmith.store.recipeNumberView)}},
+    "USER": {{appsmith.user.name}},
+		"RECIPE_TYPE_CLASS": {{appsmith.store.RecipeClassDropDown}},
+		"REMARKS": {{RemarkInput.text}},
+		"MODIF_NUMBER": {{Number(appsmith.store.modificNo)}}
+  },
+  "recipeItems": {{appsmith.store.SV_TBL}}
+}

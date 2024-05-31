@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TabulatorAction",
+    "pageId": "ProductionRecipeList",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "ProductionRecipeList_TabulatorAction",
+  "deleted": false,
+  "gitSyncId": "647604408016a07bff84a264_6478bf36bd260313fc687cb1"
+}

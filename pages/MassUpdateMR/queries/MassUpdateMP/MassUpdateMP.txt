@@ -1,0 +1,3 @@
+{
+  "recipe_lst": {{appsmith.store.SV_RECIPEMASS}}
+}

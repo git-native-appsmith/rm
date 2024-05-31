@@ -1,0 +1,4 @@
+{
+ "machineGroup":{{BindDropDown.MachineGroupInputForRecipeType()}},
+ "recipeClass":{{BindDropDown.RecipeClassInputForRecipeType()}}
+}

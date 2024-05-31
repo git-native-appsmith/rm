@@ -1,0 +1,4 @@
+{
+	"UserSelectedRecipeItems":{{GetComparison.data.UserSelectedRecipeItems}},
+	"ComparasionRecipeItems":{{GetComparison.data.ComparasionRecipeItems}}
+}

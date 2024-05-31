@@ -1,0 +1,3 @@
+{
+  "productFilterItem": {{this.params}}
+}

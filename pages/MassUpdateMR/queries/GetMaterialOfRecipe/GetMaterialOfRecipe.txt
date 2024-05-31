@@ -1,0 +1,9 @@
+{"recipe": {
+	"RECIPE_NUMBERS":{{appsmith.store.Recipe_Sel}},
+	"PROPERTY_CODE":{{appsmith.store.ResourceGroupDropDown}},
+	"OPRTYPE":10,
+	"TRGVALUE":0,
+	"MCODE":"",
+	"ARP":""
+}
+}

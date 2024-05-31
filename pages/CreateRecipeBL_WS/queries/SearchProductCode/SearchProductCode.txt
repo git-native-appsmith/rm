@@ -1,0 +1,7 @@
+{
+	"FROM_NUM":{{GrammageFrom.text==undefined?'0':GrammageFrom.text}},
+	"TO_NUM":{{GrammageTo.text==undefined?'0':GrammageTo.text}},
+	"GRADE":{{GradeSelect.selectedOptionValue==undefined? 'NA':GradeSelect.selectedOptionValue}},
+	"FUNCTION_TYPE":{{'NA'}},
+	"OPRTYPE":2
+}

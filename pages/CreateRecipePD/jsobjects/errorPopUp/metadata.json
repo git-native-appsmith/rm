@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "errorPopUp",
+    "pageId": "CreateRecipePD",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipePD_errorPopUp",
+  "deleted": false,
+  "gitSyncId": "64259f8db55c095d08ff01c6_643770fcf9bdf422a6d075ac"
+}

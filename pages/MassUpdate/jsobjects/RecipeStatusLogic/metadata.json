@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RecipeStatusLogic",
+    "pageId": "MassUpdate",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "MassUpdate_RecipeStatusLogic",
+  "deleted": false,
+  "gitSyncId": "636e155fe60d44705cd472c4_636e176fe60d44705cd47481"
+}

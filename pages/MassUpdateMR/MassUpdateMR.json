@@ -1,0 +1,107 @@
+{
+  "unpublishedPage": {
+    "name": "MassUpdateMR",
+    "slug": "massupdatemr",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1530,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1660,
+          "containerStyle": "none",
+          "snapRows": 67,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 680,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "MassUpdateMR_GetMaterialOfRecipe",
+              "name": "GetMaterialOfRecipe",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.ResourceGroupDropDown",
+                "appsmith.store.Recipe_Sel"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "MassUpdateMR_GetPropertyOfRecipe",
+              "name": "GetPropertyOfRecipe",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.ResourceGroupDropDown",
+                "appsmith.store.Recipe_Sel"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "MassUpdateMR_GetRecipeForAdd",
+              "name": "GetRecipeForAdd",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.Recipe_Prop",
+                "appsmith.store.Recipe_Sel"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "MassUpdateMR_Resetobject.ResetInputWidget",
+              "name": "Resetobject.ResetInputWidget",
+              "collectionId": "MassUpdateMR_Resetobject",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  let storeArr = [];\n  storeArr.PropertyCode = '';\n  storeArr.MaterialCode = '';\n  storeArr.MaterialProperty = '';\n  storeArr.clicktype = 0;\n  storeArr.BP = '';\n  storeValue('SV_reArr', storeArr, true);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "MassUpdateMR_GetMPDataLoad",
+              "name": "GetMPDataLoad",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "txtCode.text",
+                "txtTargetValue.text==\"\"?0:txtTargetValue.text",
+                "appsmith.store.Recipe_Prop==\"\"?15:13",
+                "ddlARP.selectedOptionValue",
+                "appsmith.store.Recipe_Sel",
+                "appsmith.store.Recipe_Prop==\"\"?appsmith.store.Recipe_Mat:appsmith.store.Recipe_Prop"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "MassUpdateMR",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "636e155fe60d44705cd472c4_6371fb58e60d44705cd47488"
+}

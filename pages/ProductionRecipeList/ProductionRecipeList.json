@@ -1,0 +1,87 @@
+{
+  "unpublishedPage": {
+    "name": "ProductionRecipeList",
+    "slug": "productionrecipelist",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 810,
+          "containerStyle": "none",
+          "snapRows": 57,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 590,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "ProductionRecipeList_GetAllMachineGroup",
+              "name": "GetAllMachineGroup",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ProductionRecipeList_GetRecipeClass",
+              "name": "GetRecipeClass",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "ProductionRecipeList_GetRecipeTypes",
+              "name": "GetRecipeTypes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "ProductionRecipeUtil.RecipeClassInputForRecipeType()",
+                "ProductionRecipeUtil.MachineGroupInputForRecipeType()"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ProductionRecipeList_ProductionRecipeUtil.PageLoad",
+              "name": "ProductionRecipeUtil.PageLoad",
+              "collectionId": "ProductionRecipeList_ProductionRecipeUtil",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  let PRDefaultValue = {};\n  if (appsmith.store.PRDefaultValue == undefined || appsmith.store.PRDefaultValue == \"\") {\n    PRDefaultValue.ResourceGroupDropDown = \"\";\n    PRDefaultValue.RecipeClassDropDown = \"\";\n    PRDefaultValue.RecipeTypeDropDown = \"\";\n    PRDefaultValue.productCodes = \"\";\n    PRDefaultValue.InterMaterial = \"\";\n    PRDefaultValue.StartDate = \"\";\n    PRDefaultValue.Selected_RECIPE_NUMBER = \"\";\n    PRDefaultValue.Selected_RECIPE_CLASS = \"\";\n    PRDefaultValue.Selected_MACHINE_GROUP = \"\";\n    PRDefaultValue.Selected_RECIPE_CLASSIFICATION = \"\";\n    await storeValue(\"PRDefaultValue\", PRDefaultValue, true);\n  }\n  TabulatorAction.SearchButtonClick();\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "ProductionRecipeList",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "647604408016a07bff84a264_6478bec0bd260313fc687c9f"
+}

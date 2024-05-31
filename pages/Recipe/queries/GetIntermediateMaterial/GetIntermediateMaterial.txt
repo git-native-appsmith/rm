@@ -1,0 +1,4 @@
+{
+	"machineGroup":{{ResourceSelect.selectedOptionValue == "Select" || ResourceSelect.selectedOptionValue === undefined ? null : ResourceSelect.selectedOptionValue}},
+  "OPRTYPE": 11  
+}

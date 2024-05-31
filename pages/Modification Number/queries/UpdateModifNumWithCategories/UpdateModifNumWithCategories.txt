@@ -1,0 +1,20 @@
+{
+  "modifNumber": {"MODIF_NUMBER": {{RecipeModificationsTable.triggeredRow.MODIF_NUMBER}},
+  "MODIF_DESCRIPTION": {{DescriptionInput.text}},
+  "UPUSER": {{UserNameText.text}},
+  "START_DATE": {{ActiveFromDate.selectedDate}},
+  "S_EXPECTED_IMPACT": {{UpdateSafetyExpectedImpactText.text}},
+  "H_EXPECTED_IMPACT": {{UpdateHealthExpectedImpactText.text}},
+  "E_EXPECTED_IMPACT": {{UpdateEnvExpectedImpactText.text}},
+  "Q_EXPECTED_IMPACT": {{UpdateQualitExpectedImpactText.text}},
+	"HY_EXPECTED_IMPACT": {{UpdateHygieneExpectedImpactTex.text}},
+	"C_EXPECTED_IMPACT": {{UpdateCostExpectedImpactText.text}},
+  "S_ACTUAL_IMPACT": {{UpdateSafetyActualImpactText.text}},
+  "H_ACTUAL_IMPACT": {{UpdateHealthActualImpactText.text}},
+  "E_ACTUAL_IMPACT": {{UpdateEnvActualImpactText.text}},
+  "Q_ACTUAL_IMPACT": {{UpdateQualitExpectedImpactText.text}},
+  "HY_ACTUAL_IMPACT": {{UpdateHygieneActualImpactText.text}},
+	"C_ACTUAL_IMPACT": {{UpdateCostActualImpactText.text}},
+	"GROUP_CODES":{{SHEQMultiSelect.selectedOptionValues}}
+}
+}

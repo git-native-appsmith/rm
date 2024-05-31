@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "BaleChange",
+    "pageId": "CreateRecipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "CreateRecipe_BaleChange",
+  "deleted": false,
+  "gitSyncId": "62e0ddd74c3bbc446db96040_62e10f394c3bbc446db961f6"
+}

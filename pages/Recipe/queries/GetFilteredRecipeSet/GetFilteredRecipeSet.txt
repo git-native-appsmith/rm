@@ -1,0 +1,6 @@
+{"getRecipeSet": {
+  "CATEGORY": {{(RecipeSetCategorySelect.selectedOptionLabel).replace("All","NA")}},
+  "NAME": {{RecipeUtil.RecipeSetIdForFilter()}},
+  "VALID_DATE": {{RecipeUtil.ValidDateForSearch()}}
+}
+}

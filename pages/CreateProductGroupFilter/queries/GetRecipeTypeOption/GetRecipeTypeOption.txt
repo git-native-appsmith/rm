@@ -1,0 +1,4 @@
+{
+ "machineGroup":"NA",
+ "recipeClass":"NA"
+}

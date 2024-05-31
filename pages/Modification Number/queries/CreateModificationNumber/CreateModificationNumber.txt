@@ -1,0 +1,12 @@
+{
+  "modifNumber": {"MODIF_DESCRIPTION": {{CreateDescriptionInput.text}},
+  "CRUSER":{{CreateUserNameText.text}},
+  "START_DATE":{{moment(CreateActiveFromDate.selectedDate).format('YYYY-MM-DD HH:mm:ss')}},
+  "S_EXPECTED_IMPACT": {{SafetyExpectedImpactText.text}},
+  "H_EXPECTED_IMPACT": {{HealthExpectedImpactText.text}},
+  "E_EXPECTED_IMPACT": {{EnvironmentExpectedImpactText.text}},
+  "Q_EXPECTED_IMPACT": {{QualityExpectedImpactText.text}},
+  "HY_EXPECTED_IMPACT": {{HygieneExpectedImpactText.text}},
+	"C_EXPECTED_IMPACT": {{CostExpectedImpactText.inputText}},
+	"GROUP_CODES":{{CreateSHEQMultiSelect.selectedOptionValues}}}
+}

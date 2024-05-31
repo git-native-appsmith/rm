@@ -1,0 +1,95 @@
+{
+  "unpublishedPage": {
+    "name": "MassUpdate",
+    "slug": "massupdate",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1084,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 920,
+          "containerStyle": "none",
+          "snapRows": 63,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 680,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "MassUpdate_GetProductFilterOption",
+              "name": "GetProductFilterOption",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "MassUpdate_GetRecipeSetCategory",
+              "name": "GetRecipeSetCategory",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
+              "id": "MassUpdate_GetRecipeTyeOptionData",
+              "name": "GetRecipeTyeOptionData",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.ResourceGroupDropDown",
+                "appsmith.store.RecipeClassDropDown"
+              ],
+              "timeoutInMillisecond": 100000
+            }
+          ],
+          [
+            {
+              "id": "MassUpdate_GetRecipeClass",
+              "name": "GetRecipeClass",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
+              "id": "MassUpdate_JSObject1.PageLoadRecipe",
+              "name": "JSObject1.PageLoadRecipe",
+              "collectionId": "MassUpdate_JSObject1",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  debugger;\n  if (appsmith.URL.queryParams.RedirectFromEditRecipe) {\n    storeValue(\"EditFromProductFilter\", false, true);\n    await EditRecipesByProductFilter.run(() => {\n      showAlert('Recipe load successfully', 'success');\n    }, () => showAlert('Recipe load failed', 'error'));\n    if (EditRecipesByProductFilter.data == undefined) {\n      await EditRecipesByProductFilter.run();\n    }\n    var masterRecipeNo = appsmith.store.MasterRecipeNo;\n    let masterRecipes = EditRecipesByProductFilter.data.filter(x => x.RECIPE_NUMBER == masterRecipeNo);\n    for (var i = 0; i < masterRecipes.length; i++) {\n      masterRecipes[i].MASTER_RECIPE = true;\n    }\n    await storeValue(\"RecipesByProductFilter\", EditRecipesByProductFilter.data, true);\n  } else if (appsmith.store.ProductGroupFilterDropDown != undefined && appsmith.store.ProductGroupFilterDropDown != \"\" && ProductFilterSelect.selectedOptionValue != \"\") {\n    storeValue(\"EditFromProductFilter\", false, true);\n    await EditRecipesByProductFilter.run();\n    if (EditRecipesByProductFilter.data == undefined) {\n      console.log(\"in-Data\");\n      console.log(EditRecipesByProductFilter.data);\n      await EditRecipesByProductFilter.run();\n    }\n    var masterRecipeNo1 = appsmith.store.MasterRecipeNo;\n    if (masterRecipeNo1 != undefined && EditRecipesByProductFilter.data && EditRecipesByProductFilter.data.length > 0) {\n      let masterRecipes = EditRecipesByProductFilter.data.filter(x => x.RECIPE_NUMBER == masterRecipeNo1);\n      for (var j = 0; j < masterRecipes.length; j++) {\n        masterRecipes[j].MASTER_RECIPE = true;\n      }\n    }\n    console.log(\"Data\");\n    console.log(EditRecipesByProductFilter.data);\n    await storeValue(\"RecipesByProductFilter\", EditRecipesByProductFilter.data, true);\n  }\n  GetAllMachineGroups.run();\n  if (appsmith.store.ProductGroupFilterDropDown == \"\" || ProductFilterSelect.selectedOptionValue == \"\") {\n    if (ResourceSelect.selectedOptionValue != null && appsmith.store.RecipeClassDropDown != null && RecipeTypeSelect.selectedOptionValue != null) {\n      GetFilteredRecipe.run();\n    }\n    if (appsmith.store.ResourceGroupDropDown != null && appsmith.store.RecipeClassDropDown != null && appsmith.store.RecipeTypeDropDown != null) {\n      GetFilteredRecipe.run();\n    }\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "MassUpdate",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "636e155fe60d44705cd472c4_636e176ce60d44705cd4740d"
+}

@@ -1,0 +1,8 @@
+{
+  "masterRecipe":{"MASTER_RECIPE_NUMNER": {{Number(appsmith.store.MasterRecipeNo)}},
+  "MODIF_NUMBER": {{Number(appsmith.store.modificNo)}},
+  "RECIPE_SET_NUMBER": {{Number(appsmith.store.RecipeSetNumber)}},
+  "CHILD_RECIPES": {{MasterRecipeUtil.ChildRecipeAPIInput()}},
+	"USER":{{appsmith.user.name}}
+}
+}

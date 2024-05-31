@@ -1,0 +1,46 @@
+{
+    "boxShadow": "none",
+    "widgetName": "IconButton1",
+    "onClick": "{{CreateEditCS.modalProductGroupCode()}}",
+    "buttonColor": "#F6F7F8",
+    "dynamicPropertyPathList": [
+        {"key": "isDisabled"},
+        {"key": "isVisible"},
+        {"key": "onClick"},
+        {"key": "borderRadius"}
+    ],
+    "displayName": "Icon Button",
+    "iconSVG": "/formbuilderui/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 5,
+    "bottomRow": 9,
+    "parentRowSpace": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 13.640625,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 6,
+    "dynamicBindingPathList": [
+        {"key": "isDisabled"},
+        {"key": "isVisible"}
+    ],
+    "isDisabled": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? false : true}}",
+    "key": "pejxx79onf",
+    "isDeprecated": false,
+    "rightColumn": 10,
+    "iconName": "search",
+    "widgetId": "ooxiawuatk",
+    "isVisible": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? true : false}}",
+    "version": 1,
+    "parentId": "37sldjznnw",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "originalTopRow": 10,
+    "borderRadius": "9999px",
+    "originalBottomRow": 14,
+    "buttonVariant": "PRIMARY"
+}

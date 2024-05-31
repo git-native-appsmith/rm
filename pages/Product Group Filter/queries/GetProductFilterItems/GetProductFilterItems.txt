@@ -1,0 +1,3 @@
+{
+  "productFilterNumber": {{Number(ProductFilterTable.triggeredRow.PRODUCT_FILTER_NUMBER)}}
+}

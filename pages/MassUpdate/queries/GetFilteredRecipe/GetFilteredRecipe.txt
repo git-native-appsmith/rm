@@ -1,0 +1,7 @@
+{
+	"recipeSetName":{{RecipeSetNameInput.text}},
+ "machineGroup":{{ModalPopUpLogic.machineGroupInput()}},
+ "recipeClass":{{appsmith.store.RecipeClassDropDown}},
+	"recipeTypeNumber":{{ModalPopUpLogic.RecipeTypeNumberInput()}},
+	"productGroupNumber":0
+}

@@ -1,0 +1,9 @@
+{"recipe": {
+	"RECIPE_NUMBERS":{{appsmith.store.SV_RECIPE}},
+	"PROPERTY_CODE":"",
+	"OPRTYPE":4,
+	"TRGVALUE":0,
+	"MCODE":"",
+	"ARP":""
+}
+}

@@ -1,0 +1,13 @@
+{
+  "modifiedRecipeItems": {{appsmith.store.SV_TBL}},
+  "ComparedRecipeItems": {{GetRecipeItem.data}},
+	"selectedRecipeDetail": {
+    "RECIPE_TYPE_NUMBER": {{GetFilteredRecipe.data.RECIPE_TYPE_NUMBER}},
+    "RECIPE_CODE": {{GetFilteredRecipe.data.RECIPE_CODE}},
+    "CLASSIFICATION": {{GetFilteredRecipe.data.CLASSIFICATION}},
+    "REVISION_NO":  {{GetFilteredRecipe.data.REVISION_NO}}
+  },
+ "selectedRecipeStatus": {{appsmith.store.recipeStatus}},
+  "comparedBy": 2,
+  "recipeClass": {{appsmith.store.RecipeClassDropDown}}
+}

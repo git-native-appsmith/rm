@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TabulatorOperations",
+    "pageId": "CreateRecipeCS",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipeCS_TabulatorOperations",
+  "deleted": false,
+  "gitSyncId": "6465d87e27a3cc41425aa71a_6465f43b27a3cc41425aaaeb"
+}

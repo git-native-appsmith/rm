@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "SetPropertyUnit",
+    "pageId": "CreateRecipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipe_SetPropertyUnit",
+  "deleted": false,
+  "gitSyncId": "62e95e33d04c4f3c9d2dde51_62f95a3821e1b462dea147eb"
+}

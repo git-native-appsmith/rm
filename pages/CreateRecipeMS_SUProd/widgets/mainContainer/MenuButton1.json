@@ -1,0 +1,72 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "widgetName": "MenuButton1",
+    "dynamicPropertyPathList": [
+        {"key": "menuItems.menuItem3.onClick"},
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItemlo0b34bnsu.onClick"},
+        {"key": "menuItems.menuItemlo0b34bnsu.isDisabled"}
+    ],
+    "displayName": "Menu Button",
+    "iconSVG": "/formbuilderui/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
+    "topRow": 18,
+    "bottomRow": 22,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 19.640625,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItemlo0b34bnsu.onClick"}
+    ],
+    "leftColumn": 61,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "menuItems.menuItemlo0b34bnsu.isDisabled"}
+    ],
+    "isDisabled": false,
+    "key": "enpcbgmqxr",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "iconName": "more",
+    "menuVariant": "PRIMARY",
+    "widgetId": "jjfth55175",
+    "menuItems": {
+        "menuItem1": {
+            "onClick": "{{showModal('HistoricRecipeModal');GetPRHistoricRecipe.run()}}",
+            "iconName": "history",
+            "widgetId": "",
+            "index": 0,
+            "label": "Historic Recipe",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItemlo0b34bnsu": {
+            "onClick": "{{navigateTo('CreateRecipePDProd', {\"rno\":GetProductionRecipeForView.data.BASE_RECIPE_NUMBER},'SAME_WINDOW');CreateEditCS.OnPageLoad();UpdateTargetRecipe.run()}}",
+            "iconName": "layout-circle",
+            "widgetId": "an191oiotw",
+            "index": 1,
+            "id": "menuItemlo0b34bnsu",
+            "label": "Target",
+            "isDisabled": "{{GetProductionRecipeForView.data.CLASSIFICATION == 'PR' ?false:true}}",
+            "isVisible": true
+        }
+    },
+    "isVisible": true,
+    "label": ".",
+    "version": 1,
+    "parentId": "c2m9adqxf1",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "originalTopRow": 14,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "menuColor": "#FFFFFF",
+    "menuItemsSource": "STATIC",
+    "originalBottomRow": 18,
+    "iconAlign": "left",
+    "placement": "CENTER"
+}

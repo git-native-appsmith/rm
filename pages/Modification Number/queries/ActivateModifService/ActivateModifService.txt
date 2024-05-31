@@ -1,0 +1,3 @@
+{
+  "modifNo":{{Number(RecipeModificationsTable.selectedRow.MODIF_NUMBER)}} 
+}

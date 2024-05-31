@@ -1,0 +1,7 @@
+{"productFilter":{
+  "NAME": {{FilterNameInput.text}},
+  "DESCRIPTION": {{FilterDescInput.text}},
+  "RECIPETYPE_NUMBERS": {{RecipeTypeMultiSelect.selectedOptionValues}},
+  "USER": {{appsmith.user.name}}
+}
+}

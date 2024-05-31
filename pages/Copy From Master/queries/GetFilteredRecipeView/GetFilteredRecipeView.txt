@@ -1,0 +1,4 @@
+{
+	"recipeNumber":{{Number(appsmith.store.MasterRecipeNo)}},
+	"recipeSetNumber":{{Number(appsmith.store.RecipeSetNumber)}}
+}

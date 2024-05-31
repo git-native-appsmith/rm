@@ -1,0 +1,8 @@
+{
+  "MACHINE_GROUP": "",
+  "RECIPE_CLASS": "",
+  "RECIPE_TYPE_NUMBER": 0,
+  "PRODUCT_CODE": "",
+  "INTER_MAT_CODE": "",
+  "START_DATE": "1900-01-01"
+}

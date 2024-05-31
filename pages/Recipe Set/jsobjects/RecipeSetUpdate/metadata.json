@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RecipeSetUpdate",
+    "pageId": "Recipe Set",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Recipe Set_RecipeSetUpdate",
+  "deleted": false,
+  "gitSyncId": "62910a69a615e135fe13d11d_629895800a23200b997055cf"
+}

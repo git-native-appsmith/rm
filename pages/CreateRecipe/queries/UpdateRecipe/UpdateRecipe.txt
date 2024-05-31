@@ -1,0 +1,31 @@
+{
+  "recipe": {
+    "RECIPE_NUMBER": {{Number(appsmith.store.recipeNumberView)}},
+    "DRY_CONTENT": {{Number(DryContentInput.text)}},
+    "RECIPE_SIZE": {{Number(MainMaterialInput.text)}},
+    "MAX_VOLUME": {{Number(MaxVolumeInput.text)}},
+    "BATCH_SIZE": {{Number(TotalVolumeInput.text)}},
+    "USER": {{appsmith.user.name}},
+		"RECIPE_TYPE_CLASS": {{appsmith.store.RecipeClassDropDown}},
+		"SPECIFIC_WEIGHT": {{Number(SpecificWeightInput.text)}},
+		"FILLER_CONTENT": {{Number(FillerInput.text)}},
+		"DRY_CONTENT_IN_PER": {{Number(DryContentInPerInput.text)}},
+		"RECIPE_SIZE_IN_PER": {{Number(RecipeSizeInPerInput.text)}},
+		"TOTAL_WEIGHT_WET": {{Number(TotalWeightWetInput.text)}},
+		"BONEDRY_WGT_PER_VOLUME": {{Number(GramAtroLitreInput.text)}},
+		"TRANSFER_OUTPUT_MAT": {{TransferOutputMaterialChk.isChecked}},
+		"REMARKS": {{RemarkInput.text}},
+		"DC_IN_VAL": {{appsmith.store.Calc_dryContentSpecWeightLimitField.DC_IN_VAL}},
+		"DC_IN_MIN": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.DC_IN_MIN)}},
+		"DC_IN_MAX": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.DC_IN_MAX)}},
+		"DC_CALC_MIN": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.DC_CALC_MIN)}},
+		"DC_CALC_MAX": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.DC_CALC_MAX)}},
+		"SW_IN_VAL": {{appsmith.store.Calc_dryContentSpecWeightLimitField.SW_IN_VAL}},
+		"SW_IN_MIN": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.SW_IN_MIN)}},
+		"SW_IN_MAX": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.SW_IN_MAX)}},
+		"SW_CALC_MIN": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.SW_CALC_MIN)}},
+		"SW_CALC_MAX": {{Number(appsmith.store.Calc_dryContentSpecWeightLimitField.SW_CALC_MAX)}},
+		"MODIF_NUMBER": {{Number(appsmith.store.modificNo)}}
+  },
+  "recipeItems": {{appsmith.store.SV_TBL}}
+}

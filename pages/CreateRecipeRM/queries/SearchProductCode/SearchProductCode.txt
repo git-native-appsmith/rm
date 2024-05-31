@@ -1,0 +1,6 @@
+{
+	"FROM_NUM":{{GrammageFrom.text==undefined?1:Number(GrammageFrom.text)}},
+	"TO_NUM":{{GrammageTo.text==undefined?9999:Number(GrammageTo.text)}},
+	"GRADE":{{GradeSelect.selectedOptionValue==undefined? 'NA':GradeSelect.selectedOptionValue}},
+	"FUNCTION_TYPE":{{CreateEditCS.SearchProductCodeApiInput()}}
+}

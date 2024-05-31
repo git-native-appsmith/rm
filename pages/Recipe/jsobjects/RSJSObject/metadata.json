@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RSJSObject",
+    "pageId": "Recipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Recipe_RSJSObject",
+  "deleted": false,
+  "gitSyncId": "64acf15cc1f57807de253b78_64b77ea1c1f57807de2576c1"
+}

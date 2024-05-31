@@ -1,0 +1,28 @@
+{
+  "recipe": {
+    "RECIPE_NUMBER": 0,
+    "RECIPE_SET_NUMBER": {{Number(appsmith.store.RecipeSetNumber)}},
+    "RECIPE_TYPE_NUMBER": {{Number(appsmith.store.RecipeTypeDropDown)}},
+    "MODIF_NUMBER": {{Number(appsmith.store.modificNo)}},
+    "PRODUCT_GRP_NUMBER": {{isNaN(Number(appsmith.store.ProductgroupNumber)) ? 0 : Number(appsmith.store.ProductgroupNumber)}},
+    "PRODUCT_CODE": {{appsmith.store.InterMaterial}},
+    "REMARKS": {{RemarkInput1.text}},
+    "RECIPE_TYPE_CLASS": {{appsmith.store.RecipeClassDropDown}},
+    "PRODUCT_GROUP_PRODUCT_CODE_NUMBER":2,
+    "DRY_CONTENT": {{Number(appsmith.store.calculatedField.sv_dc).toFixed(2)}},
+    "RECIPE_SIZE": {{Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry).toFixed(1)}},
+    "MAX_VOLUME": {{Number(appsmith.store.MaxVolume).toFixed(2)}},
+    "BATCH_SIZE": {{Number(appsmith.store.calculatedField.sv_totalVolume).toFixed(2)}},
+    "CRUSER": {{appsmith.user.name}},
+		"SPECIFIC_WEIGHT": {{Number(appsmith.store.calculatedField.sv_spwt)}},
+		"FILLER_CONTENT": {{Number(appsmith.store.calculatedField.sv_filler)}},
+		"DRY_CONTENT_IN_PER": {{Number(appsmith.store.calculatedField.sv_tdc).toFixed(2)}},
+		"RECIPE_SIZE_IN_PER": {{Number(appsmith.store.calculatedField.sv_per).toFixed(2)}},
+		"TOTAL_WEIGHT_WET": {{Number(appsmith.store.calculatedField.sv_totalWeightWet)}},
+		"BONEDRY_WGT_PER_VOLUME": {{Number(appsmith.store.calculatedField.sv_gbt)}},
+		"TRANSFER_OUTPUT_MAT": {{TransferOutputMaterialChk.isChecked}},
+		"SIZE_UNIT1": {{appsmith.store.SIZE_UNIT1}},
+		"SIZE_UNIT2": {{appsmith.store.SIZE_UNIT2}}
+  },
+  "recipeItems": {{appsmith.store.SV_TBL}}
+}

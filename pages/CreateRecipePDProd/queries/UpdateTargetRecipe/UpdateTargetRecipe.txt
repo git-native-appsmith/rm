@@ -1,0 +1,5 @@
+ { "recipe":{
+  "RECIPE_NUMBER": {{Number(GetProductionRecipeForView.data.RECIPE_NUMBER)}},
+	 "DATE_END":{{DatePicker1.selectedDate == "" ?  moment().format("YYYY-MM-DD HH:mm:ss") : DatePicker1.selectedDate}}
+}
+ }

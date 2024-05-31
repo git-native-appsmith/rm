@@ -1,0 +1,6 @@
+{
+	"RECIPE_NUMBER":{{ProductFilterSelect.selectedOptionValue == "" ?Number(RecipeTable.triggeredRow.RECIPE_NUMBER) : Number(RecipeByProductFilter.triggeredRow.RECIPE_NUMBER)}},
+	"RECIPE_SET_NUMBER":{Number(appsmith.store.RecipeSetNumber)}},
+	"MACHINE_GROUP":{{appsmith.store.recipeMachineGroup}},
+	"RECIPE_CLASS":{{appsmith.store.RecipeClassDropDown}}
+}

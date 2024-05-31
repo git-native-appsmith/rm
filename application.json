@@ -1,0 +1,146 @@
+{
+  "pages": [
+    {
+      "id": "Modification Number",
+      "isDefault": true
+    },
+    {
+      "id": "Product Group Filter",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe Type",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipe",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe Set",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "MassUpdate",
+      "isDefault": false
+    },
+    {
+      "id": "MassUpdateMR",
+      "isDefault": false
+    },
+    {
+      "id": "MassUpdateRecipe",
+      "isDefault": false
+    },
+    {
+      "id": "CreateProductGroupFilter",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeCS",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeMS_SU",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeRM",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipePD",
+      "isDefault": false
+    },
+    {
+      "id": "ProductionRecipeList",
+      "isDefault": false
+    },
+    {
+      "id": "Copy From Master",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeRMProd",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipePDProd",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeCSProd",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeMS_SUProd",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeBL_WS",
+      "isDefault": false
+    },
+    {
+      "id": "ServiceReport",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipeWP",
+      "isDefault": false
+    },
+    {
+      "id": "CreateRecipePU",
+      "isDefault": false
+    },
+    {
+      "id": "ViewRecipeDetail",
+      "isDefault": false
+    },
+    {
+      "id": "ViewRecipeDetailProd",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
+  "color": "#D6D1F2",
+  "icon": "bitcoin",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 1,
+  "isManualUpdate": false,
+  "deleted": false
+}

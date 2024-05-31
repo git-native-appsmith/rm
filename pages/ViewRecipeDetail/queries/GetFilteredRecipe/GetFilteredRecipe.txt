@@ -1,0 +1,4 @@
+{
+	"recipeNumber":{{Number(appsmith.URL.queryParams.rno)}},
+  "recipeSetNumber":{{Number(appsmith.URL.queryParams.rsno)}}
+}

@@ -1,0 +1,8 @@
+{
+ "recipe":{ "RECIPE_SET_NAME": {{RecipeSetNameInput.text}},
+  "MACHINE_GROUP": {{ModalPopUpLogic.machineGroupInput()}},
+  "RECIPE_TYPE_CLASS": {{appsmith.store.RecipeClassDropDown}},
+  "RECIPE_TYPE_NUMBER": {{ModalPopUpLogic.RecipeTypeNumberInput()}},
+  "PRODUCT_FILTER_NUMBER": {{ProductFilterSelect.selectedOptionValue}}
+}
+}

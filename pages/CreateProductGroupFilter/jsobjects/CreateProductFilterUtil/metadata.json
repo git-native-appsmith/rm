@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CreateProductFilterUtil",
+    "pageId": "CreateProductGroupFilter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateProductGroupFilter_CreateProductFilterUtil",
+  "deleted": false,
+  "gitSyncId": "642448559a8a51790fcacb37_642701389a8a51790fcacdb5"
+}

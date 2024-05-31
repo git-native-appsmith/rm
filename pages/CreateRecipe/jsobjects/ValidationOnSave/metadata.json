@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "ValidationOnSave",
+    "pageId": "CreateRecipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipe_ValidationOnSave",
+  "deleted": false,
+  "gitSyncId": "640b62313ad8bb46253c956d_640f60633ad8bb46253ca097"
+}

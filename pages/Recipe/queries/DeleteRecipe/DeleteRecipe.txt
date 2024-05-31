@@ -1,0 +1,7 @@
+{
+	"recipeNumber":{{Number(appsmith.store.IframeSelRecipe)}},
+	"modifNumber":{{Number(ModificationNumberSearch.text)}},
+	"user":test,
+	"recipeSetNumber":{{Number(appsmith.store.RecipeSetNumber)}},
+	"status":{{appsmith.store.IframeSelRecipeStatus}}
+}

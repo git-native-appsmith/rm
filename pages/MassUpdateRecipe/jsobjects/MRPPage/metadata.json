@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "MRPPage",
+    "pageId": "MassUpdateRecipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "MassUpdateRecipe_MRPPage",
+  "deleted": false,
+  "gitSyncId": "640b799c3ad8bb46253c9a64_642c3e34b55c095d08ff157d"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "BindDropDown",
+    "pageId": "Recipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Recipe_BindDropDown",
+  "deleted": false,
+  "gitSyncId": "63b8a33d0a25183069490caf_63b8a5f40a25183069490e7f"
+}

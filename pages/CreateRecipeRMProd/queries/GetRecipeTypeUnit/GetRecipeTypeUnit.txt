@@ -1,0 +1,3 @@
+{
+  "recipeTypeNumber": {{GetProductionRecipeForView.data.RECIPE_TYPE_NUMBER}}
+}

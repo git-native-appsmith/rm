@@ -1,0 +1,3 @@
+{
+  "recipeSetNumber": {{Number(Tabulator1.actionRow.RECIPE_SET_NUMBER)}}
+}

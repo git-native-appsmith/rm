@@ -1,0 +1,12 @@
+{
+  "recipe": {
+    "RECIPE_NUMBER": {{Number(GetProductionRecipeForView.data.RECIPE_NUMBER)}},
+    "RECIPE_SIZE": {{Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry).toFixed(1)}},
+    "USER": {{appsmith.user.name}},
+		"RECIPE_TYPE_CLASS": {{GetProductionRecipeForView.data.RECIPE_CLASS}},
+		"REMARKS": {{txtRemark.text}},
+		"DATE_END":{{moment(DatePicker1.selectedDate).format("YYYY-MM-DD HH:mm:ss")}},
+		"RECIPE_CODE":{{GetProductionRecipeForView.data.RECIPE_CODE}}
+  },
+  "recipeItems": {{appsmith.store.SV_TBL}}
+}

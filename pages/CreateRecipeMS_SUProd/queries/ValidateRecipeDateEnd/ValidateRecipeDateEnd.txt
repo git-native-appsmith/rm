@@ -1,0 +1,8 @@
+ {"recipe":{
+  "RECIPE_NUMBER":  {{GetProductionRecipeForView.data.RECIPE_NUMBER}},
+  "RECIPE_TYPE_NUMBER":  {{GetProductionRecipeForView.data.RECIPE_TYPE_NUMBER}},
+  "RECIPE_CODE":  {{GetProductionRecipeForView.data.RECIPE_CODE}},
+  "REVISION_NUMBER":  {{GetProductionRecipeForView.data.REVISION_NO}},  
+	 "DATE_END":{{moment(DatePicker1.selectedDate).format("YYYY-MM-DD HH:mm:ss")}}
+}
+ }

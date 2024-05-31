@@ -1,0 +1,6 @@
+{
+"getMaterialSchema":{
+  "MACHINE_GROUP": {{appsmith.store.ResourceGroupDropDown}},
+  "OPRTYPE": 8
+}
+}

@@ -1,0 +1,9 @@
+{"recipe": {
+	"RECIPE_NUMBERS":{{appsmith.store.Recipe_Sel}},
+	"PROPERTY_CODE":{{SeqAdd.text}},
+	"OPRTYPE":12,
+	"TRGVALUE":0,
+	"MCODE":"",
+	"ARP":""
+}
+}

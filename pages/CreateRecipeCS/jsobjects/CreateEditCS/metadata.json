@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CreateEditCS",
+    "pageId": "CreateRecipeCS",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipeCS_CreateEditCS",
+  "deleted": false,
+  "gitSyncId": "64259f8db55c095d08ff01c6_642dbe20b55c095d08ff26e7"
+}

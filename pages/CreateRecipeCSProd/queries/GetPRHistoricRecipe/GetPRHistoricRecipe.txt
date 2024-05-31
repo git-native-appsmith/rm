@@ -1,0 +1,7 @@
+{"recipe":{
+  "RECIPE_NUMBER": {{Number(GetProductionRecipeForView.data.RECIPE_NUMBER)}},
+  "RECIPE_TYPE_NUMBER": {{Number(GetProductionRecipeForView.data.RECIPE_TYPE_NUMBER)}},
+  "RECIPE_CODE": {{(GetProductionRecipeForView.data.RECIPE_CODE)}},
+  "REVISION_NUMBER": {{Number(GetProductionRecipeForView.data.REVISION_NO)}}
+}
+}

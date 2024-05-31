@@ -1,0 +1,5 @@
+{
+  "recipeClass": {{appsmith.store.RecipeClassDropDown+'-'+ddlWorkPlace.selectedOptionValue}},
+  "recipeProduct":{{appsmith.store.InterMaterial}},
+  "recipeType": {{appsmith.store.RecipeTypeDropDown}}
+}

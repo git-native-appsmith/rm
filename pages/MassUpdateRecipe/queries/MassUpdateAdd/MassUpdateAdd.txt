@@ -1,0 +1,13 @@
+{
+"recipeInput": 
+	{
+		"RECIPE_NUMNER":{{appsmith.store.SV_RECIPEMASSADD}},
+		"GRP_NO":{{GrpAdd.text}},
+		"SEQ_NO":{{SeqAdd.text}},
+		"DOS_CMD":{{ddlDOSCMD.selectedOptionValue==''?'CT':ddlDOSCMD.selectedOptionValue}},
+		"MAT_CODE":{{MaterialAdd.text}},
+		"PRO_CODE":{{JSObject2.getOprtype()==1?(PropertyAdd.text==''?appsmith.store. addRowProp:PropertyAdd.text):MaterialAdd.text}},
+		"TARGET_VALUE":{{TargetAdd.text}},
+		"FUN_CODE":{{ddlFunAdd.selectedOptionValue}}
+	}
+}

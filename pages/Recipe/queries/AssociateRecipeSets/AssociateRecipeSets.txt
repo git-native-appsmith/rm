@@ -1,0 +1,8 @@
+{
+  "associateRecieData": {
+  "MODIF_NUMBER": {{Number(ModificationNumberSearch.text)}},
+  "RECIPE_NUMBER": {{Number(appsmith.store.IframeSelRecipe)}},
+  "RECIPE_SET_NUMBERS": {{RecipeStatusLogic.AssociateRecipeSetInput()}},
+  "CRUSER": {{appsmith.user.username.split('@')[0]}}
+}
+}

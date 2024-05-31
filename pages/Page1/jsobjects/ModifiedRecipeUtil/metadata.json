@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "ModifiedRecipeUtil",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_ModifiedRecipeUtil",
+  "deleted": false,
+  "gitSyncId": "63b8a33d0a25183069490caf_63c0587f2ed63102b380a2fb"
+}

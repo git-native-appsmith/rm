@@ -1,0 +1,4 @@
+{
+  "recipeSetNumber": {{Tabulator1.actionRowWithIndex.data.RECIPE_SET_NUMBER==''?Number(0):Number(Tabulator1.actionRowWithIndex.data.RECIPE_SET_NUMBER)}},
+  "recipeSetName": {{Tabulator1.actionRowWithIndex.data.NAME}}
+}

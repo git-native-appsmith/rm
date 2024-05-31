@@ -1,0 +1,4 @@
+{
+	"modifNumber":0,
+	"RECIPE_NUMBER":{{Number(RecipeTable.triggeredRow.RECIPE_NUMBER)}}
+}

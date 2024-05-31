@@ -1,0 +1,4 @@
+{
+ "machineGroup":{{appsmith.store.ResourceGroupDropDown}} ,
+ "OPRTYPE": {{JSObject3.getOprtype()}}
+}

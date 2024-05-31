@@ -1,0 +1,20 @@
+{
+  "recipe": {
+    "RECIPE_NUMBER": 0,
+    "RECIPE_SET_NUMBER": {{Number(appsmith.store.RecipeSetNumber)}},
+    "RECIPE_TYPE_NUMBER": {{Number(appsmith.store.RecipeTypeDropDown)}},
+    "MODIF_NUMBER": {{Number(appsmith.store.modificNo)}},
+    "PRODUCT_GRP_NUMBER":0,
+    "PRODUCT_CODE": {{appsmith.store.InterMaterial}},
+    "REMARKS": {{RemarkInput1.text}},
+    "RECIPE_TYPE_CLASS": {{appsmith.store.RecipeClassDropDown}},
+    "PRODUCT_GROUP_PRODUCT_CODE_NUMBER":2,
+    "RECIPE_SIZE": {{Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry).toFixed(1)}},
+    "CRUSER": {{appsmith.user.name}},
+		"RECIPE_SIZE_IN_PER": {{Number(appsmith.store.calculatedField.sv_per).toFixed(2)}},
+		"SIZE_UNIT1": {{appsmith.store.SIZE_UNIT1}},
+		"SIZE_UNIT2": {{appsmith.store.SIZE_UNIT2}},
+		"TOTAL_WEIGHT_WET": {{Number(appsmith.store.calculatedField.sv_totalWeightWet)}}
+  },
+  "recipeItems": {{appsmith.store.SV_TBL}}
+}

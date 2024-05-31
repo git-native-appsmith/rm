@@ -1,0 +1,59 @@
+{                         
+                    "Parameters": {
+                        "param1": {
+                            "FilterParameter": "CRS_REPORT_NAME",
+                            "FilterValue": {{appsmith.store.CRSReportName}}
+                        },
+            "param2": {
+                            "FilterParameter": "CRS_LANG",
+                            "FilterValue": "3"
+                        },  
+            "param3": {
+                            "FilterParameter": "RECIPENUMBER",
+                            "FilterValue": {{appsmith.store.recipeNumberView}}
+                        },2013
+            "param4": {
+                            "FilterParameter": "RECIPESET_NUMBER",
+                            "FilterValue": {{appsmith.store.RecipeSetNumber}}
+                        },  
+            "param14": {
+                            "FilterParameter": "P_REP_USER",
+                            "FilterValue":{{RSJSObject.OnsubstringBefore()}}
+                        },                                            
+                        "param6": {
+                            "FilterParameter": "REPORT_NAME",
+                            "FilterValue":{{appsmith.store.ReportName}}
+                        },
+                        "param7": {
+                            "FilterParameter": "CRS_DAEMON_PORT",
+                            "FilterValue": "1700"
+                        },
+                        "param8": {
+                            "FilterParameter": "CRS_PROJECT",
+                            "FilterValue": "SGDEV"
+                        },
+                        "param9": {
+                            "FilterParameter": "CRS_CLIENT_NAME",
+                            "FilterValue": "doora5"
+                        },
+                        "param10": {
+                            "FilterParameter": "CRS_CLIENT_ADDR",
+                            "FilterValue": "10.58.24.135"
+                        },
+                        "param11": {
+                            "FilterParameter": "CRS_DBHOSTSTR",
+                            "FilterValue": "10.171.110.63/V19"
+                        },
+                        "param12": {
+                            "FilterParameter": "CRS_DBLOGON",
+                            "FilterValue": "rrs/rrs"
+                        },
+            "param13": {
+                            "FilterParameter":"CRS_USER",
+                            "FilterValue":"prerna.shrivastava"
+                        }
+
+ 
+
+                    }                
+            }

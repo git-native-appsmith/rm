@@ -1,0 +1,39 @@
+{
+    "boxShadow": "none",
+    "widgetName": "SearchInterMatCodeButton",
+    "onClick": "{{GetIntermediateMaterial.run();showModal('IntermediateMaterialModal')}}",
+    "buttonColor": "#F6F7F8",
+    "dynamicPropertyPathList": [
+        {"key": "isDisabled"},
+        {"key": "onClick"}
+    ],
+    "displayName": "Icon Button",
+    "iconSVG": "/formbuilderui/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 4,
+    "bottomRow": 8,
+    "parentRowSpace": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 13.953125,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 52,
+    "dynamicBindingPathList": [{"key": "isDisabled"}],
+    "isDisabled": "{{BindDropDown.DisableInterMatCodeInput()}}",
+    "key": "n3c7h70v8l",
+    "isDeprecated": false,
+    "rightColumn": 54,
+    "iconName": "search",
+    "widgetId": "0w486hu1oq",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "t482q159hb",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "1.5rem",
+    "buttonVariant": "PRIMARY"
+}

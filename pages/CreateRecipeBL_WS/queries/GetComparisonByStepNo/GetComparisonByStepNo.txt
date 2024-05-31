@@ -1,0 +1,5 @@
+{
+	"recipeItemComparison":{"UserSelectedRecipeItems":{{GetComparasionForRecipeEdit.data.modifiedRecipeItems}},
+	"ComparasionRecipeItems":{{GetComparasionForRecipeEdit.data.ComparedRecipeItems}}
+}
+}

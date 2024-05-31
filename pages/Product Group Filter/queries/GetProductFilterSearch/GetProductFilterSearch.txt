@@ -1,0 +1,5 @@
+{"productFilter":{
+  "PRODUCT_FILTER_NAME": {{ProductFilterNameInput.text}},
+	"PRODUCT_FILTER_NUMBER": 0,
+  "OPRTYPE": 1
+}}

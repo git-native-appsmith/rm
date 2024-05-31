@@ -1,0 +1,10 @@
+{
+  "recipeSets": 
+	{
+		"RECIPE_SET_NUMBER":{{Tabulator1.actionRow.RECIPE_SET_NUMBER==''?0:Tabulator1.actionRow.RECIPE_SET_NUMBER}},
+		"CATEGORY":{{Tabulator1.actionRow.CATEGORY}},
+		"START_DATE":{{Tabulator1.actionRow.START_DATE==undefined?new Date().toISOString():new Date(Tabulator1.actionRow.START_DATE)}},
+		"END_DATE":{{Tabulator1.actionRow.END_DATE==undefined?new Date().toISOString():new Date(Tabulator1.actionRow.END_DATE)}},
+		"VERSION_NO":{{Tabulator1.actionRow.VERSION_NUMBER==''?0:Tabulator1.actionRow.VERSION_NUMBER}}
+	}
+}

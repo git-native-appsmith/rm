@@ -1,0 +1,4 @@
+{
+ "machineGroup": {{appsmith.store.ResourceGroupDropDown}} ,
+ "OPRTYPE": 2
+}

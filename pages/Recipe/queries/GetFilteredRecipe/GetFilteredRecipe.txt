@@ -1,0 +1,11 @@
+{
+	"recipeSetName":{{RecipeSetNameInput.text}},
+ "machineGroup":{{ModalPopUpLogic.machineGroupInput()}},
+ "recipeClass":{{BindDropDown.RecipeClassInputForRecipeFiltered()}},
+	"recipeTypeNumber":{{Number(ModalPopUpLogic.RecipeTypeNumberInput())}},
+	"productGroupNumber":0,
+	"productCode":{{ProductCodeInput.text == "" ? null : ProductCodeInput.text}},
+	"intermediate_Mat_Code":{{InterMatCodeInput.text == "" ? null : InterMatCodeInput.text}},
+	"property_Code":{{appsmith.URL.queryParams.PROPERTY_CODE == undefined ? null : appsmith.URL.queryParams.PROPERTY_CODE}},
+	"recipenumber":{{appsmith.URL.queryParams.RecipeNumber == undefined ? 0 : Number(appsmith.URL.queryParams.RecipeNumber)}}
+}

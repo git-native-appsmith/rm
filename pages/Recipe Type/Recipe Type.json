@@ -1,0 +1,94 @@
+{
+  "unpublishedPage": {
+    "name": "Recipe Type",
+    "slug": "recipe-type",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1084,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1080,
+          "containerStyle": "none",
+          "snapRows": 88,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 760,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Recipe Type_GetRecipeTypeOption",
+              "name": "GetRecipeTypeOption",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
+              "id": "Recipe Type_GetRecipeUnit1",
+              "name": "GetRecipeUnit1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
+              "id": "Recipe Type_GetRecipeUnit2",
+              "name": "GetRecipeUnit2",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
+              "id": "Recipe Type_RecipeTypeUtil.PageLoad",
+              "name": "RecipeTypeUtil.PageLoad",
+              "collectionId": "Recipe Type_RecipeTypeUtil",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  GetAllMachineGroups.run(() => {}, () => {\n    GetAllMachineGroups.run();\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Recipe Type_GetFilteredMachineGroups",
+              "name": "GetFilteredMachineGroups",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "MultiSelect1.selectedOptionValues"
+              ],
+              "timeoutInMillisecond": 100000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Recipe Type",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "61f3ca9b910ce54f5fb131d3_61f6e27b41c9425620953454"
+}

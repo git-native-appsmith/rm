@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TargetValue",
+    "pageId": "CreateRecipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "CreateRecipe_TargetValue",
+  "deleted": false,
+  "gitSyncId": "62e0ddd74c3bbc446db96040_62e10fbb4c3bbc446db96218"
+}

@@ -1,0 +1,10 @@
+
+{"recipe": {
+	"RECIPE_NUMBERS":{{appsmith.store.Recipe_Sel}},
+	"PROPERTY_CODE":{{appsmith.store.Recipe_Prop==""?appsmith.store.Recipe_Mat:appsmith.store.Recipe_Prop}},
+	"OPRTYPE":{{appsmith.store.Recipe_Prop==""?15:13}},
+	"TRGVALUE":{{txtTargetValue.text==""?0:txtTargetValue.text}},
+	"MCODE":{{txtCode.text}},
+	"ARP":{{ddlARP.selectedOptionValue}}
+}
+}

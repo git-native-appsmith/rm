@@ -1,0 +1,20 @@
+{
+  "recipe": {
+    "RECIPE_NUMBER": {{Number(appsmith.URL.queryParams.rno)}},
+    "DRY_CONTENT": {{Number(appsmith.store.calculatedField.sv_dc).toFixed(2)}},
+    "RECIPE_SIZE": {{Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry).toFixed(1)}},
+    "MAX_VOLUME": {{Number(GetProductionRecipeForView.data.MAX_VOLUME).toFixed(2)}},
+    "BATCH_SIZE": {{Number(appsmith.store.calculatedField.sv_totalVolume).toFixed(2)}},
+    "USER": {{appsmith.user.name}},
+		"RECIPE_TYPE_CLASS": {{GetProductionRecipeForView.data.RECIPE_CLASS}},
+		"SPECIFIC_WEIGHT": {{Number(appsmith.store.calculatedField.sv_spwt)}},
+		"FILLER_CONTENT": {{(Number(appsmith.store.calculatedField.sv_filler))}},
+		"DRY_CONTENT_IN_PER": {{Number(appsmith.store.calculatedField.sv_tdc).toFixed(2)}},
+		"RECIPE_SIZE_IN_PER": {{Number(appsmith.store.calculatedField.sv_per).toFixed(2)}},
+		"TOTAL_WEIGHT_WET": {{Number(appsmith.store.calculatedField.sv_totalWeightWet).toFixed(2)}},
+		"BONEDRY_WGT_PER_VOLUME": {{Number(appsmith.store.calculatedField.sv_gbt)}},
+		"REMARKS": {{txtRemark.text}},
+		"DATE_END":{{DatePicker1.selectedDate}}
+  },
+  "recipeItems": {{appsmith.store.SV_TBL}}
+}

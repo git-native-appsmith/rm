@@ -1,0 +1,1 @@
+{"machinegroups":{{MultiSelect1.selectedOptionValues}}}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "MasterRecipeUtil",
+    "pageId": "Copy From Master",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Copy From Master_MasterRecipeUtil",
+  "deleted": false,
+  "gitSyncId": "64804349d3037658d5d79365_6482deddd3037658d5d79e16"
+}

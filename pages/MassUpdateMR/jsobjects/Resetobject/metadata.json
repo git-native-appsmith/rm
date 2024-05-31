@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Resetobject",
+    "pageId": "MassUpdateMR",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "MassUpdateMR_Resetobject",
+  "deleted": false,
+  "gitSyncId": "636e155fe60d44705cd472c4_63734ed5e60d44705cd474f9"
+}

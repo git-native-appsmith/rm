@@ -1,0 +1,6 @@
+{
+"productFilter":{
+  "PRODUCT_FILTER_NAME": "",
+	"PRODUCT_FILTER_NUMBER": {{appsmith.URL.queryParams.filterNumber}},
+  "OPRTYPE": 2
+}}

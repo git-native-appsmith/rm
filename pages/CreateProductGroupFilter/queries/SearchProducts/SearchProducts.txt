@@ -1,0 +1,3 @@
+{
+  "productFilterNumber": {{Number(FilterNameSelect.selectedOptionValue)}}
+}

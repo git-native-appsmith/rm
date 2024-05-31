@@ -1,0 +1,4 @@
+{
+	"recipeSetNumber":{{Number(appsmith.store.RecipeSetNumber)}},
+	"modifNumber":{{Number(appsmith.store.modificNo)}}
+}

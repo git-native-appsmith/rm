@@ -1,0 +1,6 @@
+{
+	"RECIPE_NUMBER":{{Number(appsmith.store.recipeNumberView)}},
+	"RECIPE_SET_NUMBER":{{Number(appsmith.store.RecipeSetNumber)}},
+	"MACHINE_GROUP":{{appsmith.store.recipeMachineGroup}},
+	"RECIPE_CLASS":{{appsmith.store.recipeClassCode}}
+}

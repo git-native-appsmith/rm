@@ -1,0 +1,8 @@
+{"searchModifNo":{
+  "FROM_NUM":{{(InputFromNumber.text == "" || InputFromNumber.text == null) ? 0 :InputFromNumber.text}},
+  "TO_NUM": {{(InputToNumber.text == "" || InputToNumber.text == null) ? 0 :InputToNumber.text}},
+  "FROM_DATE": {{moment(ModificationUtils.SelectedDate()).format('YYYY-MM-DD')}},
+	"PAGE_OFFSET":0,
+   "PAGE_SIZE":20
+}
+}
