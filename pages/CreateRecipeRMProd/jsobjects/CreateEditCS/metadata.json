@@ -1,20 +1,16 @@
 {
+  "gitSyncId": "64804349d3037658d5d79365_648bef31d3037658d5d7bed3",
+  "id": "CreateRecipeRMProd_CreateEditCS",
   "unpublishedCollection": {
     "name": "CreateEditCS",
     "pageId": "CreateRecipeRMProd",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "RecipeEditButtonClick",
         "value": "0"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeRMProd_CreateEditCS",
-  "deleted": false,
-  "gitSyncId": "64804349d3037658d5d79365_648bef31d3037658d5d7bed3"
+    ]
+  }
 }

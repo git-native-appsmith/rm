@@ -1,41 +1,53 @@
 {
-    "boxShadow": "none",
-    "widgetName": "CategorySelect",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [{"key": "onOptionChange"}],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "",
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "type": "DROP_DOWN_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "All",
-    "selectionType": "SINGLE_SELECT",
-    "animateLoading": true,
-    "parentColumnSpace": 13.5302734375,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "options"},
-        {"key": "accentColor"}
-    ],
-    "options": "{{GetRecipeSetCategory.data}}",
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "key": "to42ta81tw",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 10,
-    "widgetId": "pg5ix0qlh6",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "6pr2uokyhx",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "onOptionChange": "{{resetWidget(\"HistoricCheckbox\",true);\nGetFilteredRecipeSet.clear();\n}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "All",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "to42ta81tw",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "onOptionChange": "{{resetWidget(\"HistoricCheckbox\",true);\nGetFilteredRecipeSet.clear();\n}}",
+  "options": "{{GetRecipeSetCategory.data}}",
+  "parentColumnSpace": 13.5302734375,
+  "parentId": "6pr2uokyhx",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 10,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 4,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "pg5ix0qlh6",
+  "widgetName": "CategorySelect"
 }

@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64804349d3037658d5d79365_64903582d3037658d5d7c60f",
+  "id": "CreateRecipePDProd_errorPopUp",
   "unpublishedCollection": {
     "name": "errorPopUp",
     "pageId": "CreateRecipePDProd",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipePDProd_errorPopUp",
-  "deleted": false,
-  "gitSyncId": "64804349d3037658d5d79365_64903582d3037658d5d7c60f"
+    "variables": []
+  }
 }

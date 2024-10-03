@@ -1,20 +1,16 @@
 {
+  "gitSyncId": "61f3ca9b910ce54f5fb131d3_61f76d2d62ccaa2c4fc6d84b",
+  "id": "Modification Number_ModificationUtils",
   "unpublishedCollection": {
     "name": "ModificationUtils",
     "pageId": "Modification Number",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "Defaultdate",
         "value": "new Date()"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Modification Number_ModificationUtils",
-  "deleted": false,
-  "gitSyncId": "61f3ca9b910ce54f5fb131d3_61f76d2d62ccaa2c4fc6d84b"
+    ]
+  }
 }

@@ -1,31 +1,39 @@
 {
-    "boxShadow": "none",
-    "widgetName": "IconButton1Copy",
-    "onClick": "{{closeModal('LimitModal');\nshowModal('RecipeModal')}}",
-    "buttonColor": "#2E3D49",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Icon Button",
-    "iconSVG": "/static/media/icon.1a0c634a.svg",
-    "topRow": 0,
-    "bottomRow": 4,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 59,
-    "dynamicBindingPathList": [],
-    "iconSize": 24,
-    "isDisabled": false,
-    "key": "rzayfql340",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 64,
-    "iconName": "cross",
-    "widgetId": "vb7625qxmu",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "gaxiwuhwzk",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "1.5rem",
-    "buttonVariant": "TERTIARY"
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "#2E3D49",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "cross",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "iconSize": 24,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rzayfql340",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 59,
+  "onClick": "{{closeModal('LimitModal');\nshowModal('RecipeModal')}}",
+  "parentId": "gaxiwuhwzk",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "vb7625qxmu",
+  "widgetName": "IconButton1Copy"
 }

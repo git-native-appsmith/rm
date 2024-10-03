@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "636e155fe60d44705cd472c4_636e176fe60d44705cd4747f",
+  "id": "MassUpdate_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "MassUpdate",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "MassUpdate_JSObject1",
-  "deleted": false,
-  "gitSyncId": "636e155fe60d44705cd472c4_636e176fe60d44705cd4747f"
+    "variables": []
+  }
 }

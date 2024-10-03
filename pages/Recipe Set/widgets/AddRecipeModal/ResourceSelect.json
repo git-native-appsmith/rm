@@ -1,41 +1,53 @@
 {
-    "boxShadow": "none",
-    "widgetName": "ResourceSelect",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "onOptionChange"}],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "",
-    "topRow": 9,
-    "bottomRow": 13,
-    "parentRowSpace": 10,
-    "type": "DROP_DOWN_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "{{appsmith.store.ResourceGroupDropDown}}",
-    "selectionType": "SINGLE_SELECT",
-    "animateLoading": true,
-    "parentColumnSpace": 13.75,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 9,
-    "dynamicBindingPathList": [
-        {"key": "options"},
-        {"key": "defaultOptionValue"}
-    ],
-    "options": "{{JSObject1.MachineGroupDropDown()}}",
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "key": "geuzmg79y9",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 21,
-    "widgetId": "2tawpqhbu9",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "syzvv3hxrg",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "onOptionChange": "{{JSObject1.onchangeResourceDropDown();GetFilteredRecipe.clear()}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{appsmith.store.ResourceGroupDropDown}}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "geuzmg79y9",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 9,
+  "onOptionChange": "{{JSObject1.onchangeResourceDropDown();GetFilteredRecipe.clear()}}",
+  "options": "{{JSObject1.MachineGroupDropDown()}}",
+  "parentColumnSpace": 13.75,
+  "parentId": "syzvv3hxrg",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 21,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 9,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "2tawpqhbu9",
+  "widgetName": "ResourceSelect"
 }

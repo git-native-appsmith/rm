@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "62e0ddd74c3bbc446db96040_62e10f9b4c3bbc446db9620a",
+  "id": "CreateRecipe_CalculateOnBoneDryChange",
   "unpublishedCollection": {
     "name": "CalculateOnBoneDryChange",
     "pageId": "CreateRecipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipe_CalculateOnBoneDryChange",
-  "deleted": false,
-  "gitSyncId": "62e0ddd74c3bbc446db96040_62e10f9b4c3bbc446db9620a"
+    "variables": []
+  }
 }

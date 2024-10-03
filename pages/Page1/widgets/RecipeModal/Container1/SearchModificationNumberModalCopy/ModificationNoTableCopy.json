@@ -1,191 +1,215 @@
 {
-    "multiRowSelection": false,
-    "boxShadow": "none",
-    "isVisibleDownload": false,
-    "iconSVG": "/static/media/icon.db8a9cbd.svg",
-    "topRow": 16,
-    "isSortable": true,
-    "type": "TABLE_WIDGET",
-    "animateLoading": true,
-    "dynamicBindingPathList": [
-        {"key": "tableData"},
-        {"key": "primaryColumns.UPTIME.computedValue"},
-        {"key": "primaryColumns.MODIF_STATUS.textColor"},
-        {"key": "primaryColumns.MODIF_STATUS.computedValue"},
-        {"key": "primaryColumns.MODIF_DESCRIPTION.computedValue"},
-        {"key": "primaryColumns.CRUSER.computedValue"},
-        {"key": "primaryColumns.MODIF_NUMBER.computedValue"},
-        {"key": "accentColor"}
-    ],
-    "leftColumn": 1,
-    "delimiter": ",",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": false,
-    "isVisible": true,
-    "enableClientSideSearch": true,
-    "version": 3,
-    "totalRecordsCount": 0,
-    "isLoading": false,
-    "childStylesheet": {
-        "button": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "iconButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "menuButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
-        }
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 55,
+  "boxShadow": "none",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "borderRadius": "0px",
-    "primaryColumnId": "MODIF_NUMBER",
-    "columnSizeMap": {
-        "task": 245,
-        "MODIF_DESCRIPTION": 337,
-        "MODIF_STATUS": 106,
-        "step": 62,
-        "CRUSER": 108,
-        "MODIF_NUMBER": 98,
-        "status": 75
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "widgetName": "ModificationNoTableCopy",
-    "defaultPageSize": 0,
-    "columnOrder": [
-        "MODIF_NUMBER",
-        "CRUSER",
-        "MODIF_DESCRIPTION",
-        "MODIF_STATUS",
-        "UPTIME"
-    ],
-    "dynamicPropertyPathList": [
-        {"key": "primaryColumns.MODIF_STATUS.textColor"},
-        {"key": "onRowSelected"}
-    ],
-    "displayName": "Table",
-    "bottomRow": 55,
-    "parentRowSpace": 10,
-    "defaultSelectedRow": "0",
-    "hideCard": false,
-    "parentColumnSpace": 13.35,
-    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
-    "primaryColumns": {
-        "UPTIME": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.UPTIME))}}",
-            "textSize": "0.875rem",
-            "index": 4,
-            "isVisible": true,
-            "label": "MODIFICATION DATE",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "UPTIME",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        },
-        "MODIF_DESCRIPTION": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_DESCRIPTION))}}",
-            "textSize": "0.875rem",
-            "index": 2,
-            "isVisible": true,
-            "label": "DESCRIPTION/REASON",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "MODIF_DESCRIPTION",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        },
-        "MODIF_STATUS": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_STATUS))}}",
-            "textSize": "0.875rem",
-            "index": 3,
-            "isVisible": true,
-            "label": "STATUS",
-            "textColor": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_STATUS == 'In Progress'?'black': currentRow.MODIF_STATUS == 'Closed'?'green':currentRow.MODIF_STATUS == 'Auto'?'blue':currentRow.MODIF_STATUS == 'Review'?'orange':currentRow.MODIF_STATUS == 'Cancelled'?'red':'black'))}}",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "MODIF_STATUS",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        },
-        "CRUSER": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.CRUSER))}}",
-            "textSize": "0.875rem",
-            "index": 1,
-            "isVisible": true,
-            "label": "USER",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "CRUSER",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        },
-        "MODIF_NUMBER": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_NUMBER))}}",
-            "textSize": "0.875rem",
-            "index": 0,
-            "isVisible": true,
-            "label": "MODIF  .No",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "MODIF_NUMBER",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        }
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "MODIF_NUMBER",
+    "CRUSER",
+    "MODIF_DESCRIPTION",
+    "MODIF_STATUS",
+    "UPTIME"
+  ],
+  "columnSizeMap": {
+    "CRUSER": 108,
+    "MODIF_DESCRIPTION": 337,
+    "MODIF_NUMBER": 98,
+    "MODIF_STATUS": 106,
+    "status": 75,
+    "step": 62,
+    "task": 245
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRow": "0",
+  "delimiter": ",",
+  "derivedColumns": {},
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
     },
-    "onRowSelected": "{{storeValue('modificNo',ModificationNoTable.selectedRow.MODIF_NUMBER,false);\nstoreValue('uptime',ModificationNoTable.selectedRow.UPTIME,false);\nstoreValue('showErrorMessage',false,false);\ncloseModal('SearchModificationNumberModal')}}",
-    "key": "ud01pdki4x",
-    "derivedColumns": {},
-    "labelTextSize": "0.875rem",
-    "rightColumn": 64,
-    "textSize": "0.875rem",
-    "widgetId": "iy95wnq9h7",
-    "tableData": "{{GetFilteredModificationNumber.data}}",
-    "label": "Data",
-    "searchKey": "",
-    "parentId": "palf22i7un",
-    "renderMode": "CANVAS",
-    "horizontalAlignment": "LEFT",
-    "isVisibleSearch": true,
-    "isVisiblePagination": true,
-    "verticalAlignment": "CENTER"
+    {
+      "key": "primaryColumns.UPTIME.computedValue"
+    },
+    {
+      "key": "primaryColumns.MODIF_STATUS.textColor"
+    },
+    {
+      "key": "primaryColumns.MODIF_STATUS.computedValue"
+    },
+    {
+      "key": "primaryColumns.MODIF_DESCRIPTION.computedValue"
+    },
+    {
+      "key": "primaryColumns.CRUSER.computedValue"
+    },
+    {
+      "key": "primaryColumns.MODIF_NUMBER.computedValue"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "primaryColumns.MODIF_STATUS.textColor"
+    },
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "enableClientSideSearch": true,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/static/media/icon.db8a9cbd.svg",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "ud01pdki4x",
+  "label": "Data",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "multiRowSelection": false,
+  "onRowSelected": "{{storeValue('modificNo',ModificationNoTable.selectedRow.MODIF_NUMBER,false);\nstoreValue('uptime',ModificationNoTable.selectedRow.UPTIME,false);\nstoreValue('showErrorMessage',false,false);\ncloseModal('SearchModificationNumberModal')}}",
+  "parentColumnSpace": 13.35,
+  "parentId": "palf22i7un",
+  "parentRowSpace": 10,
+  "primaryColumnId": "MODIF_NUMBER",
+  "primaryColumns": {
+    "CRUSER": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.CRUSER))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "CRUSER",
+      "index": 1,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "USER",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MODIF_DESCRIPTION": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_DESCRIPTION))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "MODIF_DESCRIPTION",
+      "index": 2,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DESCRIPTION/REASON",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MODIF_NUMBER": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_NUMBER))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "MODIF_NUMBER",
+      "index": 0,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "MODIF  .No",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MODIF_STATUS": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_STATUS))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "MODIF_STATUS",
+      "index": 3,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "STATUS",
+      "textColor": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_STATUS == 'In Progress'?'black': currentRow.MODIF_STATUS == 'Closed'?'green':currentRow.MODIF_STATUS == 'Auto'?'blue':currentRow.MODIF_STATUS == 'Review'?'orange':currentRow.MODIF_STATUS == 'Cancelled'?'red':'black'))}}",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "UPTIME": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{ModificationNoTableCopy.sanitizedTableData.map((currentRow) => ( currentRow.UPTIME))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "UPTIME",
+      "index": 4,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "MODIFICATION DATE",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{GetFilteredModificationNumber.data}}",
+  "textSize": "0.875rem",
+  "topRow": 16,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET",
+  "version": 3,
+  "verticalAlignment": "CENTER",
+  "widgetId": "iy95wnq9h7",
+  "widgetName": "ModificationNoTableCopy"
 }

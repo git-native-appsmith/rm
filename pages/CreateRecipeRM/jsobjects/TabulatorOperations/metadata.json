@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "6465d87e27a3cc41425aa71a_6465eff327a3cc41425aaaad",
+  "id": "CreateRecipeRM_TabulatorOperations",
   "unpublishedCollection": {
     "name": "TabulatorOperations",
     "pageId": "CreateRecipeRM",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeRM_TabulatorOperations",
-  "deleted": false,
-  "gitSyncId": "6465d87e27a3cc41425aa71a_6465eff327a3cc41425aaaad"
+    "variables": []
+  }
 }

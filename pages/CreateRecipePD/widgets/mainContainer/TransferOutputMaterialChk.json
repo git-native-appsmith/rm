@@ -1,43 +1,55 @@
 {
-    "widgetName": "TransferOutputMaterialChk",
-    "dynamicPropertyPathList": [{"key": "defaultCheckedState"}],
-    "displayName": "Checkbox",
-    "iconSVG": "/formbuilderui/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-    "searchTags": ["boolean"],
-    "topRow": 21,
-    "bottomRow": 25,
-    "parentRowSpace": 10,
-    "type": "CHECKBOX_WIDGET",
-    "alignWidget": "LEFT",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 13.640625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 47,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultCheckedState"}
-    ],
-    "labelPosition": "Left",
-    "isDisabled": false,
-    "key": "g38zrcotgq",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 61,
-    "dynamicHeight": "FIXED",
-    "widgetId": "s5tqi4gomo",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "Transfer Raw Material",
-    "version": 1,
-    "parentId": "c2m9adqxf1",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 18,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "defaultCheckedState": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? false : appsmith.store.TRANSFER_OUTPUT_MAT}}",
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 22,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "defaultCheckedState": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? false : appsmith.store.TRANSFER_OUTPUT_MAT}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/formbuilderui/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "g38zrcotgq",
+  "label": "Transfer Raw Material",
+  "labelPosition": "Left",
+  "leftColumn": 47,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 22,
+  "originalTopRow": 18,
+  "parentColumnSpace": 13.640625,
+  "parentId": "c2m9adqxf1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "searchTags": [
+    "boolean"
+  ],
+  "topRow": 21,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "s5tqi4gomo",
+  "widgetName": "TransferOutputMaterialChk"
 }

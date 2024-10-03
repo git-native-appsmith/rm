@@ -1,42 +1,54 @@
 {
-    "boxShadow": "none",
-    "widgetName": "SearchInterMatCodeButton",
-    "onClick": "{{GetIntermediateMaterial.run();showModal('IntermediateMaterialModal')}}",
-    "buttonColor": "#e0dede",
-    "dynamicPropertyPathList": [
-        {"key": "onClick"},
-        {"key": "isDisabled"}
-    ],
-    "displayName": "Icon Button",
-    "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 13.75,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 40,
-    "dynamicBindingPathList": [{"key": "isDisabled"}],
-    "isDisabled": "{{ProductionRecipeUtil.DisableInterMatCodeInput()}}",
-    "key": "jhk6vh74ek",
-    "isDeprecated": false,
-    "rightColumn": 42,
-    "iconName": "search",
-    "widgetId": "2no6nrplqg",
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "gp7psn35w4",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 20,
-    "borderRadius": "1.5rem",
-    "originalBottomRow": 24,
-    "buttonVariant": "PRIMARY"
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#e0dede",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "search",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{ProductionRecipeUtil.DisableInterMatCodeInput()}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "jhk6vh74ek",
+  "leftColumn": 40,
+  "minWidth": 50,
+  "onClick": "{{GetIntermediateMaterial.run();showModal('IntermediateMaterialModal')}}",
+  "originalBottomRow": 24,
+  "originalTopRow": 20,
+  "parentColumnSpace": 13.75,
+  "parentId": "gp7psn35w4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 42,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "topRow": 4,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2no6nrplqg",
+  "widgetName": "SearchInterMatCodeButton"
 }

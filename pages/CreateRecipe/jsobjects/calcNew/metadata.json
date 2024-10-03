@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "63aa781d1d5a9a20e267303e_63ad1fe51d5a9a20e2673209",
+  "id": "CreateRecipe_calcNew",
   "unpublishedCollection": {
     "name": "calcNew",
     "pageId": "CreateRecipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipe_calcNew",
-  "deleted": false,
-  "gitSyncId": "63aa781d1d5a9a20e267303e_63ad1fe51d5a9a20e2673209"
+    "variables": []
+  }
 }

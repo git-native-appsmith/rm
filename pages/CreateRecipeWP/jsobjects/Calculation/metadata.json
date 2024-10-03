@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64acf15cc1f57807de253b78_64bb84a8c1f57807de259079",
+  "id": "CreateRecipeWP_Calculation",
   "unpublishedCollection": {
     "name": "Calculation",
     "pageId": "CreateRecipeWP",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeWP_Calculation",
-  "deleted": false,
-  "gitSyncId": "64acf15cc1f57807de253b78_64bb84a8c1f57807de259079"
+    "variables": []
+  }
 }

@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64e30e9b77d28b0f1ab4548a_65573e86fb192351fb83803b",
+  "id": "CreateRecipeCSProd_DateTimeFormatUtils",
   "unpublishedCollection": {
     "name": "DateTimeFormatUtils",
     "pageId": "CreateRecipeCSProd",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeCSProd_DateTimeFormatUtils",
-  "deleted": false,
-  "gitSyncId": "64e30e9b77d28b0f1ab4548a_65573e86fb192351fb83803b"
+    "variables": []
+  }
 }

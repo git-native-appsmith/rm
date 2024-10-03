@@ -1,38 +1,50 @@
 {
-    "boxShadow": "none",
-    "widgetName": "SearchApply",
-    "onClick": "{{ModificationUtils.ApplyButtonClick()}}",
-    "buttonColor": "#000",
-    "dynamicPropertyPathList": [
-        {"key": "isDisabled"},
-        {"key": "onClick"}
-    ],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.cca02633.svg",
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 19.5,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 39,
-    "dynamicBindingPathList": [{"key": "isDisabled"}],
-    "text": "Search",
-    "isDisabled": "{{ModificationUtils.DisableApplyButton()}}",
-    "key": "avsztd2mha",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 44,
-    "isDefaultClickDisabled": true,
-    "widgetId": "4o6rmyczks",
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "d2q50birb0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "1.5rem",
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ModificationUtils.DisableApplyButton()}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "avsztd2mha",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "onClick": "{{ModificationUtils.ApplyButtonClick()}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "d2q50birb0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 44,
+  "text": "Search",
+  "topRow": 4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "4o6rmyczks",
+  "widgetName": "SearchApply"
 }

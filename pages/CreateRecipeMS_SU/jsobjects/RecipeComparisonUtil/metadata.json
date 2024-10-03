@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64259f8db55c095d08ff01c6_64368c9eb55c095d08ff37a9",
+  "id": "CreateRecipeMS_SU_RecipeComparisonUtil",
   "unpublishedCollection": {
     "name": "RecipeComparisonUtil",
     "pageId": "CreateRecipeMS_SU",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeMS_SU_RecipeComparisonUtil",
-  "deleted": false,
-  "gitSyncId": "64259f8db55c095d08ff01c6_64368c9eb55c095d08ff37a9"
+    "variables": []
+  }
 }

@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64e30e9b77d28b0f1ab4548a_654884d57070060d16ebe424",
+  "id": "Recipe_TabulatorSetUp",
   "unpublishedCollection": {
     "name": "TabulatorSetUp",
     "pageId": "Recipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Recipe_TabulatorSetUp",
-  "deleted": false,
-  "gitSyncId": "64e30e9b77d28b0f1ab4548a_654884d57070060d16ebe424"
+    "variables": []
+  }
 }

@@ -1,20 +1,16 @@
 {
+  "gitSyncId": "62e0ddd74c3bbc446db96040_62e10f694c3bbc446db961fe",
+  "id": "CreateRecipe_BoneDryAndPercentageChangePulp",
   "unpublishedCollection": {
     "name": "BoneDryAndPercentageChangePulp",
     "pageId": "CreateRecipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
         "value": "[]"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "CreateRecipe_BoneDryAndPercentageChangePulp",
-  "deleted": false,
-  "gitSyncId": "62e0ddd74c3bbc446db96040_62e10f694c3bbc446db961fe"
+    ]
+  }
 }

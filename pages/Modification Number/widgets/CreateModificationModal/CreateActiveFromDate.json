@@ -1,51 +1,65 @@
 {
-    "boxShadow": "none",
-    "widgetName": "CreateActiveFromDate",
-    "minDate": "{{moment()}}",
-    "dateFormat": "{{DateTimeFormatUtils.dateTimeFormat()}}",
-    "dynamicPropertyPathList": [
-        {"key": "minDate"},
-        {"key": "defaultDate"},
-        {"key": "dateFormat"}
-    ],
-    "displayName": "DatePicker",
-    "iconSVG": "/static/media/icon.300e5ab8.svg",
-    "topRow": 4,
-    "bottomRow": 8,
-    "shortcuts": false,
-    "parentRowSpace": 10,
-    "type": "DATE_PICKER_WIDGET2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 17.3125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 34,
-    "dynamicBindingPathList": [
-        {"key": "minDate"},
-        {"key": "accentColor"},
-        {"key": "defaultDate"},
-        {"key": "dateFormat"}
-    ],
-    "isDisabled": false,
-    "key": "rw9z5mlag6",
-    "labelTextSize": "0.875rem",
-    "isRequired": true,
-    "defaultDate": "{{ModificationUtils.Defaultdate}}",
-    "rightColumn": 57,
-    "dynamicHeight": "FIXED",
-    "widgetId": "rturffcxi5",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "datePickerType": "DATE_PICKER",
-    "label": "",
-    "version": 2,
-    "parentId": "532ehgc63e",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "timePrecision": "second",
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "firstDayOfWeek": 0,
-    "closeOnSelection": false,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "closeOnSelection": false,
+  "dateFormat": "{{DateTimeFormatUtils.dateTimeFormat()}}",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{ModificationUtils.Defaultdate}}",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "dateFormat"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "dateFormat"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.300e5ab8.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "rw9z5mlag6",
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 34,
+  "maxDynamicHeight": 9000,
+  "minDate": "{{moment()}}",
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 17.3125,
+  "parentId": "532ehgc63e",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 57,
+  "shortcuts": false,
+  "timePrecision": "second",
+  "topRow": 4,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "rturffcxi5",
+  "widgetName": "CreateActiveFromDate"
 }

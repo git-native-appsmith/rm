@@ -1,66 +1,32 @@
 {
+  "gitSyncId": "636e155fe60d44705cd472c4_63734a34e60d44705cd474dc",
   "unpublishedPage": {
-    "name": "MassUpdateRecipe",
-    "slug": "massupdaterecipe",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1530,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 820,
-          "containerStyle": "none",
-          "snapRows": 67,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 680,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "MassUpdateRecipe_GetMassRecipeData",
-              "name": "GetMassRecipeData",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.SV_RECIPE"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "MassUpdateRecipe_GetRecipeForAdd",
-              "name": "GetRecipeForAdd",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.SV_RECIPE"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "MassUpdateRecipe",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1530,
+          "snapColumns": 64,
+          "snapRows": 67,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "636e155fe60d44705cd472c4_63734a34e60d44705cd474dc"
+    "name": "MassUpdateRecipe",
+    "slug": "massupdaterecipe"
+  }
 }

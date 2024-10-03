@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64e30e9b77d28b0f1ab4548a_65547bf9fb192351fb837bf6",
+  "id": "Recipe_DateTimeFormatUtils",
   "unpublishedCollection": {
     "name": "DateTimeFormatUtils",
     "pageId": "Recipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Recipe_DateTimeFormatUtils",
-  "deleted": false,
-  "gitSyncId": "64e30e9b77d28b0f1ab4548a_65547bf9fb192351fb837bf6"
+    "variables": []
+  }
 }

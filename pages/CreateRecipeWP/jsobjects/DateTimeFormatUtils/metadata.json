@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64e30e9b77d28b0f1ab4548a_6555bef7fb192351fb837c6f",
+  "id": "CreateRecipeWP_DateTimeFormatUtils",
   "unpublishedCollection": {
     "name": "DateTimeFormatUtils",
     "pageId": "CreateRecipeWP",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeWP_DateTimeFormatUtils",
-  "deleted": false,
-  "gitSyncId": "64e30e9b77d28b0f1ab4548a_6555bef7fb192351fb837c6f"
+    "variables": []
+  }
 }

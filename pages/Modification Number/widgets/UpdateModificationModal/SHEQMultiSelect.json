@@ -1,65 +1,81 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a3495809ae48291a64404f3bb04b0e69.svg",
-    "labelText": "SHEQ Remarks",
-    "topRow": 17,
-    "labelWidth": "7",
-    "type": "MULTI_SELECT_WIDGET_V2",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( GetGroupCodes.data))(SHEQMultiSelect.options, SHEQMultiSelect.serverSideFiltering) }}",
-    "animateLoading": true,
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "isDisabled"},
-        {"key": "defaultOptionValue"}
-    ],
-    "labelStyle": "BOLD",
-    "placeholderText": "Select option(s)",
-    "isDisabled": "{{RecipeModificationsTable.triggeredRow.MODIF_STATUS=='Cancelled' ||  RecipeModificationsTable.selectedRow.MODIF_STATUS=='Closed' || appsmith.store.DisableEditControls}}",
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "isLoading": false,
-    "borderRadius": "0px",
-    "mobileBottomRow": 25,
-    "widgetName": "SHEQMultiSelect",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "isDisabled"},
-        {"key": "onOptionChange"},
-        {"key": "sourceData"}
-    ],
-    "displayName": "MultiSelect",
-    "searchTags": [
-        "dropdown",
-        "tags"
-    ],
-    "bottomRow": 22,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 35,
-    "parentColumnSpace": 15.5546875,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "labelPosition": "Left",
-    "sourceData": "[\n  {\n    \"label\": \"Safety - S\",\n    \"value\": \"S\"\n  },\n  {\n    \"label\": \"Health - H\",\n    \"value\": \"H\"\n  },\n  {\n    \"label\": \"Environment - E\",\n    \"value\": \"E\"\n  },\n\t{\n    \"label\": \"Quality - Q\",\n    \"value\": \"Q\"\n  },\n\t{\n    \"label\": \"Cost - C\",\n    \"value\": \"C\"\n  },\n  {\n    \"label\": \"Hygiene - HY\",\n    \"value\": \"HY\"\n  }\n]",
-    "key": "zawqp4wxzy",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 31,
-    "widgetId": "zzeb9onr52",
-    "optionValue": "value",
-    "minWidth": 450,
-    "parentId": "j68pfsw7no",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 18,
-    "optionLabel": "label",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 15,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{ModificationUtils.onSHEQChange()}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( GetGroupCodes.data))(SHEQMultiSelect.options, SHEQMultiSelect.serverSideFiltering) }}",
+  "displayName": "MultiSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a3495809ae48291a64404f3bb04b0e69.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{RecipeModificationsTable.triggeredRow.MODIF_STATUS=='Cancelled' ||  RecipeModificationsTable.selectedRow.MODIF_STATUS=='Closed' || appsmith.store.DisableEditControls}}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "zawqp4wxzy",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "labelText": "SHEQ Remarks",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "7",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 35,
+  "mobileTopRow": 18,
+  "onOptionChange": "{{ModificationUtils.onSHEQChange()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 15.5546875,
+  "parentId": "j68pfsw7no",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "searchTags": [
+    "dropdown",
+    "tags"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Safety - S\",\n    \"value\": \"S\"\n  },\n  {\n    \"label\": \"Health - H\",\n    \"value\": \"H\"\n  },\n  {\n    \"label\": \"Environment - E\",\n    \"value\": \"E\"\n  },\n\t{\n    \"label\": \"Quality - Q\",\n    \"value\": \"Q\"\n  },\n\t{\n    \"label\": \"Cost - C\",\n    \"value\": \"C\"\n  },\n  {\n    \"label\": \"Hygiene - HY\",\n    \"value\": \"HY\"\n  }\n]",
+  "topRow": 17,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "zzeb9onr52",
+  "widgetName": "SHEQMultiSelect"
 }

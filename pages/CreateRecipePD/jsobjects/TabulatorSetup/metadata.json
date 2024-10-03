@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "6465d87e27a3cc41425aa71a_646c859d27a3cc41425aab4d",
+  "id": "CreateRecipePD_TabulatorSetup",
   "unpublishedCollection": {
     "name": "TabulatorSetup",
     "pageId": "CreateRecipePD",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipePD_TabulatorSetup",
-  "deleted": false,
-  "gitSyncId": "6465d87e27a3cc41425aa71a_646c859d27a3cc41425aab4d"
+    "variables": []
+  }
 }

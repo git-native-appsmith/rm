@@ -1,41 +1,51 @@
 {
-    "boxShadow": "none",
-    "widgetName": "ResourceSelect",
-    "isFilterable": true,
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "",
-    "topRow": 4,
-    "bottomRow": 9,
-    "parentRowSpace": 10,
-    "type": "DROP_DOWN_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "{{appsmith.store.ResourceGroupDropDown}}",
-    "selectionType": "SINGLE_SELECT",
-    "animateLoading": true,
-    "parentColumnSpace": 13.75,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 12,
-    "dynamicBindingPathList": [
-        {"key": "options"},
-        {"key": "defaultOptionValue"},
-        {"key": "accentColor"}
-    ],
-    "options": "{{GetAllMachineGroups.data}}",
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "key": "geuzmg79y9",
-    "labelTextSize": "0.875rem",
-    "isRequired": true,
-    "rightColumn": 23,
-    "widgetId": "m1yywxhtzp",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "6o28nlkh1n",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "onOptionChange": "{{RecipeUtil.onchangeResourceDropDown()}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{appsmith.store.ResourceGroupDropDown}}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "geuzmg79y9",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 12,
+  "onOptionChange": "{{RecipeUtil.onchangeResourceDropDown()}}",
+  "options": "{{GetAllMachineGroups.data}}",
+  "parentColumnSpace": 13.75,
+  "parentId": "6o28nlkh1n",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 23,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 4,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "m1yywxhtzp",
+  "widgetName": "ResourceSelect"
 }

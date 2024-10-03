@@ -1,41 +1,53 @@
 {
-    "boxShadow": "none",
-    "widgetName": "UserSelect",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [{"key": "isDisabled"}],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "",
-    "topRow": 0,
-    "bottomRow": 4,
-    "parentRowSpace": 10,
-    "type": "DROP_DOWN_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "Select",
-    "selectionType": "SINGLE_SELECT",
-    "animateLoading": true,
-    "parentColumnSpace": 13.35,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 32,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "isDisabled"}
-    ],
-    "options": "[\n{\n    \"label\": \"--Select--\",\n    \"value\": \"Select\"\n  },\n  {\n    \"label\": \"John Doe\",\n    \"value\": \"John Doe\"\n  }\n  \n]",
-    "placeholderText": "Select option",
-    "isDisabled": "{{SearchByFieldSelect.selectedOptionValue !='Username'}}",
-    "key": "l30n1l14ll",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 41,
-    "widgetId": "hpz8y4cnds",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "eibmuv06jl",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "onOptionChange": "{{RecipeSetUtil.updateUser()}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultOptionValue": "Select",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": "{{SearchByFieldSelect.selectedOptionValue !='Username'}}",
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "l30n1l14ll",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 32,
+  "onOptionChange": "{{RecipeSetUtil.updateUser()}}",
+  "options": "[\n{\n    \"label\": \"--Select--\",\n    \"value\": \"Select\"\n  },\n  {\n    \"label\": \"John Doe\",\n    \"value\": \"John Doe\"\n  }\n  \n]",
+  "parentColumnSpace": 13.35,
+  "parentId": "eibmuv06jl",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 41,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 0,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "hpz8y4cnds",
+  "widgetName": "UserSelect"
 }

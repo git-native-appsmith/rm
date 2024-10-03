@@ -1,110 +1,32 @@
 {
+  "gitSyncId": "6257de1ab9659a27c0eb61e3_6257df94b9659a27c0eb61fc",
   "unpublishedPage": {
-    "name": "Recipe Set",
-    "slug": "recipe-set",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1084,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 920,
-          "containerStyle": "none",
-          "snapRows": 63,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 680,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Recipe Set_GetAllMachineGroups",
-              "name": "GetAllMachineGroups",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 100000
-            },
-            {
-              "id": "Recipe Set_GetRecipeSetCategory",
-              "name": "GetRecipeSetCategory",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 100000
-            },
-            {
-              "id": "Recipe Set_RecipeSetUtil.recipeSetPageLoad",
-              "name": "RecipeSetUtil.recipeSetPageLoad",
-              "collectionId": "Recipe Set_RecipeSetUtil",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  GetFilteredRecipeSet.run(() => {\n    GetFilteredRecipeSet.run();\n  }, () => {});\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Recipe Set_GetRecipeClass",
-              "name": "GetRecipeClass",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 100000
-            }
-          ],
-          [
-            {
-              "id": "Recipe Set_GetRecipeTyeOptionData",
-              "name": "GetRecipeTyeOptionData",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "JSObject1.RecipeClassInputForRecipeType()",
-                "JSObject1.MachineGroupInputForRecipeType()"
-              ],
-              "timeoutInMillisecond": 100000
-            }
-          ],
-          [
-            {
-              "id": "Recipe Set_GetFilteredRecipeSetModal",
-              "name": "GetFilteredRecipeSetModal",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "JSObject1.RecipeSetIdForFilter()",
-                "(RecipeSetCategorySelect.selectedOptionLabel).replace(\"All\",\"NA\")",
-                "JSObject1.ValidDateForSearch()"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Recipe Set",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1084,
+          "snapColumns": 64,
+          "snapRows": 63,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "6257de1ab9659a27c0eb61e3_6257df94b9659a27c0eb61fc"
+    "name": "Recipe Set",
+    "slug": "recipe-set"
+  }
 }

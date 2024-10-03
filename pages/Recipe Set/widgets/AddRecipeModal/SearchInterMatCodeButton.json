@@ -1,39 +1,51 @@
 {
-    "boxShadow": "none",
-    "widgetName": "SearchInterMatCodeButton",
-    "onClick": "{{GetIntermediateMaterial.run();showModal('IntermediateMaterialModal')}}",
-    "buttonColor": "#F6F7F8",
-    "dynamicPropertyPathList": [
-        {"key": "isDisabled"},
-        {"key": "onClick"}
-    ],
-    "displayName": "Icon Button",
-    "iconSVG": "/formbuilderui/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 9,
-    "bottomRow": 13,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 13.953125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 51,
-    "dynamicBindingPathList": [{"key": "isDisabled"}],
-    "isDisabled": "{{JSObject1.DisableInterMatCodeInput()}}",
-    "key": "n3c7h70v8l",
-    "isDeprecated": false,
-    "rightColumn": 53,
-    "iconName": "search",
-    "widgetId": "kgfx2w7zj7",
-    "isVisible": false,
-    "version": 1,
-    "parentId": "syzvv3hxrg",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "1.5rem",
-    "buttonVariant": "PRIMARY"
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "buttonColor": "#F6F7F8",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "search",
+  "iconSVG": "/formbuilderui/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{JSObject1.DisableInterMatCodeInput()}}",
+  "isLoading": false,
+  "isVisible": false,
+  "key": "n3c7h70v8l",
+  "leftColumn": 51,
+  "onClick": "{{GetIntermediateMaterial.run();showModal('IntermediateMaterialModal')}}",
+  "parentColumnSpace": 13.953125,
+  "parentId": "syzvv3hxrg",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 53,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "topRow": 9,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kgfx2w7zj7",
+  "widgetName": "SearchInterMatCodeButton"
 }

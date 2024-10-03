@@ -1,35 +1,47 @@
 {
-    "boxShadow": "none",
-    "widgetName": "SearchProducts1",
-    "onClick": "{{GetFilteredProductGroup.run()}}",
-    "buttonColor": "#000",
-    "dynamicPropertyPathList": [{"key": "isDisabled"}],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.cca02633.svg",
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 19.5,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 32,
-    "dynamicBindingPathList": [{"key": "isDisabled"}],
-    "text": "Search",
-    "isDisabled": "{{(!(GrammageFrom1.isValid))||(!(GrammageTo1.isValid))||(parseInt(GrammageTo1.text)<parseInt(GrammageFrom1.text))}}",
-    "key": "avsztd2mha",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 39,
-    "isDefaultClickDisabled": true,
-    "widgetId": "ezrjh62g4v",
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "byqv2repun",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "1.5rem",
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{(!(GrammageFrom1.isValid))||(!(GrammageTo1.isValid))||(parseInt(GrammageTo1.text)<parseInt(GrammageFrom1.text))}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "avsztd2mha",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 32,
+  "onClick": "{{GetFilteredProductGroup.run()}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "byqv2repun",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 39,
+  "text": "Search",
+  "topRow": 4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ezrjh62g4v",
+  "widgetName": "SearchProducts1"
 }

@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "647604408016a07bff84a264_6478bf08bd260313fc687ca7",
+  "id": "ProductionRecipeList_ProductionRecipeUtil",
   "unpublishedCollection": {
     "name": "ProductionRecipeUtil",
     "pageId": "ProductionRecipeList",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "ProductionRecipeList_ProductionRecipeUtil",
-  "deleted": false,
-  "gitSyncId": "647604408016a07bff84a264_6478bf08bd260313fc687ca7"
+    "variables": []
+  }
 }

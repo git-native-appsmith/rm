@@ -1,72 +1,32 @@
 {
+  "gitSyncId": "64804349d3037658d5d79365_6482de10d3037658d5d79e09",
   "unpublishedPage": {
-    "name": "Copy From Master",
-    "slug": "copy-from-master",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1020,
-          "containerStyle": "none",
-          "snapRows": 65,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 670,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Copy From Master_GetRecipeItem",
-              "name": "GetRecipeItem",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Number(appsmith.store.MasterRecipeNo)",
-                "appsmith.store.recipeMachineGroup",
-                "appsmith.store.RecipeClassDropDown",
-                "Number(appsmith.store.RecipeSetNumber)"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Copy From Master_GetFilteredRecipeView",
-              "name": "GetFilteredRecipeView",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Number(appsmith.store.MasterRecipeNo)",
-                "Number(appsmith.store.RecipeSetNumber)"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Copy From Master",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 65,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "64804349d3037658d5d79365_6482de10d3037658d5d79e09"
+    "name": "Copy From Master",
+    "slug": "copy-from-master"
+  }
 }

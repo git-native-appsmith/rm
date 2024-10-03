@@ -1,69 +1,32 @@
 {
+  "gitSyncId": "64804349d3037658d5d79365_648bef2ed3037658d5d7be1d",
   "unpublishedPage": {
-    "name": "CreateRecipeRMProd",
-    "slug": "createrecipermprod",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1150,
-          "containerStyle": "none",
-          "snapRows": 63,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 640,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "CreateRecipeRMProd_GetProductionRecipeForView",
-              "name": "GetProductionRecipeForView",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.rno"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "CreateRecipeRMProd_CreateEditCS.OnPageLoad",
-              "name": "CreateEditCS.OnPageLoad",
-              "collectionId": "CreateRecipeRMProd_CreateEditCS",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  storeValue(\"IsCreate_RecipeLoadFirstTime\", true, true);\n  storeValue('SIZE_UNIT1', '', true);\n  storeValue('SIZE_UNIT2', '', true);\n  const fileteredRecpData = await GetProductionRecipeForView.run();\n  storeValue('SIZE_UNIT1', fileteredRecpData.SIZE_UNIT1, true);\n  storeValue('SIZE_UNIT2', fileteredRecpData.SIZE_UNIT2, true);\n  let calculatedField = {};\n  calculatedField.sv_mainMtrlBoneDry = Number(fileteredRecpData.RECIPE_SIZE, true);\n  calculatedField.sv_spwt = Number(fileteredRecpData.SPECIFIC_WEIGHT, true);\n  calculatedField.sv_gbt = Number(fileteredRecpData.BONEDRY_WGT_PER_VOLUME, true);\n  calculatedField.sv_per = Number(fileteredRecpData.RECIPE_SIZE_IN_PER, true);\n  calculatedField.sv_totalWeightWet = Number(fileteredRecpData.TOTAL_WEIGHT_WET, true);\n  calculatedField.sv_totalVolume = Number(fileteredRecpData.BATCH_SIZE, true);\n  calculatedField.sv_filler = Number(fileteredRecpData.FILLER_CONTENT, true);\n  calculatedField.sv_tdc = Number(fileteredRecpData.DRY_CONTENT_IN_PER, true);\n  calculatedField.sv_dc = Number(fileteredRecpData.DRY_CONTENT, true);\n  await storeValue(\"calculatedField\", calculatedField, true);\n  resetWidget('DatePicker1', false);\n  TabulatorOperations.onPageLoad();\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "CreateRecipeRMProd",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 63,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "64804349d3037658d5d79365_648bef2ed3037658d5d7be1d"
+    "name": "CreateRecipeRMProd",
+    "slug": "createrecipermprod"
+  }
 }

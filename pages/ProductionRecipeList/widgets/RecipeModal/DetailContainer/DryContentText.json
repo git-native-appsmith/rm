@@ -1,44 +1,52 @@
 {
-    "boxShadow": "none",
-    "widgetName": "DryContentText",
-    "dynamicPropertyPathList": [
-        {"key": "isVisible"},
-        {"key": "fontSize"}
-    ],
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 0,
-    "bottomRow": 4,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
-    "overflow": "NONE",
-    "fontFamily": "System Default",
-    "leftColumn": 9,
-    "dynamicBindingPathList": [
-        {"key": "text"},
-        {"key": "isVisible"}
-    ],
-    "truncateButtonColor": "#FFC13D",
-    "text": "{{(Number(GetProductionRecipeForView.data.DRY_CONTENT)==0?'':Number(GetProductionRecipeForView.data.DRY_CONTENT).toFixed(2))}}",
-    "key": "qqxdb1s7ii",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 11,
-    "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
-    "widgetId": "p45l8jscn7",
-    "isVisible": "{{GetProductionRecipeForView.data.RECIPE_CLASS==\"PD\" || GetProductionRecipeForView.data.RECIPE_CLASS==\"RM\" || GetProductionRecipeForView.data.RECIPE_CLASS==\"CO\"}}",
-    "fontStyle": "BOLD",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "ej7h1zmz8t",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "fontSize": "0.75rem",
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.75rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": "{{GetProductionRecipeForView.data.RECIPE_CLASS==\"PD\" || GetProductionRecipeForView.data.RECIPE_CLASS==\"RM\" || GetProductionRecipeForView.data.RECIPE_CLASS==\"CO\"}}",
+  "key": "qqxdb1s7ii",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 9,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 17.9375,
+  "parentId": "ej7h1zmz8t",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 11,
+  "text": "{{(Number(GetProductionRecipeForView.data.DRY_CONTENT)==0?'':Number(GetProductionRecipeForView.data.DRY_CONTENT).toFixed(2))}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 0,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "p45l8jscn7",
+  "widgetName": "DryContentText"
 }

@@ -1,69 +1,32 @@
 {
+  "gitSyncId": "64acf15cc1f57807de253b78_64c24123c1f57807de25a1cb",
   "unpublishedPage": {
-    "name": "CreateRecipePU",
-    "slug": "createrecipepu",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1010,
-          "containerStyle": "none",
-          "snapRows": 63,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 640,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "CreateRecipePU_GetWorkPlace",
-              "name": "GetWorkPlace",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.ResourceGroupDropDown"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "CreateRecipePU_CreateEditCS.OnPageLoad",
-              "name": "CreateEditCS.OnPageLoad",
-              "collectionId": "CreateRecipePU_CreateEditCS",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  let reset = 0;\n  let resetCal = 1000;\n  storeValue(\"IsCreate_RecipeLoadFirstTime\", true, true);\n  if (appsmith.URL.queryParams.RecipeAction == \"Create\") {\n    let calculatedField = {\n      \"sv_mainMtrlBoneDry\": resetCal,\n      \"sv_spwt\": reset,\n      \"sv_gbt\": reset,\n      \"sv_dc\": reset,\n      \"sv_tdc\": reset,\n      \"sv_per\": reset,\n      \"sv_totalWeightWet\": reset,\n      \"sv_totalVolume\": reset,\n      \"sv_filler\": reset\n    };\n    storeValue(\"calculatedField\", calculatedField, true);\n    await storeValue(\"InterMaterial\", \"\", true);\n    await storeValue(\"InterMaterialName\", \"\", true);\n    await storeValue(\"Remark\", \"\", true);\n    await storeValue(\"ProductCode\", \"\", true);\n    await storeValue(\"ProductName\", \"\", true);\n    await storeValue(\"MaxVolume\", \"\", true);\n    await storeValue(\"TRANSFER_OUTPUT_MAT\", false, true);\n    await storeValue(\"workplace\", \"\", true);\n  }\n  await TabulatorOperations.onPageLoad();\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "CreateRecipePU",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 63,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "64acf15cc1f57807de253b78_64c24123c1f57807de25a1cb"
+    "name": "CreateRecipePU",
+    "slug": "createrecipepu"
+  }
 }

@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "638f46e13e33965aaca4d67f_638f779d3e33965aaca4d8a3",
+  "id": "CreateRecipe_RecipeComparisonUtil",
   "unpublishedCollection": {
     "name": "RecipeComparisonUtil",
     "pageId": "CreateRecipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipe_RecipeComparisonUtil",
-  "deleted": false,
-  "gitSyncId": "638f46e13e33965aaca4d67f_638f779d3e33965aaca4d8a3"
+    "variables": []
+  }
 }

@@ -1,41 +1,51 @@
 {
-    "boxShadow": "none",
-    "widgetName": "ProductGroupSelect",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [{"key": "isDisabled"}],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "",
-    "topRow": 12,
-    "bottomRow": 16,
-    "parentRowSpace": 10,
-    "type": "DROP_DOWN_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? null : 2}}",
-    "selectionType": "SINGLE_SELECT",
-    "animateLoading": true,
-    "parentColumnSpace": 17.625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "options"},
-        {"key": "defaultOptionValue"},
-        {"key": "isDisabled"}
-    ],
-    "options": "{{appsmith.store.productGroupOption == undefined ? CreateRecipeUtil.loadProductGroupOptionOnPageLoad() : appsmith.store.productGroupOption}}",
-    "placeholderText": "Select option",
-    "isDisabled": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? false : true}}",
-    "key": "863hq5v3nf",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 12,
-    "widgetId": "qr0nnwkr4z",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "6by1lxkn02",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? null : 2}}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? false : true}}",
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "863hq5v3nf",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "options": "{{appsmith.store.productGroupOption == undefined ? CreateRecipeUtil.loadProductGroupOptionOnPageLoad() : appsmith.store.productGroupOption}}",
+  "parentColumnSpace": 17.625,
+  "parentId": "6by1lxkn02",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 12,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 12,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "qr0nnwkr4z",
+  "widgetName": "ProductGroupSelect"
 }
