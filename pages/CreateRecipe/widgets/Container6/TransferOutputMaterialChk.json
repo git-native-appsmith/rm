@@ -1,43 +1,51 @@
 {
-    "boxShadow": "none",
-    "widgetName": "TransferOutputMaterialChk",
-    "dynamicPropertyPathList": [
-        {"key": "isVisible"},
-        {"key": "defaultCheckedState"}
-    ],
-    "displayName": "Checkbox",
-    "iconSVG": "/static/media/icon.aaab032b.svg",
-    "topRow": 26,
-    "bottomRow": 30,
-    "parentRowSpace": 10,
-    "type": "CHECKBOX_WIDGET",
-    "alignWidget": "LEFT",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 14.0625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 51,
-    "dynamicBindingPathList": [
-        {"key": "defaultCheckedState"},
-        {"key": "isVisible"}
-    ],
-    "labelPosition": "Right",
-    "isDisabled": false,
-    "key": "ao2p3tjzuf",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 60,
-    "dynamicHeight": "FIXED",
-    "widgetId": "hpnsvk6qkv",
-    "accentColor": "#03B365",
-    "isVisible": "{{appsmith.store.recipeClassCode==\"RM\" || appsmith.store.recipeClassCode==\"CO\" || appsmith.store.recipeClassCode==\"PD\" || appsmith.store.recipeClassCode==\"ST\"}}",
-    "label": "Transfer Raw Material",
-    "version": 1,
-    "parentId": "visbcin43v",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "defaultCheckedState": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? false : GetFilteredRecipe.data.TRANSFER_OUTPUT_MAT}}",
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "accentColor": "#03B365",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 30,
+  "boxShadow": "none",
+  "defaultCheckedState": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? false : GetFilteredRecipe.data.TRANSFER_OUTPUT_MAT}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultCheckedState"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.aaab032b.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.recipeClassCode==\"RM\" || appsmith.store.recipeClassCode==\"CO\" || appsmith.store.recipeClassCode==\"PD\" || appsmith.store.recipeClassCode==\"ST\"}}",
+  "key": "ao2p3tjzuf",
+  "label": "Transfer Raw Material",
+  "labelPosition": "Right",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 51,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 14.0625,
+  "parentId": "visbcin43v",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "topRow": 26,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "hpnsvk6qkv",
+  "widgetName": "TransferOutputMaterialChk"
 }

@@ -1,43 +1,55 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "widgetName": "Button11",
-    "onClick": "{{closeModal('AddNewRow');\nresetWidget(\"TargetAdd\",true);\nresetWidget(\"GrpAdd\",true);\nresetWidget(\"SeqAdd\",true);\nresetWidget(\"ddlFunAdd\",true);\nresetWidget(\"ddlARPAdd\",true);\n}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "/formbuilderui/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 14,
-    "bottomRow": 18,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 30,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Cancel",
-    "isDisabled": false,
-    "key": "uzz61zgecs",
-    "isDeprecated": false,
-    "rightColumn": 46,
-    "isDefaultClickDisabled": true,
-    "widgetId": "kg09mhw0hz",
-    "buttonStyle": "PRIMARY",
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "dg0r3947qg",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "SECONDARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/formbuilderui/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "uzz61zgecs",
+  "leftColumn": 30,
+  "onClick": "{{closeModal('AddNewRow');\nresetWidget(\"TargetAdd\",true);\nresetWidget(\"GrpAdd\",true);\nresetWidget(\"SeqAdd\",true);\nresetWidget(\"ddlFunAdd\",true);\nresetWidget(\"ddlARPAdd\",true);\n}}",
+  "parentId": "dg0r3947qg",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 46,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Cancel",
+  "topRow": 14,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kg09mhw0hz",
+  "widgetName": "Button11"
 }

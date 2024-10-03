@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64259f8db55c095d08ff01c6_6430671bb55c095d08ff30eb",
+  "id": "CreateRecipeRM_Calculation",
   "unpublishedCollection": {
     "name": "Calculation",
     "pageId": "CreateRecipeRM",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeRM_Calculation",
-  "deleted": false,
-  "gitSyncId": "64259f8db55c095d08ff01c6_6430671bb55c095d08ff30eb"
+    "variables": []
+  }
 }

@@ -1,42 +1,54 @@
 {
-    "boxShadow": "none",
-    "widgetName": "ToNumInputCopy",
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "displayName": "Input",
-    "iconSVG": "/static/media/icon.9f505595.svg",
-    "topRow": 0,
-    "bottomRow": 4,
-    "parentRowSpace": 10,
-    "autoFocus": false,
-    "type": "INPUT_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 13.35,
-    "dynamicTriggerPathList": [{"key": "onTextChanged"}],
-    "resetOnSubmit": true,
-    "leftColumn": 27,
-    "dynamicBindingPathList": [
-        {"key": "isVisible"},
-        {"key": "accentColor"}
-    ],
-    "labelStyle": "",
-    "inputType": "NUMBER",
-    "isDisabled": false,
-    "key": "l0phhuim1m",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "onTextChanged": "{{RecipeSetUtil.updateToNum()}}",
-    "rightColumn": 37,
-    "widgetId": "c89tkpnx2f",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{SearchByFieldSelect.selectedOptionValue === 'ModifiNo'}}",
-    "label": "",
-    "allowCurrencyChange": false,
-    "version": 1,
-    "parentId": "r3p51tp76w",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "iconAlign": "left",
-    "defaultText": ""
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": false,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "NUMBER",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{SearchByFieldSelect.selectedOptionValue === 'ModifiNo'}}",
+  "key": "l0phhuim1m",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 27,
+  "onTextChanged": "{{RecipeSetUtil.updateToNum()}}",
+  "parentColumnSpace": 13.35,
+  "parentId": "r3p51tp76w",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 37,
+  "topRow": 0,
+  "type": "INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "c89tkpnx2f",
+  "widgetName": "ToNumInputCopy"
 }

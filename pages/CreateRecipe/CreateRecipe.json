@@ -1,57 +1,32 @@
 {
+  "gitSyncId": "625e52f1b9659a27c0eb626b_62679de28a509e2ccede3da1",
   "unpublishedPage": {
-    "name": "CreateRecipe",
-    "slug": "createrecipe",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1084,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1910,
-          "containerStyle": "none",
-          "snapRows": 63,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 640,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "CreateRecipe_JSObject1.OnPageLoad",
-              "name": "JSObject1.OnPageLoad",
-              "collectionId": "CreateRecipe_JSObject1",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  console.log('page');\n  CreateRecipeUtil.loadProductGroupOption();\n  let tbl = [];\n  let reset = 0;\n  let resetCal = 0;\n  if (appsmith.store.RecipeClassDropDown == \"RM\" || appsmith.store.RecipeClassDropDown == \"CO\" || appsmith.store.RecipeClassDropDown == \"ST\" || appsmith.store.RecipeClassDropDown == \"PD\") {\n    resetCal = 1000;\n  }\n  let defaultDropDownValue = {};\n  defaultDropDownValue.ResourceGroupDropDown = appsmith.store.ResourceGroupDropDown;\n  defaultDropDownValue.RecipeClassDropDown = appsmith.store.RecipeClassDropDown;\n  defaultDropDownValue.RecipeTypeDropDown = appsmith.store.RecipeTypeDropDown;\n  storeValue(\"defaultDropDownValue\", defaultDropDownValue, true);\n  storeValue(\"IsCreate_RecipeLoadFirstTime\", true, true);\n  if (appsmith.URL.queryParams.RecipeAction == \"Edit\") {\n    GetRecipeItem1.run(() => {\n      storeValue(\"SV_TBL\", GetRecipeItem1.data, true);\n    });\n    GetFilteredRecipe.run(() => {\n      let dryContentSpecWeightLimitField = {\n        \"DC_IN_VAL\": \"\",\n        \"DC_IN_MIN\": 0,\n        \"DC_IN_MAX\": 0,\n        \"DC_CALC_MIN\": 0,\n        \"DC_CALC_MAX\": 0,\n        \"SW_IN_VAL\": \"\",\n        \"SW_IN_MIN\": 0,\n        \"SW_IN_MAX\": 0,\n        \"SW_CALC_MIN\": 0,\n        \"SW_CALC_MAX\": 0\n      };\n      dryContentSpecWeightLimitField.DC_IN_VAL = GetFilteredRecipe.data.DC_IN_VAL;\n      dryContentSpecWeightLimitField.DC_IN_MIN = Number(GetFilteredRecipe.data.DC_IN_MIN);\n      dryContentSpecWeightLimitField.DC_IN_MAX = Number(GetFilteredRecipe.data.DC_IN_MAX);\n      dryContentSpecWeightLimitField.DC_CALC_MIN = Number(GetFilteredRecipe.data.DC_CALC_MIN);\n      dryContentSpecWeightLimitField.DC_CALC_MAX = Number(GetFilteredRecipe.data.DC_CALC_MAX);\n      dryContentSpecWeightLimitField.SW_IN_VAL = GetFilteredRecipe.data.SW_IN_VAL;\n      dryContentSpecWeightLimitField.SW_IN_MIN = Number(GetFilteredRecipe.data.SW_IN_MIN);\n      dryContentSpecWeightLimitField.SW_IN_MAX = Number(GetFilteredRecipe.data.SW_IN_MAX);\n      dryContentSpecWeightLimitField.SW_CALC_MIN = Number(GetFilteredRecipe.data.SW_CALC_MIN);\n      dryContentSpecWeightLimitField.SW_CALC_MAX = Number(GetFilteredRecipe.data.SW_CALC_MAX);\n      storeValue(\"Calc_dryContentSpecWeightLimitField\", dryContentSpecWeightLimitField, true);\n      let calculatedField = {};\n      calculatedField.sv_mainMtrlBoneDry = Number(GetFilteredRecipe.data.RECIPE_SIZE, true);\n      calculatedField.sv_spwt = Number(GetFilteredRecipe.data.SPECIFIC_WEIGHT, true);\n      calculatedField.sv_gbt = Number(GetFilteredRecipe.data.BONEDRY_WGT_PER_VOLUME, true);\n      calculatedField.sv_per = Number(GetFilteredRecipe.data.RECIPE_SIZE_IN_PER, true);\n      calculatedField.sv_totalWeightWet = Number(GetFilteredRecipe.data.TOTAL_WEIGHT_WET, true);\n      calculatedField.sv_totalVolume = Number(GetFilteredRecipe.data.BATCH_SIZE, true);\n      calculatedField.sv_filler = Number(GetFilteredRecipe.data.FILLER_CONTENT, true);\n      calculatedField.sv_tdc = Number(GetFilteredRecipe.data.DRY_CONTENT_IN_PER, true);\n      calculatedField.sv_dc = Number(GetFilteredRecipe.data.DRY_CONTENT, true);\n      storeValue(\"calculatedField\", calculatedField, true);\n      storeValue(\"RecipeClassDropDown\", GetFilteredRecipe.data.RECIPE_CLASS, true);\n      storeValue(\"RecipeClassDropDownName\", CreateRecipeUtil.getRecipeClass(), true);\n      storeValue(\"RecipeTypeDropDown\", GetFilteredRecipe.data.RECIPE_TYPE_NUMBER, true);\n      storeValue(\"RecipeTypeDropDownName\", GetFilteredRecipe.data.RECIPETYPE_NAME, true);\n      storeValue(\"ResourceGroupDropDown\", GetFilteredRecipe.data.MACHINE_GROUP, true);\n      storeValue(\"ResourceGroupDropDownName\", GetFilteredRecipe.data.MACHINE_GROUP_NAME_SHORT, true);\n    }, () => {});\n  }\n  if (appsmith.URL.queryParams.RecipeAction == \"Create\") {\n    let calculatedField = {\n      \"sv_mainMtrlBoneDry\": resetCal,\n      \"sv_spwt\": reset,\n      \"sv_gbt\": reset,\n      \"sv_per\": reset,\n      \"sv_totalWeightWet\": reset,\n      \"sv_totalVolume\": reset,\n      \"sv_filler\": reset\n    };\n    storeValue('SV_TBL', tbl, true);\n    storeValue(\"calculatedField\", calculatedField, true);\n    CreateRecipeUtil.loadProductGroupOption();\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "CreateRecipe",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1084,
+          "snapColumns": 64,
+          "snapRows": 63,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "625e52f1b9659a27c0eb626b_62679de28a509e2ccede3da1"
+    "name": "CreateRecipe",
+    "slug": "createrecipe"
+  }
 }

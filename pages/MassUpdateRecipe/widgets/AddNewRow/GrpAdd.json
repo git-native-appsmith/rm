@@ -1,55 +1,65 @@
 {
-    "boxShadow": "none",
-    "widgetName": "GrpAdd",
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "displayName": "Input",
-    "iconSVG": "/formbuilderui/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "topRow": 6,
-    "bottomRow": 13,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 13.24609375,
-    "dynamicTriggerPathList": [],
-    "resetOnSubmit": true,
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "isVisible"}
-    ],
-    "labelPosition": "Top",
-    "labelStyle": "",
-    "inputType": "NUMBER",
-    "isDisabled": false,
-    "key": "226g66w3l0",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 7,
-    "dynamicHeight": "FIXED",
-    "widgetId": "ttmpt9ibwm",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "showStepArrows": true,
-    "isVisible": "{{appsmith.store.RecipeClassDropDown=='RM'||appsmith.store.RecipeClassDropDown=='CO'||appsmith.store.RecipeClassDropDown=='PD'||appsmith.store.RecipeClassDropDown=='ST' ||appsmith.store.RecipeClassDropDown=='WP'||appsmith.store.RecipeClassDropDown=='PU' || appsmith.store.RecipeClassDropDown=='MS'||appsmith.store.RecipeClassDropDown=='CS'||appsmith.store.RecipeClassDropDown=='SU'}}",
-    "label": "Group No.",
-    "version": 2,
-    "parentId": "pvyaks5fdt",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/formbuilderui/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "NUMBER",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.RecipeClassDropDown=='RM'||appsmith.store.RecipeClassDropDown=='CO'||appsmith.store.RecipeClassDropDown=='PD'||appsmith.store.RecipeClassDropDown=='ST' ||appsmith.store.RecipeClassDropDown=='WP'||appsmith.store.RecipeClassDropDown=='PU' || appsmith.store.RecipeClassDropDown=='MS'||appsmith.store.RecipeClassDropDown=='CS'||appsmith.store.RecipeClassDropDown=='SU'}}",
+  "key": "226g66w3l0",
+  "label": "Group No.",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 13.24609375,
+  "parentId": "pvyaks5fdt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 7,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "showStepArrows": true,
+  "topRow": 6,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "ttmpt9ibwm",
+  "widgetName": "GrpAdd"
 }

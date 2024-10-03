@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "6257de1ab9659a27c0eb61e3_6257e2c5b9659a27c0eb623b",
+  "id": "Recipe Set_RecipeSetUtil",
   "unpublishedCollection": {
     "name": "RecipeSetUtil",
     "pageId": "Recipe Set",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Recipe Set_RecipeSetUtil",
-  "deleted": false,
-  "gitSyncId": "6257de1ab9659a27c0eb61e3_6257e2c5b9659a27c0eb623b"
+    "variables": []
+  }
 }

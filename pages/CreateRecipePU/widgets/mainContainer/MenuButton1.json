@@ -1,66 +1,78 @@
 {
-    "isCompact": false,
-    "boxShadow": "none",
-    "widgetName": "MenuButton1",
-    "dynamicPropertyPathList": [
-        {"key": "menuItems.menuItem3.onClick"},
-        {"key": "menuItems.menuItem2.onClick"}
-    ],
-    "displayName": "Menu Button",
-    "iconSVG": "/formbuilderui/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
-    "topRow": 16,
-    "bottomRow": 20,
-    "parentRowSpace": 10,
-    "type": "MENU_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 19.640625,
-    "dynamicTriggerPathList": [{"key": "menuItems.menuItem3.onClick"}],
-    "leftColumn": 61,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "isDisabled": false,
-    "key": "enpcbgmqxr",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "iconName": "more",
-    "menuVariant": "PRIMARY",
-    "widgetId": "41homa20fl",
-    "menuItems": {
-        "menuItem1": {
-            "widgetId": "",
-            "index": 0,
-            "label": "Delete",
-            "id": "menuItem1",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItem3": {
-            "onClick": "{{RecipeComparisonUtil.OpenComparisionPopup()}}",
-            "widgetId": "",
-            "index": 1,
-            "label": "Check",
-            "id": "menuItem3",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItemeeth8apeq1": {
-            "widgetId": "4cobrnqddk",
-            "index": 2,
-            "id": "menuItemeeth8apeq1",
-            "label": "Report",
-            "isDisabled": false,
-            "isVisible": true
-        }
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "displayName": "Menu Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem3.onClick"
     },
-    "isVisible": true,
-    "label": ".",
-    "version": 1,
-    "parentId": "c2m9adqxf1",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "menuColor": "#FFFFFF",
-    "menuItemsSource": "STATIC",
-    "iconAlign": "left",
-    "placement": "CENTER"
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem3.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "more",
+  "iconSVG": "/formbuilderui/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "enpcbgmqxr",
+  "label": ".",
+  "leftColumn": 61,
+  "menuColor": "#FFFFFF",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Delete",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Check",
+      "onClick": "{{RecipeComparisonUtil.OpenComparisionPopup()}}",
+      "widgetId": ""
+    },
+    "menuItemeeth8apeq1": {
+      "id": "menuItemeeth8apeq1",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Report",
+      "widgetId": "4cobrnqddk"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "parentColumnSpace": 19.640625,
+  "parentId": "c2m9adqxf1",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 16,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "41homa20fl",
+  "widgetName": "MenuButton1"
 }

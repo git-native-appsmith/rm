@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "62e95e33d04c4f3c9d2dde51_6314084821e1b462dea1481f",
+  "id": "Recipe_ModalPopUpLogic",
   "unpublishedCollection": {
     "name": "ModalPopUpLogic",
     "pageId": "Recipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Recipe_ModalPopUpLogic",
-  "deleted": false,
-  "gitSyncId": "62e95e33d04c4f3c9d2dde51_6314084821e1b462dea1481f"
+    "variables": []
+  }
 }

@@ -1,65 +1,79 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "topRow": 4,
-    "labelWidth": 5,
-    "type": "INPUT_WIDGET_V2",
-    "animateLoading": false,
-    "resetOnSubmit": false,
-    "leftColumn": 39,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "defaultText"},
-        {"key": "isDisabled"}
-    ],
-    "labelStyle": "",
-    "inputType": "TEXT",
-    "isDisabled": "{{BindDropDown.DisableProductInput()}}",
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "showStepArrows": false,
-    "isVisible": true,
-    "version": 2,
-    "isLoading": false,
-    "borderRadius": "0px",
-    "mobileBottomRow": 7,
-    "widgetName": "ProductCodeInput",
-    "dynamicPropertyPathList": [
-        {"key": "isDisabled"},
-        {"key": "onBlur"}
-    ],
-    "displayName": "Input",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "autoFocus": false,
-    "hideCard": false,
-    "mobileRightColumn": 36,
-    "parentColumnSpace": 16.625,
-    "dynamicTriggerPathList": [{"key": "onBlur"}],
-    "labelPosition": "Auto",
-    "key": "pl1oe8vk6o",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 45,
-    "widgetId": "2pzaxsi671",
-    "minWidth": 450,
-    "label": "",
-    "parentId": "t482q159hb",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 2,
-    "onBlur": "{{storeValue(\"productCodes\",ProductCodeInput.text,true);TabulatorAction.EmptyTabulator();}}",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 16,
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{BindDropDown.ProductCodeInputDefault()}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": false,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultText": "{{BindDropDown.ProductCodeInputDefault()}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onBlur"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": "{{BindDropDown.DisableProductInput()}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "pl1oe8vk6o",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Auto",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 39,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 2,
+  "onBlur": "{{storeValue(\"productCodes\",ProductCodeInput.text,true);TabulatorAction.EmptyTabulator();}}",
+  "parentColumnSpace": 16.625,
+  "parentId": "t482q159hb",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "showStepArrows": false,
+  "topRow": 4,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "2pzaxsi671",
+  "widgetName": "ProductCodeInput"
 }

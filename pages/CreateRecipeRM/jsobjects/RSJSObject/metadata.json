@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64d5b34277d28b0f1ab3c489_64ddb99477d28b0f1ab40972",
+  "id": "CreateRecipeRM_RSJSObject",
   "unpublishedCollection": {
     "name": "RSJSObject",
     "pageId": "CreateRecipeRM",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeRM_RSJSObject",
-  "deleted": false,
-  "gitSyncId": "64d5b34277d28b0f1ab3c489_64ddb99477d28b0f1ab40972"
+    "variables": []
+  }
 }

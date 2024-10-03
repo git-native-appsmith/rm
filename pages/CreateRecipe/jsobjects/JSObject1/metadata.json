@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "629f95486566be733a03a9e1_629fa4196566be733a03aa7f",
+  "id": "CreateRecipe_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "CreateRecipe",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipe_JSObject1",
-  "deleted": false,
-  "gitSyncId": "629f95486566be733a03a9e1_629fa4196566be733a03aa7f"
+    "variables": []
+  }
 }

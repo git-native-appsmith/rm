@@ -1,57 +1,32 @@
 {
+  "gitSyncId": "64e30e9b77d28b0f1ab4548a_659bba8bbfa626249bf5ece6",
   "unpublishedPage": {
-    "name": "ViewRecipeDetailProd",
-    "slug": "viewrecipedetailprod",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 800,
-          "containerStyle": "none",
-          "snapRows": 65,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 670,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "ViewRecipeDetailProd_ViewRecipeUtil.OnPageLoad",
-              "name": "ViewRecipeUtil.OnPageLoad",
-              "collectionId": "ViewRecipeDetailProd_ViewRecipeUtil",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await GetFilteredRecipe.run();\n  let recipeClass = await GetFilteredRecipe.data.RECIPE_CLASS;\n  if (recipeClass == \"RM\" || recipeClass == \"CO\" || recipeClass == \"ST\" || recipeClass == \"PD\" || recipeClass == \"WP\" || recipeClass == \"PU\") {\n    GetItemRMCOSTPDWPPU.run();\n  } else if (recipeClass == \"CS\" || recipeClass == \"MS\" || recipeClass == \"SU\" || recipeClass == \"WS\" || recipeClass == \"BL\" || recipeClass == \"DR\") {\n    GetItemCSMSSUWSBLDR.run();\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "ViewRecipeDetailProd",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 65,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "64e30e9b77d28b0f1ab4548a_659bba8bbfa626249bf5ece6"
+    "name": "ViewRecipeDetailProd",
+    "slug": "viewrecipedetailprod"
+  }
 }

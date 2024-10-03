@@ -1,54 +1,70 @@
 {
-    "boxShadow": "none",
-    "widgetName": "ProductFilterSelect",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "onOptionChange"},
-        {"key": "sourceData"}
-    ],
-    "displayName": "Select",
-    "iconSVG": "/formbuilderui/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-    "labelText": "",
-    "searchTags": ["dropdown"],
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "labelWidth": "4",
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.ProductGroupFilterDropDown))(ProductFilterSelect.options, ProductFilterSelect.serverSideFiltering) }}",
-    "animateLoading": true,
-    "parentColumnSpace": 13.953125,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 47,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
-    ],
-    "labelPosition": "Left",
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "sourceData": "{{GetProductFilterOption.data}}",
-    "key": "1clexvpekr",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 57,
-    "dynamicHeight": "FIXED",
-    "widgetId": "hvow61ye9k",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "optionValue": "value",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "6o28nlkh1n",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "optionLabel": "label",
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{storeValue(\"MasterRecipeNo\",undefined,true);\n\t\tstoreValue(\"MasterRecipeCellColor\",undefined,true);\n\t\tstoreValue(\"RecipesByProductFilter\",[],true);storeValue('ProductGroupFilterDropDown',ProductFilterSelect.selectedOptionValue,true);}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.ProductGroupFilterDropDown))(ProductFilterSelect.options, ProductFilterSelect.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/formbuilderui/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "1clexvpekr",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "4",
+  "leftColumn": 47,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{storeValue(\"MasterRecipeNo\",undefined,true);\n\t\tstoreValue(\"MasterRecipeCellColor\",undefined,true);\n\t\tstoreValue(\"RecipesByProductFilter\",[],true);storeValue('ProductGroupFilterDropDown',ProductFilterSelect.selectedOptionValue,true);}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 13.953125,
+  "parentId": "6o28nlkh1n",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 57,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{GetProductFilterOption.data}}",
+  "topRow": 4,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "hvow61ye9k",
+  "widgetName": "ProductFilterSelect"
 }

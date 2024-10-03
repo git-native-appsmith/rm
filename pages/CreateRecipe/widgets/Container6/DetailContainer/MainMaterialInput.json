@@ -1,62 +1,82 @@
 {
-    "boxShadow": "none",
-    "widgetName": "MainMaterialInput",
-    "dynamicPropertyPathList": [
-        {"key": "isVisible"},
-        {"key": "isDisabled"},
-        {"key": "onBlur"}
-    ],
-    "displayName": "Input",
-    "iconSVG": "/formbuilderui/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 13.640625,
-    "dynamicTriggerPathList": [{"key": "onBlur"}],
-    "resetOnSubmit": true,
-    "leftColumn": 18,
-    "dynamicBindingPathList": [
-        {"key": "defaultText"},
-        {"key": "isVisible"},
-        {"key": "isDisabled"},
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "labelPosition": "Left",
-    "labelStyle": "",
-    "inputType": "TEXT",
-    "isDisabled": "{{appsmith.store.RecipeClassDropDown==\"CS\"}}",
-    "key": "wql9o7za9c",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 26,
-    "dynamicHeight": "FIXED",
-    "widgetId": "gue9gjjpvm",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{appsmith.store.RecipeClassDropDown==\"PD\" || appsmith.store.RecipeClassDropDown==\"CS\" || appsmith.store.RecipeClassDropDown==\"ST\" || appsmith.store.RecipeClassDropDown==\"RM\" || appsmith.store.RecipeClassDropDown==\"CO\"}}",
-    "label": "",
-    "version": 2,
-    "parentId": "5mu8z3bkjc",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "onBlur": "{{CalculateOnBoneDryChange.onMainBoneDry()}}",
-    "regex": "(^\\d*\\.?\\d*[1-9]+\\d*$)|(^[1-9]+\\d*\\.\\d*$)",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{(Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry)==0?'':Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry).toFixed(1))}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultText": "{{(Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry)==0?'':Number(appsmith.store.calculatedField.sv_mainMtrlBoneDry).toFixed(1))}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onBlur"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/formbuilderui/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": "{{appsmith.store.RecipeClassDropDown==\"CS\"}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.RecipeClassDropDown==\"PD\" || appsmith.store.RecipeClassDropDown==\"CS\" || appsmith.store.RecipeClassDropDown==\"ST\" || appsmith.store.RecipeClassDropDown==\"RM\" || appsmith.store.RecipeClassDropDown==\"CO\"}}",
+  "key": "wql9o7za9c",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 18,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onBlur": "{{CalculateOnBoneDryChange.onMainBoneDry()}}",
+  "parentColumnSpace": 13.640625,
+  "parentId": "5mu8z3bkjc",
+  "parentRowSpace": 10,
+  "regex": "(^\\d*\\.?\\d*[1-9]+\\d*$)|(^[1-9]+\\d*\\.\\d*$)",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 26,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 4,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "gue9gjjpvm",
+  "widgetName": "MainMaterialInput"
 }

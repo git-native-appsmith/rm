@@ -1,39 +1,51 @@
 {
-    "boxShadow": "none",
-    "widgetName": "UpdateModificationNumberButton",
-    "onClick": "{{ModificationNoActivateUtil.ModifNumberUpdateButtonClick();}}",
-    "buttonColor": "#000",
-    "dynamicPropertyPathList": [
-        {"key": "isDisabled"},
-        {"key": "onClick"}
-    ],
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.cca02633.svg",
-    "topRow": 55,
-    "bottomRow": 59,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 54,
-    "dynamicBindingPathList": [{"key": "isDisabled"}],
-    "text": "Save",
-    "isDisabled": "{{appsmith.store.DisableEditControls ||( appsmith.store.row == \"Closed\" && appsmith.store.actFlag==0 ) || appsmith.store.row == \"Cancelled\" }}",
-    "key": "cou3d4yjgq",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 61,
-    "isDefaultClickDisabled": true,
-    "widgetId": "jemy61lzib",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "j68pfsw7no",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 55,
-    "borderRadius": "1.5rem",
-    "originalBottomRow": 59,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{appsmith.store.DisableEditControls ||( appsmith.store.row == \"Closed\" && appsmith.store.actFlag==0 ) || appsmith.store.row == \"Cancelled\" }}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cou3d4yjgq",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 54,
+  "onClick": "{{ModificationNoActivateUtil.ModifNumberUpdateButtonClick();}}",
+  "originalBottomRow": 59,
+  "originalTopRow": 55,
+  "parentId": "j68pfsw7no",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "text": "Save",
+  "topRow": 55,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "jemy61lzib",
+  "widgetName": "UpdateModificationNumberButton"
 }

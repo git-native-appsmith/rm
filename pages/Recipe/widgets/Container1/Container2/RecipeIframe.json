@@ -1,38 +1,52 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "RecipeIframe",
-    "srcDoc": "{{TabulatorSetUp.getHtml()}}",
-    "dynamicPropertyPathList": [{"key": "onMessageReceived"}],
-    "displayName": "Iframe",
-    "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
-    "searchTags": ["embed"],
-    "topRow": 0,
-    "bottomRow": 68,
-    "parentRowSpace": 10,
-    "source": "https://www.example.com",
-    "type": "IFRAME_WIDGET",
-    "hideCard": false,
-    "borderOpacity": "0",
-    "animateLoading": false,
-    "parentColumnSpace": 17.75,
-    "dynamicTriggerPathList": [{"key": "onMessageReceived"}],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "boxShadow"},
-        {"key": "srcDoc"}
-    ],
-    "borderWidth": "0",
-    "key": "h5uoxl1ldr",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "widgetId": "qnk1ou98oj",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "9np1qdmmgh",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 12,
-    "borderRadius": "0.375rem",
-    "originalBottomRow": 80,
-    "onMessageReceived": "{{TabulatorAction.TabulatorOperations()}}"
+  "animateLoading": false,
+  "borderOpacity": "0",
+  "borderRadius": "0.375rem",
+  "borderWidth": "0",
+  "bottomRow": 68,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "displayName": "Iframe",
+  "dynamicBindingPathList": [
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "srcDoc"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onMessageReceived"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onMessageReceived"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "h5uoxl1ldr",
+  "leftColumn": 0,
+  "onMessageReceived": "{{TabulatorAction.TabulatorOperations()}}",
+  "originalBottomRow": 80,
+  "originalTopRow": 12,
+  "parentColumnSpace": 17.75,
+  "parentId": "9np1qdmmgh",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "embed"
+  ],
+  "source": "https://www.example.com",
+  "srcDoc": "{{TabulatorSetUp.getHtml()}}",
+  "topRow": 0,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "qnk1ou98oj",
+  "widgetName": "RecipeIframe"
 }

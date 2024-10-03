@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "636e155fe60d44705cd472c4_636e176fe60d44705cd47483",
+  "id": "MassUpdate_RecipeUtil",
   "unpublishedCollection": {
     "name": "RecipeUtil",
     "pageId": "MassUpdate",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "MassUpdate_RecipeUtil",
-  "deleted": false,
-  "gitSyncId": "636e155fe60d44705cd472c4_636e176fe60d44705cd47483"
+    "variables": []
+  }
 }

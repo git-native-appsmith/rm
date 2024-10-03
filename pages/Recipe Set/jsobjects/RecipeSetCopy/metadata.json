@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "629f95486566be733a03a9e1_62a8c8f5abd317463ff3699b",
+  "id": "Recipe Set_RecipeSetCopy",
   "unpublishedCollection": {
     "name": "RecipeSetCopy",
     "pageId": "Recipe Set",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Recipe Set_RecipeSetCopy",
-  "deleted": false,
-  "gitSyncId": "629f95486566be733a03a9e1_62a8c8f5abd317463ff3699b"
+    "variables": []
+  }
 }

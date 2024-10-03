@@ -1,57 +1,32 @@
 {
+  "gitSyncId": "64259f8db55c095d08ff01c6_642ecf51b55c095d08ff2c5c",
   "unpublishedPage": {
-    "name": "CreateRecipeMS_SU",
-    "slug": "createrecipems-su",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 790,
-          "containerStyle": "none",
-          "snapRows": 63,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 640,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "CreateRecipeMS_SU_CreateEditCS.OnPageLoad",
-              "name": "CreateEditCS.OnPageLoad",
-              "collectionId": "CreateRecipeMS_SU_CreateEditCS",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  let tbl = [];\n  let reset = 0;\n  storeValue(\"IsCreate_RecipeLoadFirstTime\", true, true);\n  if (appsmith.URL.queryParams.RecipeAction == \"Create\") {\n    let calculatedField = {\n      \"sv_mainMtrlBoneDry\": reset,\n      \"sv_spwt\": reset,\n      \"sv_gbt\": reset,\n      \"sv_per\": reset,\n      \"sv_totalWeightWet\": reset,\n      \"sv_totalVolume\": reset,\n      \"sv_filler\": reset\n    };\n    storeValue('SV_TBL', tbl, true);\n    storeValue(\"calculatedField\", calculatedField, true);\n    storeValue(\"Remark\", \"\", true);\n    storeValue(\"ProductCode\", \"\", true);\n    storeValue(\"ProductName\", \"\", true);\n  }\n  TabulatorOperations.onPageLoad();\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "CreateRecipeMS_SU",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 63,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "64259f8db55c095d08ff01c6_642ecf51b55c095d08ff2c5c"
+    "name": "CreateRecipeMS_SU",
+    "slug": "createrecipems-su"
+  }
 }

@@ -1,45 +1,57 @@
 {
-    "boxShadow": "none",
-    "widgetName": "ComparedBySelect",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [
-        {"key": "onOptionChange"},
-        {"key": "sourceData"}
-    ],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "",
-    "topRow": 0,
-    "bottomRow": 4,
-    "parentRowSpace": 10,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": " {\n    \"label\": \"Product\",\n    \"value\": 2\n  }",
-    "animateLoading": true,
-    "parentColumnSpace": 15.590625,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 48,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "sourceData": "[\n  {\n    \"label\": \"Step Number\",\n    \"value\": 1\n  },\n  {\n    \"label\": \"Product\",\n    \"value\": 2\n  }\n]",
-    "key": "otw44r0qed",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 59,
-    "dynamicHeight": "FIXED",
-    "widgetId": "9xe8o1rybk",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "optionValue": "value",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "n975b17nos",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "optionLabel": "label",
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{RecipeComparisonUtil.OnChangeComparedBy()}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultOptionValue": " {\n    \"label\": \"Product\",\n    \"value\": 2\n  }",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "otw44r0qed",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 48,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{RecipeComparisonUtil.OnChangeComparedBy()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 15.590625,
+  "parentId": "n975b17nos",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 59,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Step Number\",\n    \"value\": 1\n  },\n  {\n    \"label\": \"Product\",\n    \"value\": 2\n  }\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "9xe8o1rybk",
+  "widgetName": "ComparedBySelect"
 }

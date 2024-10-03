@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "636e155fe60d44705cd472c4_6373500fe60d44705cd47509",
+  "id": "MassUpdateMR_SetControls",
   "unpublishedCollection": {
     "name": "SetControls",
     "pageId": "MassUpdateMR",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "MassUpdateMR_SetControls",
-  "deleted": false,
-  "gitSyncId": "636e155fe60d44705cd472c4_6373500fe60d44705cd47509"
+    "variables": []
+  }
 }

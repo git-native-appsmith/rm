@@ -1,31 +1,39 @@
 {
-    "boxShadow": "none",
-    "widgetName": "IconButton1Copy",
-    "onClick": "{{closeModal('LimitModal');}}",
-    "buttonColor": "#2E3D49",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Icon Button",
-    "iconSVG": "/static/media/icon.1a0c634a.svg",
-    "topRow": 1,
-    "bottomRow": 5,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 60,
-    "dynamicBindingPathList": [],
-    "iconSize": 24,
-    "isDisabled": false,
-    "key": "rzayfql340",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 64,
-    "iconName": "cross",
-    "widgetId": "j52mvkteon",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "p9wrw3jqin",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "buttonVariant": "TERTIARY"
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#2E3D49",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "cross",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "iconSize": 24,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rzayfql340",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 60,
+  "onClick": "{{closeModal('LimitModal');}}",
+  "parentId": "p9wrw3jqin",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "j52mvkteon",
+  "widgetName": "IconButton1Copy"
 }

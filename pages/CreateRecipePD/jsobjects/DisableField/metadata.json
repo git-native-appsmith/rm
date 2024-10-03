@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64259f8db55c095d08ff01c6_64341590b55c095d08ff345b",
+  "id": "CreateRecipePD_DisableField",
   "unpublishedCollection": {
     "name": "DisableField",
     "pageId": "CreateRecipePD",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipePD_DisableField",
-  "deleted": false,
-  "gitSyncId": "64259f8db55c095d08ff01c6_64341590b55c095d08ff345b"
+    "variables": []
+  }
 }

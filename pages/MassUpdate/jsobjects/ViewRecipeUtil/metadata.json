@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "63b8e4261d5a9a20e2673655_63c05839f7db535996d62aca",
+  "id": "MassUpdate_ViewRecipeUtil",
   "unpublishedCollection": {
     "name": "ViewRecipeUtil",
     "pageId": "MassUpdate",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "MassUpdate_ViewRecipeUtil",
-  "deleted": false,
-  "gitSyncId": "63b8e4261d5a9a20e2673655_63c05839f7db535996d62aca"
+    "variables": []
+  }
 }

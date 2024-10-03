@@ -1,55 +1,67 @@
 {
-    "boxShadow": "none",
-    "widgetName": "MaterialAdd",
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "displayName": "Input",
-    "iconSVG": "/formbuilderui/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "topRow": 6,
-    "bottomRow": 13,
-    "parentRowSpace": 10,
-    "labelWidth": "10",
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 13.24609375,
-    "dynamicTriggerPathList": [],
-    "resetOnSubmit": true,
-    "leftColumn": 22,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"},
-        {"key": "isVisible"}
-    ],
-    "labelPosition": "Top",
-    "labelStyle": "",
-    "inputType": "TEXT",
-    "isDisabled": true,
-    "key": "226g66w3l0",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 32,
-    "dynamicHeight": "FIXED",
-    "widgetId": "olkceg1b6m",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{appsmith.store.RecipeClassDropDown=='RM'||appsmith.store.RecipeClassDropDown=='CO'||appsmith.store.RecipeClassDropDown=='PD'||appsmith.store.RecipeClassDropDown=='ST'||appsmith.store.RecipeClassDropDown=='CS'||appsmith.store.RecipeClassDropDown=='MS'||appsmith.store.RecipeClassDropDown=='SU'}}",
-    "label": "Material Code",
-    "version": 2,
-    "parentId": "dg0r3947qg",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{appsmith.store.SV_reArrAdd.MaterialCodeAdd}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "{{appsmith.store.SV_reArrAdd.MaterialCodeAdd}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/formbuilderui/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.RecipeClassDropDown=='RM'||appsmith.store.RecipeClassDropDown=='CO'||appsmith.store.RecipeClassDropDown=='PD'||appsmith.store.RecipeClassDropDown=='ST'||appsmith.store.RecipeClassDropDown=='CS'||appsmith.store.RecipeClassDropDown=='MS'||appsmith.store.RecipeClassDropDown=='SU'}}",
+  "key": "226g66w3l0",
+  "label": "Material Code",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "10",
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 13.24609375,
+  "parentId": "dg0r3947qg",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 32,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 6,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "olkceg1b6m",
+  "widgetName": "MaterialAdd"
 }

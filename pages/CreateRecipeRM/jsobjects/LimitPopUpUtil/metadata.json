@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64259f8db55c095d08ff01c6_64368abcb55c095d08ff3735",
+  "id": "CreateRecipeRM_LimitPopUpUtil",
   "unpublishedCollection": {
     "name": "LimitPopUpUtil",
     "pageId": "CreateRecipeRM",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipeRM_LimitPopUpUtil",
-  "deleted": false,
-  "gitSyncId": "64259f8db55c095d08ff01c6_64368abcb55c095d08ff3735"
+    "variables": []
+  }
 }

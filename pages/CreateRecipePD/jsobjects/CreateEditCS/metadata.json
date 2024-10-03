@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "64259f8db55c095d08ff01c6_64341590b55c095d08ff3459",
+  "id": "CreateRecipePD_CreateEditCS",
   "unpublishedCollection": {
     "name": "CreateEditCS",
     "pageId": "CreateRecipePD",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "CreateRecipePD_CreateEditCS",
-  "deleted": false,
-  "gitSyncId": "64259f8db55c095d08ff01c6_64341590b55c095d08ff3459"
+    "variables": []
+  }
 }

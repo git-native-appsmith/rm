@@ -1,609 +1,707 @@
 {
-    "multiRowSelection": false,
-    "boxShadow": "none",
-    "isVisibleDownload": false,
-    "iconSVG": "/static/media/icon.db8a9cbd.svg",
-    "topRow": 11,
-    "isSortable": true,
-    "type": "TABLE_WIDGET",
-    "animateLoading": true,
-    "dynamicBindingPathList": [
-        {"key": "tableData"},
-        {"key": "primaryColumns.COST_CHECKED.computedValue"},
-        {"key": "primaryColumns.CANCEL_DATE.computedValue"},
-        {"key": "primaryColumns.END_DATE.computedValue"},
-        {"key": "primaryColumns.START_DATE.computedValue"},
-        {"key": "primaryColumns.MODIF_STATUS.computedValue"},
-        {"key": "primaryColumns.CRTIME.computedValue"},
-        {"key": "primaryColumns.MODIF_DESCRIPTION.computedValue"},
-        {"key": "primaryColumns.CRUSER.computedValue"},
-        {"key": "primaryColumns.MODIF_NUMBER.computedValue"},
-        {"key": "primaryColumns.customColumn4.menuButtonLabel"},
-        {"key": "accentColor"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isDisabled"},
-        {"key": "derivedColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isDisabled"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.isDisabled"},
-        {"key": "derivedColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.isDisabled"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.isDisabled"},
-        {"key": "derivedColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.isDisabled"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.isDisabled"},
-        {"key": "derivedColumns.customColumn4.menuItems.menuItemm1xb1q99uu.isDisabled"},
-        {"key": "primaryColumns.ACTDAYFLAG.computedValue"}
-    ],
-    "leftColumn": 0,
-    "delimiter": ",",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": true,
-    "isVisible": true,
-    "enableClientSideSearch": false,
-    "version": 3,
-    "textColor": "",
-    "totalRecordsCount": "",
-    "isLoading": false,
-    "childStylesheet": {
-        "button": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "MODIF_NUMBER",
+    "CRUSER",
+    "MODIF_DESCRIPTION",
+    "MODIF_STATUS",
+    "CRTIME",
+    "START_DATE",
+    "END_DATE",
+    "CANCEL_DATE",
+    "COST_CHECKED",
+    "ACTDAYFLAG",
+    "customColumn4"
+  ],
+  "columnSizeMap": {
+    "CANCEL_DATE": 141,
+    "COST_CHECKED": 64,
+    "CRTIME": 186,
+    "CRUSER": 132,
+    "END_DATE": 136,
+    "MODIF_DESCRIPTION": 277,
+    "MODIF_NUMBER": 121,
+    "MODIF_STATUS": 108,
+    "START_DATE": 146,
+    "crtime": 153,
+    "cruser": 102,
+    "customColumn1": 77,
+    "customColumn2": 89,
+    "customColumn3": 76,
+    "customColumn4": 90.00000000000001,
+    "customColumn5": 75,
+    "customColumn6": 68,
+    "customColumn7": 60,
+    "date_end": 149,
+    "date_start": 153,
+    "recipe_modif_description": 199,
+    "recipe_modif_name": 192,
+    "recipe_modif_number": 114,
+    "recipe_modif_status": 116,
+    "status": 75,
+    "step": 62,
+    "task": 245,
+    "undone_on": 171.99999999999997
+  },
+  "compactMode": "SHORT",
+  "defaultPageSize": 0,
+  "defaultSelectedRow": "",
+  "delimiter": ",",
+  "derivedColumns": {
+    "customColumn4": {
+      "borderRadius": "0.375rem",
+      "boxShadow": "none",
+      "buttonColor": "#03B365",
+      "buttonLabelColor": "#FFFFFF",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "menuButton",
+      "computedValue": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "iconName": "more",
+      "id": "customColumn4",
+      "index": 11,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "ACTIONS",
+      "labelColor": "#FFFFFF",
+      "menuButtonLabel": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( ' '))}}",
+      "menuColor": "#000000",
+      "menuItems": {
+        "menuItem51sc9lm0c8": {
+          "iconName": "eye-open"
         },
-        "iconButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+        "menuItem9j8kuwmwx1": {
+          "iconName": "edit",
+          "isDisabled": "{{ModificationUtils.onActualImpactDay() }}"
         },
-        "menuButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+        "menuItemaapig8s8at": {
+          "iconName": "dollar",
+          "id": "menuItemaapig8s8at",
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Cost Checking",
+          "widgetId": "atq7wdecvh"
+        },
+        "menuItemdi8hkil8nx": {
+          "iconName": "power",
+          "id": "menuItemdi8hkil8nx",
+          "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
+          "isVisible": "true",
+          "label": "Activate",
+          "textColor": "#231F20",
+          "widgetId": "ckaac2u1md"
+        },
+        "menuItemlcwyj01gwz": {
+          "iconName": "eye-open",
+          "id": "menuItemlcwyj01gwz",
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Show Recipe",
+          "widgetId": "ncg5blr442"
+        },
+        "menuItemm1xb1q99uu": {
+          "iconName": "reset",
+          "id": "menuItemm1xb1q99uu",
+          "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
+          "isVisible": true,
+          "label": "Automatic/Reset",
+          "widgetId": "fn5c072qip"
+        },
+        "menuItemo9zqnr9aqo": {
+          "iconName": "settings",
+          "id": "menuItemo9zqnr9aqo",
+          "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
+          "isVisible": true,
+          "label": "Undo Modification",
+          "widgetId": "gukhfij88x"
+        },
+        "menuItemwfwl7rhscl": {
+          "iconName": "lab-test",
+          "id": "menuItemwfwl7rhscl",
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Check",
+          "widgetId": "a3ui73xea1"
+        },
+        "menuItemxq3avn4rql": {
+          "iconName": "eye-open"
+        },
+        "menuItemz9lm8zsf74": {
+          "iconName": "history",
+          "id": "menuItemz9lm8zsf74",
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "History Recipe Set",
+          "widgetId": "rqc2f99ohk"
         }
+      },
+      "menuVariant": "TERTIARY",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "width": 150
+    }
+  },
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
     },
-    "borderRadius": "0px",
-    "primaryColumnId": "MODIF_NUMBER",
-    "columnSizeMap": {
-        "CRTIME": 186,
-        "END_DATE": 136,
-        "crtime": 153,
-        "cruser": 102,
-        "MODIF_STATUS": 108,
-        "recipe_modif_number": 114,
-        "undone_on": 171.99999999999997,
-        "recipe_modif_description": 199,
-        "recipe_modif_name": 192,
-        "date_end": 149,
-        "customColumn1": 77,
-        "START_DATE": 146,
-        "customColumn2": 89,
-        "customColumn3": 76,
-        "customColumn4": 90.00000000000001,
-        "customColumn5": 75,
-        "customColumn6": 68,
-        "customColumn7": 60,
-        "date_start": 153,
-        "CANCEL_DATE": 141,
-        "task": 245,
-        "recipe_modif_status": 116,
-        "MODIF_DESCRIPTION": 277,
-        "step": 62,
-        "CRUSER": 132,
-        "COST_CHECKED": 64,
-        "MODIF_NUMBER": 121,
-        "status": 75
+    {
+      "key": "primaryColumns.COST_CHECKED.computedValue"
     },
-    "widgetName": "RecipeModificationsTable",
-    "defaultPageSize": 0,
-    "columnOrder": [
-        "MODIF_NUMBER",
-        "CRUSER",
-        "MODIF_DESCRIPTION",
-        "MODIF_STATUS",
-        "CRTIME",
-        "START_DATE",
-        "END_DATE",
-        "CANCEL_DATE",
-        "COST_CHECKED",
-        "ACTDAYFLAG",
-        "customColumn4"
-    ],
-    "dynamicPropertyPathList": [
-        {"key": "tableData"},
-        {"key": "primaryColumns.MODIF_STATUS.textColor"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItem51sc9lm0c8.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemxq3avn4rql.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isVisible"},
-        {"key": "primaryColumns.customColumn4.isDisabled"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isDisabled"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.isDisabled"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.isDisabled"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.isDisabled"},
-        {"key": "onRowSelected"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemwfwl7rhscl.onClick"}
-    ],
-    "compactMode": "SHORT",
-    "displayName": "Table",
-    "bottomRow": 59,
-    "parentRowSpace": 10,
-    "defaultSelectedRow": "",
-    "hideCard": false,
-    "dynamicTriggerPathList": [
-        {"key": "onRowSelected"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemxq3avn4rql.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItem51sc9lm0c8.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemlcwyj01gwz.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemwfwl7rhscl.onClick"},
-        {"key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.onClick"}
-    ],
-    "primaryColumns": {
-        "CANCEL_DATE": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.CANCEL_DATE)))}}",
-            "textSize": "0.875rem",
-            "iconName": "",
-            "index": 7,
-            "isVisible": true,
-            "label": "UNDONE ON",
-            "fontStyle": "",
-            "inputFormat": "DD/MM/YYYY HH:mm",
-            "textColor": "",
-            "columnType": "date",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "CANCEL_DATE",
-            "isDisabled": false,
-            "cellBackground": "",
-            "outputFormat": "DD/MM/YYYY HH:mm",
-            "verticalAlignment": "CENTER"
+    {
+      "key": "primaryColumns.CANCEL_DATE.computedValue"
+    },
+    {
+      "key": "primaryColumns.END_DATE.computedValue"
+    },
+    {
+      "key": "primaryColumns.START_DATE.computedValue"
+    },
+    {
+      "key": "primaryColumns.MODIF_STATUS.computedValue"
+    },
+    {
+      "key": "primaryColumns.CRTIME.computedValue"
+    },
+    {
+      "key": "primaryColumns.MODIF_DESCRIPTION.computedValue"
+    },
+    {
+      "key": "primaryColumns.CRUSER.computedValue"
+    },
+    {
+      "key": "primaryColumns.MODIF_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuButtonLabel"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isDisabled"
+    },
+    {
+      "key": "derivedColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.isDisabled"
+    },
+    {
+      "key": "derivedColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.isDisabled"
+    },
+    {
+      "key": "derivedColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.isDisabled"
+    },
+    {
+      "key": "derivedColumns.customColumn4.menuItems.menuItemm1xb1q99uu.isDisabled"
+    },
+    {
+      "key": "primaryColumns.ACTDAYFLAG.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.MODIF_STATUS.textColor"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItem51sc9lm0c8.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemxq3avn4rql.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isVisible"
+    },
+    {
+      "key": "primaryColumns.customColumn4.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.isDisabled"
+    },
+    {
+      "key": "onRowSelected"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemwfwl7rhscl.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemo9zqnr9aqo.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemdi8hkil8nx.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemxq3avn4rql.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItem51sc9lm0c8.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItem9j8kuwmwx1.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemlcwyj01gwz.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemwfwl7rhscl.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.menuItems.menuItemm1xb1q99uu.onClick"
+    }
+  ],
+  "enableClientSideSearch": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.db8a9cbd.svg",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "62qcgbszl8",
+  "label": "Data",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "multiRowSelection": false,
+  "onRowSelected": "{{JSObject1.onRowSelect(RecipeModificationsTable.selectedRow);}}",
+  "parentId": "pn6gng9p7u",
+  "parentRowSpace": 10,
+  "primaryColumnId": "MODIF_NUMBER",
+  "primaryColumns": {
+    "ACTDAYFLAG": {
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.ACTDAYFLAG))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "ACTDAYFLAG",
+      "index": 9,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "ACTDAYFLAG",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "CANCEL_DATE": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.CANCEL_DATE)))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "iconName": "",
+      "id": "CANCEL_DATE",
+      "index": 7,
+      "inputFormat": "DD/MM/YYYY HH:mm",
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "UNDONE ON",
+      "outputFormat": "DD/MM/YYYY HH:mm",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "COST_CHECKED": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.COST_CHECKED))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "COST_CHECKED",
+      "index": 8,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "ID",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "CRTIME": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.CRTIME)))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "iconName": "",
+      "id": "CRTIME",
+      "index": 3,
+      "inputFormat": "DD/MM/YYYY HH:mm",
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "CREATED DATE",
+      "outputFormat": "DD/MM/YYYY HH:mm",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "CRUSER": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.CRUSER))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "CRUSER",
+      "index": 1,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "USER NAME",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "END_DATE": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.END_DATE)))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "iconName": "",
+      "id": "END_DATE",
+      "index": 6,
+      "inputFormat": "DD/MM/YYYY HH:mm",
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "CLOSED ON",
+      "outputFormat": "DD/MM/YYYY HH:mm",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MODIF_DESCRIPTION": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_DESCRIPTION))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "MODIF_DESCRIPTION",
+      "index": 2,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DESCRIPTION/REASON",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MODIF_NUMBER": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_NUMBER))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "iconName": "",
+      "id": "MODIF_NUMBER",
+      "index": 0,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "MODIF NO",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MODIF_STATUS": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_STATUS))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "MODIF_STATUS",
+      "index": 4,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "STATUS",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "START_DATE": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.START_DATE)))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "iconName": "",
+      "id": "START_DATE",
+      "index": 5,
+      "inputFormat": "DD/MM/YYYY HH:mm",
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "ACTIVE FROM",
+      "outputFormat": "DD/MM/YYYY HH:mm",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn4": {
+      "borderRadius": "0.375rem",
+      "boxShadow": "none",
+      "buttonColor": "#03B365",
+      "buttonLabelColor": "#FFFFFF",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "menuButton",
+      "computedValue": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "iconName": "more",
+      "id": "customColumn4",
+      "index": 11,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": "false",
+      "isVisible": true,
+      "label": "ACTIONS",
+      "labelColor": "#FFFFFF",
+      "menuButtonLabel": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( ' '))}}",
+      "menuColor": "#000000",
+      "menuItems": {
+        "menuItem51sc9lm0c8": {
+          "iconName": "eye-open",
+          "id": "menuItem51sc9lm0c8",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "View",
+          "onClick": "{{storeValue('lblEdit','View',false);GetGroupCodes.run();GetModifCategoryByModifNumber.run(() => showModal('UpdateModificationModal'), () => showAlert('Failed to retrieve modification details','error'))}}",
+          "widgetId": "pgsw3m06lv"
         },
-        "CRTIME": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.CRTIME)))}}",
-            "textSize": "0.875rem",
-            "iconName": "",
-            "index": 3,
-            "isVisible": true,
-            "label": "CREATED DATE",
-            "fontStyle": "",
-            "inputFormat": "DD/MM/YYYY HH:mm",
-            "textColor": "",
-            "columnType": "date",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "CRTIME",
-            "isDisabled": false,
-            "cellBackground": "",
-            "outputFormat": "DD/MM/YYYY HH:mm",
-            "verticalAlignment": "CENTER"
+        "menuItem9j8kuwmwx1": {
+          "iconName": "edit",
+          "id": "menuItem9j8kuwmwx1",
+          "index": 1,
+          "isDisabled": "{{ModificationUtils.onActualImpactDay() }}",
+          "isVisible": true,
+          "label": "Edit",
+          "onClick": "{{storeValue('DisableEditControls',false,true);\nstoreValue('lblEdit','Edit',false);GetGroupCodes.run();\nGetModifCategoryByModifNumber.run(() => showModal('UpdateModificationModal'), () => showAlert('Failed to retrieve modification details','error'))}}",
+          "widgetId": "qvxcwjlgeq"
         },
-        "MODIF_DESCRIPTION": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_DESCRIPTION))}}",
-            "textSize": "0.875rem",
-            "index": 2,
-            "isVisible": true,
-            "label": "DESCRIPTION/REASON",
-            "fontStyle": "",
-            "textColor": "",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "MODIF_DESCRIPTION",
-            "isDisabled": false,
-            "cellBackground": "",
-            "verticalAlignment": "CENTER"
+        "menuItemaapig8s8at": {
+          "iconName": "dollar",
+          "id": "menuItemaapig8s8at",
+          "index": 9,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Cost Checking",
+          "widgetId": "atq7wdecvh"
         },
-        "MODIF_STATUS": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_STATUS))}}",
-            "textSize": "0.875rem",
-            "index": 4,
-            "isVisible": true,
-            "label": "STATUS",
-            "fontStyle": "",
-            "textColor": "",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "MODIF_STATUS",
-            "isDisabled": false,
-            "cellBackground": "",
-            "verticalAlignment": "CENTER"
+        "menuItemdi8hkil8nx": {
+          "iconName": "power",
+          "id": "menuItemdi8hkil8nx",
+          "index": 2,
+          "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
+          "isVisible": "true",
+          "label": "Activate",
+          "onClick": "{{ModificationNoActivateUtil.ActivateMenuItemClick()}}",
+          "textColor": "#231F20",
+          "widgetId": "ckaac2u1md"
         },
-        "END_DATE": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.END_DATE)))}}",
-            "textSize": "0.875rem",
-            "iconName": "",
-            "index": 6,
-            "isVisible": true,
-            "label": "CLOSED ON",
-            "fontStyle": "",
-            "inputFormat": "DD/MM/YYYY HH:mm",
-            "textColor": "",
-            "columnType": "date",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "END_DATE",
-            "isDisabled": false,
-            "cellBackground": "",
-            "outputFormat": "DD/MM/YYYY HH:mm",
-            "verticalAlignment": "CENTER"
+        "menuItemlcwyj01gwz": {
+          "iconName": "eye-open",
+          "id": "menuItemlcwyj01gwz",
+          "index": 6,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "View Recipe Set",
+          "onClick": "{{ModificationNoActivateUtil.RecipeSetMenuItemClick()}}",
+          "widgetId": "ncg5blr442"
         },
-        "CRUSER": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.CRUSER))}}",
-            "textSize": "0.875rem",
-            "index": 1,
-            "isVisible": true,
-            "label": "USER NAME",
-            "fontStyle": "",
-            "textColor": "",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "CRUSER",
-            "isDisabled": false,
-            "cellBackground": "",
-            "verticalAlignment": "CENTER"
+        "menuItemm1xb1q99uu": {
+          "iconName": "reset",
+          "id": "menuItemm1xb1q99uu",
+          "index": 3,
+          "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
+          "isVisible": true,
+          "label": "Automatic/Reset",
+          "onClick": "{{ActivateModifService.run(() => {GetFilteredModificationNumber.run();\n\tshowAlert('Modification Status set successfully.','success');}, () => showAlert('Failed to set modification status.','error'))}}",
+          "widgetId": "fn5c072qip"
         },
-        "START_DATE": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( (currentRow.START_DATE)))}}",
-            "textSize": "0.875rem",
-            "iconName": "",
-            "index": 5,
-            "isVisible": true,
-            "label": "ACTIVE FROM",
-            "fontStyle": "",
-            "inputFormat": "DD/MM/YYYY HH:mm",
-            "textColor": "",
-            "columnType": "date",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "START_DATE",
-            "isDisabled": false,
-            "cellBackground": "",
-            "outputFormat": "DD/MM/YYYY HH:mm",
-            "verticalAlignment": "CENTER"
+        "menuItemo9zqnr9aqo": {
+          "iconName": "settings",
+          "id": "menuItemo9zqnr9aqo",
+          "index": 5,
+          "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
+          "isVisible": true,
+          "label": "Undo Modification",
+          "onClick": "{{showModal('UndoModal')}}",
+          "widgetId": "gukhfij88x"
         },
-        "COST_CHECKED": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.COST_CHECKED))}}",
-            "textSize": "0.875rem",
-            "index": 8,
-            "isVisible": false,
-            "label": "ID",
-            "fontStyle": "",
-            "textColor": "",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "COST_CHECKED",
-            "isDisabled": false,
-            "cellBackground": "",
-            "verticalAlignment": "CENTER"
+        "menuItemwfwl7rhscl": {
+          "iconName": "lab-test",
+          "id": "menuItemwfwl7rhscl",
+          "index": 4,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Check",
+          "onClick": "{{JSObject1.RecipeCheck()}}",
+          "widgetId": "a3ui73xea1"
         },
-        "MODIF_NUMBER": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.MODIF_NUMBER))}}",
-            "textSize": "0.875rem",
-            "iconName": "",
-            "index": 0,
-            "isVisible": true,
-            "label": "MODIF NO",
-            "fontStyle": "",
-            "textColor": "",
-            "columnType": "number",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "MODIF_NUMBER",
-            "isDisabled": false,
-            "cellBackground": "",
-            "verticalAlignment": "CENTER"
+        "menuItemxq3avn4rql": {
+          "iconName": "eye-open",
+          "id": "menuItemxq3avn4rql",
+          "index": 8,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "View Recipe",
+          "onClick": "{{navigateTo('Page1',{\"Modif_No\":RecipeModificationsTable.selectedRow.MODIF_NUMBER})}}",
+          "widgetId": "so74kt0fm7"
         },
-        "customColumn4": {
-            "boxShadow": "none",
-            "computedValue": "",
-            "buttonColor": "#03B365",
-            "enableSort": true,
-            "id": "customColumn4",
-            "isDisabled": "false",
-            "buttonLabelColor": "#FFFFFF",
-            "isCellVisible": true,
-            "isDerived": true,
-            "menuButtonLabel": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( ' '))}}",
-            "textSize": "0.875rem",
-            "iconName": "more",
-            "menuVariant": "TERTIARY",
-            "buttonStyle": "rgb(3, 179, 101)",
-            "menuItems": {
-                "menuItemxq3avn4rql": {
-                    "onClick": "{{navigateTo('Page1',{\"Modif_No\":RecipeModificationsTable.selectedRow.MODIF_NUMBER})}}",
-                    "iconName": "eye-open",
-                    "widgetId": "so74kt0fm7",
-                    "index": 8,
-                    "id": "menuItemxq3avn4rql",
-                    "label": "View Recipe",
-                    "isDisabled": false,
-                    "isVisible": true
-                },
-                "menuItemlcwyj01gwz": {
-                    "onClick": "{{ModificationNoActivateUtil.RecipeSetMenuItemClick()}}",
-                    "iconName": "eye-open",
-                    "widgetId": "ncg5blr442",
-                    "index": 6,
-                    "id": "menuItemlcwyj01gwz",
-                    "label": "View Recipe Set",
-                    "isDisabled": false,
-                    "isVisible": true
-                },
-                "menuItemwfwl7rhscl": {
-                    "onClick": "{{JSObject1.RecipeCheck()}}",
-                    "iconName": "lab-test",
-                    "widgetId": "a3ui73xea1",
-                    "index": 4,
-                    "id": "menuItemwfwl7rhscl",
-                    "label": "Check",
-                    "isDisabled": false,
-                    "isVisible": true
-                },
-                "menuItem9j8kuwmwx1": {
-                    "onClick": "{{storeValue('DisableEditControls',false,true);\nstoreValue('lblEdit','Edit',false);GetGroupCodes.run();\nGetModifCategoryByModifNumber.run(() => showModal('UpdateModificationModal'), () => showAlert('Failed to retrieve modification details','error'))}}",
-                    "iconName": "edit",
-                    "widgetId": "qvxcwjlgeq",
-                    "index": 1,
-                    "id": "menuItem9j8kuwmwx1",
-                    "label": "Edit",
-                    "isDisabled": "{{ModificationUtils.onActualImpactDay() }}",
-                    "isVisible": true
-                },
-                "menuItemo9zqnr9aqo": {
-                    "onClick": "{{showModal('UndoModal')}}",
-                    "iconName": "settings",
-                    "widgetId": "gukhfij88x",
-                    "index": 5,
-                    "id": "menuItemo9zqnr9aqo",
-                    "label": "Undo Modification",
-                    "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
-                    "isVisible": true
-                },
-                "menuItem51sc9lm0c8": {
-                    "onClick": "{{storeValue('lblEdit','View',false);GetGroupCodes.run();GetModifCategoryByModifNumber.run(() => showModal('UpdateModificationModal'), () => showAlert('Failed to retrieve modification details','error'))}}",
-                    "iconName": "eye-open",
-                    "widgetId": "pgsw3m06lv",
-                    "index": 0,
-                    "id": "menuItem51sc9lm0c8",
-                    "label": "View",
-                    "isDisabled": false,
-                    "isVisible": true
-                },
-                "menuItemm1xb1q99uu": {
-                    "onClick": "{{ActivateModifService.run(() => {GetFilteredModificationNumber.run();\n\tshowAlert('Modification Status set successfully.','success');}, () => showAlert('Failed to set modification status.','error'))}}",
-                    "iconName": "reset",
-                    "widgetId": "fn5c072qip",
-                    "index": 3,
-                    "id": "menuItemm1xb1q99uu",
-                    "label": "Automatic/Reset",
-                    "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
-                    "isVisible": true
-                },
-                "menuItemdi8hkil8nx": {
-                    "onClick": "{{ModificationNoActivateUtil.ActivateMenuItemClick()}}",
-                    "iconName": "power",
-                    "widgetId": "ckaac2u1md",
-                    "index": 2,
-                    "id": "menuItemdi8hkil8nx",
-                    "label": "Activate",
-                    "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
-                    "isVisible": "true",
-                    "textColor": "#231F20"
-                },
-                "menuItemz9lm8zsf74": {
-                    "iconName": "history",
-                    "widgetId": "rqc2f99ohk",
-                    "index": 7,
-                    "id": "menuItemz9lm8zsf74",
-                    "label": "History Recipe Set",
-                    "isDisabled": false,
-                    "isVisible": true
-                },
-                "menuItemaapig8s8at": {
-                    "iconName": "dollar",
-                    "widgetId": "atq7wdecvh",
-                    "index": 9,
-                    "id": "menuItemaapig8s8at",
-                    "label": "Cost Checking",
-                    "isDisabled": false,
-                    "isVisible": true
-                }
-            },
-            "index": 11,
-            "isVisible": true,
-            "label": "ACTIONS",
-            "textColor": "",
-            "labelColor": "#FFFFFF",
-            "columnType": "menuButton",
-            "borderRadius": "0.375rem",
-            "menuColor": "#000000",
-            "width": 150,
-            "enableFilter": true
-        },
-        "ACTDAYFLAG": {
-            "isCellVisible": true,
-            "isDerived": false,
-            "computedValue": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( currentRow.ACTDAYFLAG))}}",
-            "textSize": "0.875rem",
-            "index": 9,
-            "isVisible": false,
-            "label": "ACTDAYFLAG",
-            "textColor": "",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "ACTDAYFLAG",
-            "isDisabled": false,
-            "cellBackground": "",
-            "verticalAlignment": "CENTER"
+        "menuItemz9lm8zsf74": {
+          "iconName": "history",
+          "id": "menuItemz9lm8zsf74",
+          "index": 7,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "History Recipe Set",
+          "widgetId": "rqc2f99ohk"
         }
-    },
-    "onRowSelected": "{{JSObject1.onRowSelect(RecipeModificationsTable.selectedRow);}}",
-    "key": "62qcgbszl8",
-    "derivedColumns": {"customColumn4": {
-        "boxShadow": "none",
-        "computedValue": "",
-        "buttonColor": "#03B365",
-        "enableSort": true,
-        "id": "customColumn4",
-        "isDisabled": false,
-        "buttonLabelColor": "#FFFFFF",
-        "isCellVisible": true,
-        "isDerived": true,
-        "menuButtonLabel": "{{RecipeModificationsTable.sanitizedTableData.map((currentRow) => ( ' '))}}",
-        "textSize": "0.875rem",
-        "iconName": "more",
-        "menuVariant": "TERTIARY",
-        "buttonStyle": "rgb(3, 179, 101)",
-        "menuItems": {
-            "menuItemxq3avn4rql": {"iconName": "eye-open"},
-            "menuItemlcwyj01gwz": {
-                "iconName": "eye-open",
-                "widgetId": "ncg5blr442",
-                "id": "menuItemlcwyj01gwz",
-                "label": "Show Recipe",
-                "isDisabled": false,
-                "isVisible": true
-            },
-            "menuItemwfwl7rhscl": {
-                "iconName": "lab-test",
-                "widgetId": "a3ui73xea1",
-                "id": "menuItemwfwl7rhscl",
-                "label": "Check",
-                "isDisabled": false,
-                "isVisible": true
-            },
-            "menuItem9j8kuwmwx1": {
-                "iconName": "edit",
-                "isDisabled": "{{ModificationUtils.onActualImpactDay() }}"
-            },
-            "menuItemo9zqnr9aqo": {
-                "iconName": "settings",
-                "widgetId": "gukhfij88x",
-                "id": "menuItemo9zqnr9aqo",
-                "label": "Undo Modification",
-                "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
-                "isVisible": true
-            },
-            "menuItemm1xb1q99uu": {
-                "iconName": "reset",
-                "widgetId": "fn5c072qip",
-                "id": "menuItemm1xb1q99uu",
-                "label": "Automatic/Reset",
-                "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
-                "isVisible": true
-            },
-            "menuItem51sc9lm0c8": {"iconName": "eye-open"},
-            "menuItemdi8hkil8nx": {
-                "iconName": "power",
-                "widgetId": "ckaac2u1md",
-                "id": "menuItemdi8hkil8nx",
-                "label": "Activate",
-                "isDisabled": "{{appsmith.store.row == \"Closed\" || appsmith.store.row == \"Cancelled\" }}",
-                "isVisible": "true",
-                "textColor": "#231F20"
-            },
-            "menuItemz9lm8zsf74": {
-                "iconName": "history",
-                "widgetId": "rqc2f99ohk",
-                "id": "menuItemz9lm8zsf74",
-                "label": "History Recipe Set",
-                "isDisabled": false,
-                "isVisible": true
-            },
-            "menuItemaapig8s8at": {
-                "iconName": "dollar",
-                "widgetId": "atq7wdecvh",
-                "id": "menuItemaapig8s8at",
-                "label": "Cost Checking",
-                "isDisabled": false,
-                "isVisible": true
-            }
-        },
-        "index": 11,
-        "isVisible": true,
-        "label": "ACTIONS",
-        "textColor": "",
-        "labelColor": "#FFFFFF",
-        "columnType": "menuButton",
-        "borderRadius": "0.375rem",
-        "menuColor": "#000000",
-        "width": 150,
-        "enableFilter": true
-    }},
-    "labelTextSize": "0.875rem",
-    "rightColumn": 64,
-    "textSize": "0.875rem",
-    "widgetId": "6wykr8m8vf",
-    "tableData": "{{GetFilteredModificationNumber.data}}",
-    "label": "Data",
-    "searchKey": "",
-    "parentId": "pn6gng9p7u",
-    "serverSidePaginationEnabled": false,
-    "renderMode": "CANVAS",
-    "horizontalAlignment": "LEFT",
-    "isVisibleSearch": true,
-    "isVisiblePagination": true,
-    "iconAlign": "left",
-    "verticalAlignment": "CENTER"
+      },
+      "menuVariant": "TERTIARY",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchKey": "",
+  "serverSidePaginationEnabled": false,
+  "tableData": "{{GetFilteredModificationNumber.data}}",
+  "textColor": "",
+  "textSize": "0.875rem",
+  "topRow": 11,
+  "totalRecordsCount": "",
+  "type": "TABLE_WIDGET",
+  "version": 3,
+  "verticalAlignment": "CENTER",
+  "widgetId": "6wykr8m8vf",
+  "widgetName": "RecipeModificationsTable"
 }

@@ -1,41 +1,49 @@
 {
-    "boxShadow": "none",
-    "widgetName": "UpdateEnvExpectedImpactText",
-    "dynamicPropertyPathList": [{"key": "isDisabled"}],
-    "displayName": "Input",
-    "iconSVG": "/static/media/icon.9f505595.svg",
-    "topRow": 4,
-    "bottomRow": 13,
-    "parentRowSpace": 10,
-    "autoFocus": false,
-    "type": "INPUT_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 16.458984375,
-    "dynamicTriggerPathList": [],
-    "resetOnSubmit": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "defaultText"},
-        {"key": "isDisabled"}
-    ],
-    "labelStyle": "",
-    "inputType": "TEXT",
-    "maxChars": "1024",
-    "isDisabled": "{{RecipeModificationsTable.selectedRow.MODIF_STATUS=='Cancelled' || RecipeModificationsTable.selectedRow.MODIF_STATUS=='Closed' || appsmith.store.DisableEditControls}}",
-    "key": "qjweqewiz0",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 64,
-    "widgetId": "03xrvoel5b",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "",
-    "version": 2,
-    "parentId": "qq9mfgvmei",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "iconAlign": "left",
-    "defaultText": "{{SHEQMultiSelect.selectedOptionValues.includes('E')?GetModifCategoryByModifNumber.data[0].Environment_Expected_Impact:''}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "{{SHEQMultiSelect.selectedOptionValues.includes('E')?GetModifCategoryByModifNumber.data[0].Environment_Expected_Impact:''}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": "{{RecipeModificationsTable.selectedRow.MODIF_STATUS=='Cancelled' || RecipeModificationsTable.selectedRow.MODIF_STATUS=='Closed' || appsmith.store.DisableEditControls}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "qjweqewiz0",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxChars": "1024",
+  "parentColumnSpace": 16.458984375,
+  "parentId": "qq9mfgvmei",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 64,
+  "topRow": 4,
+  "type": "INPUT_WIDGET",
+  "version": 2,
+  "widgetId": "03xrvoel5b",
+  "widgetName": "UpdateEnvExpectedImpactText"
 }

@@ -1,36 +1,42 @@
 {
-    "boxShadow": "none",
-    "widgetName": "Divider3",
-    "thickness": 2,
-    "displayName": "Divider",
-    "iconSVG": "/formbuilderui/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
-    "searchTags": ["line"],
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "type": "DIVIDER_WIDGET",
-    "capType": "nc",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 6.0625,
-    "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "accentColor"}
-    ],
-    "key": "hqgx5u836h",
-    "dividerColor": "#EBEBEB",
-    "orientation": "horizontal",
-    "strokeStyle": "solid",
-    "isDeprecated": false,
-    "rightColumn": 46,
-    "widgetId": "9yah92c3y2",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "capSide": 0,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "fkbstu1jb7",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "capSide": 0,
+  "capType": "nc",
+  "displayName": "Divider",
+  "dividerColor": "#EBEBEB",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/formbuilderui/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "hqgx5u836h",
+  "leftColumn": 2,
+  "orientation": "horizontal",
+  "parentColumnSpace": 6.0625,
+  "parentId": "fkbstu1jb7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 46,
+  "searchTags": [
+    "line"
+  ],
+  "strokeStyle": "solid",
+  "thickness": 2,
+  "topRow": 4,
+  "type": "DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "9yah92c3y2",
+  "widgetName": "Divider3"
 }

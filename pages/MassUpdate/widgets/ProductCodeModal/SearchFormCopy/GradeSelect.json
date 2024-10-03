@@ -1,41 +1,53 @@
 {
-    "boxShadow": "none",
-    "widgetName": "GradeSelect",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [{"key": "onOptionChange"}],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "",
-    "topRow": 8,
-    "bottomRow": 12,
-    "parentRowSpace": 10,
-    "type": "DROP_DOWN_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "",
-    "selectionType": "SINGLE_SELECT",
-    "animateLoading": true,
-    "parentColumnSpace": 19.5,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 23,
-    "dynamicBindingPathList": [
-        {"key": "options"},
-        {"key": "accentColor"}
-    ],
-    "options": "{{GetProductGrades.data}}",
-    "placeholderText": "Select",
-    "isDisabled": false,
-    "key": "56ud27lvqy",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 46,
-    "widgetId": "u1y1d3ju80",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "lafelcwykr",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "onOptionChange": ""
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "56ud27lvqy",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 23,
+  "onOptionChange": "",
+  "options": "{{GetProductGrades.data}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "lafelcwykr",
+  "parentRowSpace": 10,
+  "placeholderText": "Select",
+  "renderMode": "CANVAS",
+  "rightColumn": 46,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 8,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "u1y1d3ju80",
+  "widgetName": "GradeSelect"
 }

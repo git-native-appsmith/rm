@@ -1,50 +1,64 @@
 {
-    "boxShadow": "none",
-    "widgetName": "ActiveFromDate",
-    "dateFormat": "{{DateTimeFormatUtils.dateTimeFormat()}}",
-    "dynamicPropertyPathList": [
-        {"key": "defaultDate"},
-        {"key": "isDisabled"},
-        {"key": "dateFormat"}
-    ],
-    "displayName": "DatePicker",
-    "iconSVG": "/static/media/icon.300e5ab8.svg",
-    "topRow": 4,
-    "bottomRow": 8,
-    "shortcuts": false,
-    "parentRowSpace": 10,
-    "type": "DATE_PICKER_WIDGET2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 17.3125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 32,
-    "dynamicBindingPathList": [
-        {"key": "defaultDate"},
-        {"key": "isDisabled"},
-        {"key": "accentColor"},
-        {"key": "dateFormat"}
-    ],
-    "isDisabled": "{{RecipeModificationsTable.selectedRow.MODIF_STATUS=='Cancelled' || RecipeModificationsTable.selectedRow.MODIF_STATUS=='Closed' ||appsmith.store.DisableEditControls}}",
-    "key": "z4o1iuz16s",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "defaultDate": "{{moment(RecipeModificationsTable.triggeredRow.START_DATE,\"DD-MM-YYYY HH:mm\")}}",
-    "rightColumn": 54,
-    "dynamicHeight": "FIXED",
-    "widgetId": "1p5onzo4ix",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "datePickerType": "DATE_PICKER",
-    "label": "",
-    "version": 2,
-    "parentId": "j68pfsw7no",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "timePrecision": "second",
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "firstDayOfWeek": 0,
-    "closeOnSelection": false,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "closeOnSelection": false,
+  "dateFormat": "{{DateTimeFormatUtils.dateTimeFormat()}}",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{moment(RecipeModificationsTable.triggeredRow.START_DATE,\"DD-MM-YYYY HH:mm\")}}",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "dateFormat"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "dateFormat"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.300e5ab8.svg",
+  "isDisabled": "{{RecipeModificationsTable.selectedRow.MODIF_STATUS=='Cancelled' || RecipeModificationsTable.selectedRow.MODIF_STATUS=='Closed' ||appsmith.store.DisableEditControls}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "z4o1iuz16s",
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 17.3125,
+  "parentId": "j68pfsw7no",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 54,
+  "shortcuts": false,
+  "timePrecision": "second",
+  "topRow": 4,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "1p5onzo4ix",
+  "widgetName": "ActiveFromDate"
 }
